@@ -1,0 +1,55 @@
+---
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+title: 'Applied Data Analytics: Topics'
+author: Hans-Martin von Gaudecker
+logo: ose-logo.png
+
+# Short description about the book
+description: >-
+  Background on topics covering Python and Pandas in particular
+# HTML-specific settings
+html:
+  google_analytics_id: G-JNV9WF0QCS
+  home_page_in_navbar: false
+  # Add GitHub buttons to your book
+  # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+  use_issues_button: true
+  use_repository_button: false
+  extra_footer: |
+    <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img alt="Creative Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /
+      >
+    </a>
+    <br />
+    This work is licensed under a <a
+      rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+    </a>.
+    </p>
+# Interact link settings
+notebook_interface: notebook
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - html_image
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - linkify
+    - smartquotes
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/OpenSourceEconomics/ada_topics
+sphinx:
+  config:
+    # Render plotly figures
+    suppress_warnings: [mystnb.unknown_mime_type]
+    html_show_copyright: false
+    html_js_files:
+      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    exclude_patterns: ['**/slides.md']
+  extra_extensions: [sphinx.ext.todo, sphinxcontrib.mermaid]

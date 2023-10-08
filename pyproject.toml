@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.0"]
+
+[tool.setuptools_scm]
+write_to = "src/ada_topics/_version.py"
+
+[tool.pytask.ini_options]
+paths = ["./src/ada_topics"]
+ignore = [
+    "src/ada_topics/python_basics/executing_pytask/screencast/example/",
+    "src/ada_topics/projects/what_does_pytask_do/screencast/example/",
+]
+
+[tool.ruff]
+target-version = "py311"
+select = ["ALL"]
+fix = true
+extend-ignore = [
+    "S101",  # Use of `assert` detected.
+    "ANN",  # Missing type annotations
+    "D100",
+    "T201",
+    "B018",
+    "TRY003",
+    "PLR0913",
+    "EM101",
+    "FBT001",
+    "N999", # capitalized module name
+    "S602", # `subprocess` call with `shell=True`
+    "S110",
+    "BLE001",
+    "PD901", # `df` used a lot as example variable name
+    "D103", # lots of small functions missing docstrings
+    "INP001", # implicit namespace packages; clashes with our pytask examples.
+    "S301",
+    "PD010",
+    "PD015",
+    "B008", # Do not perform function calls in argument defaults.
+    "PT011", # catching broad exceptions in tests is just fine
+]
+
+[tool.ruff.per-file-ignores]
+"src/ada_topics/python_basics/executing_pytest/screencast/example/test_cobb_douglas.py" = ["PLR2004"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+
+[tool.nbqa.config]
+black = "pyproject.toml"
+
+[tool.nbqa.mutate]
+black = 1
+
+
+[tool.pytest.ini_options]
+filterwarnings = []
+markers = [
+    "wip: Tests that are work-in-progress.",
+    "unit: Flag for unit tests which target mainly a single function.",
+    "integration: Flag for integration tests which may comprise of multiple unit tests.",
+    "end_to_end: Flag for tests that cover the whole program.",
+]
+norecursedirs = ["docs"]
+
+[tool.yamlfix]
+line_length = 88
+none_representation = "null"
