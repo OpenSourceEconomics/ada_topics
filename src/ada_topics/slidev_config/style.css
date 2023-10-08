@@ -40,3 +40,13 @@ code {
 td {
   padding: 0.2rem !important;
 }
+
+/* Hintergrundfarbe */
+
+.dark #slide-container {
+  background-color: #152b41 !important;
+}
+
+.dark #slide-content {
+  background-color: #152b41 !important;
+}
