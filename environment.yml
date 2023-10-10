@@ -1,6 +1,6 @@
 ---
 name: ada_topics
-channels: [conda-forge, nodefaults, conda-forge/label/pytask_rc]
+channels: [conda-forge, nodefaults]
 dependencies:
   - conda-lock
   - deepdiff
@@ -20,7 +20,7 @@ dependencies:
   - pybaum
   - pydata-sphinx-theme>=0.13.3
   - pygraphviz
-  - pytask >= 0.4.0rc4
+  - pytask >= 0.4.0
   # - pytask-parallel  # Do not use, slidev exports get mixed up.
   - pytest
   - pytest-cov

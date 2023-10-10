@@ -18,7 +18,7 @@ CHAPTER_NAMES = [
 
 SRC = Path(__file__).parent.resolve()
 SITE_SOURCE_DIR = SRC.parent.parent / "site_source"
-SITE_DIR = SRC.parent.parent.parent / "applied-data-analytics"
+SITE_DIR = Path("/home/hmg/admin/website/") / "_static" / "applied-data-analytics"
 
 
 def load_sources(chapter_name):
