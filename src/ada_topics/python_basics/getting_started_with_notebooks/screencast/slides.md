@@ -29,5 +29,3 @@ defaults:
 Hans-Martin von Gaudecker
 
 ---
-
-

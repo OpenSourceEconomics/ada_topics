@@ -8,7 +8,7 @@ pd.options.plotting.backend = "plotly"
 
 LINEPLOT = (
     SITE_SOURCE_DIR
-    / "pandas"
+    / "pandas_statistics"
     / "inspecting_and_summarizing"
     / "screencast"
     / "public"
@@ -17,7 +17,7 @@ LINEPLOT = (
 
 SCATTERPLOT = (
     SITE_SOURCE_DIR
-    / "pandas"
+    / "pandas_statistics"
     / "inspecting_and_summarizing"
     / "screencast"
     / "public"

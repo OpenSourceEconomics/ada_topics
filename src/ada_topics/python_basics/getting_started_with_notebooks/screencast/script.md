@@ -27,7 +27,6 @@
 - Powerful & Dangerous
 - Restart kernel, do again
 
-
 ## Always before handing something in
 
 - Restart kernel, run all cells
