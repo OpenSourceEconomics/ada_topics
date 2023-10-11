@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("pandas_data-columns_and_indices.pdf",),
+    "built": ("pandas_data-groupby.pdf",),
 }

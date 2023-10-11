@@ -175,14 +175,14 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 
 # Important methods on _groupby_-objects
 
-| Method            | Description                       | Applies to               |
-| ----------------- | --------------------------------- | ------------------------ |
-| mean              | Averages                          | floats, (ints)           |
-| std               | Standard deviation                | floats, (ints)           |
-| median / quantile | Quantiles                         | floats, (ints)           |
-| min / max         | Minimum / Maximum                 | anything that is ordered |
-| count             | Number of non-mising observations | any                      |
-| value_counts      | Number of observations per value  | categorical, (ints)      |
-| apply             | Pass your own function            | depends                  |
+| Method            | Description                        | Applies to               |
+| ----------------- | ---------------------------------- | ------------------------ |
+| mean              | Averages                           | floats, (ints)           |
+| std               | Standard deviation                 | floats, (ints)           |
+| median / quantile | Quantiles                          | floats, (ints)           |
+| min / max         | Minimum / Maximum                  | anything that is ordered |
+| count             | Number of non-missing observations | any                      |
+| value_counts      | Number of observations per value   | categorical, (ints)      |
+| apply             | Pass your own function             | depends                  |
 
 **Semantics may change depending on whether you pass one or more columns!**
