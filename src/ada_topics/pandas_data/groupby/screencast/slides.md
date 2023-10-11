@@ -19,275 +19,170 @@ defaults:
 
 # Data management with pandas
 
-### Setting and renaming columns and indices
+### Splitting DataFrames into groups
 
 <br>
-
 
 Hans-Martin von Gaudecker
 
 ---
 
-# Why the Index is important
+# Grouped data is required all the time
 
-<div class="grid grid-cols-2 gap-4">
-<div>
+- size of groups
+- aggregate group differences in other variables
+- stratified sampling of individuals
 
-The dataframe from before
+---
 
-<style type="text/css">
-#T_c57f6   {
-  margin: 0;
-  font-family: "Helvetica", "Helvetica", sans-serif;
-  border-collapse: collapse;
-  border: none;
-  font-size: 80%;
-  color: #fff;
-}
-#T_c57f6 thead {
-  background-color: #3d3d3d;
-}
-#T_c57f6 tbody tr:nth-child(even) {
-  background-color: #3d3d3d;
-}
-#T_c57f6 tbody tr:nth-child(odd) {
-  background-color: #565656;
-}
-#T_c57f6 td {
-  padding: 0em;
-}
-#T_c57f6 th {
-  font-weight: bold;
-  text-align: left;
-  padding: 0em;
-}
-#T_c57f6 caption {
-  caption-side: bottom;
-}
-</style>
-<table id="T_c57f6">
+# Example
+
+<table class="dataframe">
   <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>use_computer_at_work</th>
+      <th>programs_monthly</th>
+    </tr>
     <tr>
-      <th class="blank level0" >&nbsp;</th>
-      <th id="T_c57f6_level0_col0" class="col_heading level0 col0" >country</th>
-      <th id="T_c57f6_level0_col1" class="col_heading level0 col1" >continent</th>
-      <th id="T_c57f6_level0_col2" class="col_heading level0 col2" >year</th>
-      <th id="T_c57f6_level0_col3" class="col_heading level0 col3" >life_exp</th>
+      <th>country</th>
+      <th>age_group</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_c57f6_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_c57f6_row0_col0" class="data row0 col0" >Cuba</td>
-      <td id="T_c57f6_row0_col1" class="data row0 col1" >Americas</td>
-      <td id="T_c57f6_row0_col2" class="data row0 col2" >2002</td>
-      <td id="T_c57f6_row0_col3" class="data row0 col3" >77.16</td>
+      <th rowspan="2" valign="top">Germany</th>
+      <th>Aged 30-34</th>
+      <td>0.776498</td>
+      <td>0.07943</td>
     </tr>
     <tr>
-      <th id="T_c57f6_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_c57f6_row1_col0" class="data row1 col0" >Cuba</td>
-      <td id="T_c57f6_row1_col1" class="data row1 col1" >Americas</td>
-      <td id="T_c57f6_row1_col2" class="data row1 col2" >2007</td>
-      <td id="T_c57f6_row1_col3" class="data row1 col3" >78.27</td>
+      <th>Aged 55-59</th>
+      <td>0.678756</td>
+      <td>0.034765</td>
     </tr>
     <tr>
-      <th id="T_c57f6_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_c57f6_row2_col0" class="data row2 col0" >Spain</td>
-      <td id="T_c57f6_row2_col1" class="data row2 col1" >Europe</td>
-      <td id="T_c57f6_row2_col2" class="data row2 col2" >2002</td>
-      <td id="T_c57f6_row2_col3" class="data row2 col3" >79.78</td>
+      <th rowspan="2" valign="top">Netherlands</th>
+      <th>Aged 30-34</th>
+      <td>0.871728</td>
+      <td>0.096154</td>
     </tr>
     <tr>
-      <th id="T_c57f6_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_c57f6_row3_col0" class="data row3 col0" >Spain</td>
-      <td id="T_c57f6_row3_col1" class="data row3 col1" >Europe</td>
-      <td id="T_c57f6_row3_col2" class="data row3 col2" >2007</td>
-      <td id="T_c57f6_row3_col3" class="data row3 col3" >80.94</td>
+      <th>Aged 55-59</th>
+      <td>0.801822</td>
+      <td>0.028219</td>
     </tr>
   </tbody>
 </table>
 
+<br/>
 
-Same dataset, different Index
+- Index: `country`, `age_group`
+- Float columns: `use_computer_at_work`, `programs_monthly`
+- _(Already grouped)_ — Goal: Broaden groups, calculate statistics
 
-<style type="text/css">
-#T_0f54e   {
-  margin: 0;
-  font-family: "Helvetica", "Helvetica", sans-serif;
-  border-collapse: collapse;
-  border: none;
-  font-size: 80%;
-  color: #fff;
-}
-#T_0f54e thead {
-  background-color: #3d3d3d;
-}
-#T_0f54e tbody tr:nth-child(even) {
-  background-color: #3d3d3d;
-}
-#T_0f54e tbody tr:nth-child(odd) {
-  background-color: #565656;
-}
-#T_0f54e td {
-  padding: 0em;
-}
-#T_0f54e th {
-  font-weight: bold;
-  text-align: left;
-  padding: 0em;
-}
-#T_0f54e caption {
-  caption-side: bottom;
-}
-</style>
-<table id="T_0f54e">
+---
+
+# Calculating grouped values: Two steps
+
+1. Generate a grouped object
+2. Perform an operation on that
+
+Resulting object will be a DataFrame (_almost always of smaller size_).
+
+---
+
+# Calculating means by country
+
+```python
+[1] df.groupby("country")
+
+[1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da889ba50>
+
+[2] df.groupby("country").mean()
+```
+
+<table class="dataframe">
   <thead>
-    <tr>
-      <th class="blank" >&nbsp;</th>
-      <th class="blank level0" >&nbsp;</th>
-      <th id="T_0f54e_level0_col0" class="col_heading level0 col0" >continent</th>
-      <th id="T_0f54e_level0_col1" class="col_heading level0 col1" >life_exp</th>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>use_computer_at_work</th>
+      <th>programs_monthly</th>
     </tr>
     <tr>
-      <th class="index_name level0" >country</th>
-      <th class="index_name level1" >year</th>
-      <th class="blank col0" >&nbsp;</th>
-      <th class="blank col1" >&nbsp;</th>
+      <th>country</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_0f54e_level0_row0" class="row_heading level0 row0" rowspan="2">Cuba</th>
-      <th id="T_0f54e_level1_row0" class="row_heading level1 row0" >2002</th>
-      <td id="T_0f54e_row0_col0" class="data row0 col0" >Americas</td>
-      <td id="T_0f54e_row0_col1" class="data row0 col1" >77.16</td>
+      <th>Germany</th>
+      <td>0.727627</td>
+      <td>0.057097</td>
     </tr>
     <tr>
-      <th id="T_0f54e_level1_row1" class="row_heading level1 row1" >2007</th>
-      <td id="T_0f54e_row1_col0" class="data row1 col0" >Americas</td>
-      <td id="T_0f54e_row1_col1" class="data row1 col1" >78.27</td>
-    </tr>
-    <tr>
-      <th id="T_0f54e_level0_row2" class="row_heading level0 row2" rowspan="2">Spain</th>
-      <th id="T_0f54e_level1_row2" class="row_heading level1 row2" >2002</th>
-      <td id="T_0f54e_row2_col0" class="data row2 col0" >Europe</td>
-      <td id="T_0f54e_row2_col1" class="data row2 col1" >79.78</td>
-    </tr>
-    <tr>
-      <th id="T_0f54e_level1_row3" class="row_heading level1 row3" >2007</th>
-      <td id="T_0f54e_row3_col0" class="data row3 col0" >Europe</td>
-      <td id="T_0f54e_row3_col1" class="data row3 col1" >80.94</td>
+      <th>Netherlands</th>
+      <td>0.836775</td>
+      <td>0.062186</td>
     </tr>
   </tbody>
 </table>
 
+---
 
+# Calculating standard dev's by age group
 
+```python
+[1] df.groupby("age_group")
 
-</div>
-<div>
+[1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da88b5d90>
 
-<br/>
-<br/>
+[2] df.groupby("age_group").std()
+```
 
-- We have seen that pandas aligns new columns in a DataFrame by index
-- Many other operations are aligned by index
-- Using a meaningful index makes this even safer
-- Index should be unique and not contain floats
-
-
-</div>
-</div>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>use_computer_at_work</th>
+      <th>programs_monthly</th>
+    </tr>
+    <tr>
+      <th>age_group</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Aged 30-34</th>
+      <td>0.067338</td>
+      <td>0.011826</td>
+    </tr>
+    <tr>
+      <th>Aged 55-59</th>
+      <td>0.087021</td>
+      <td>0.004629</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-# Setting and resetting the index
+# Important methods on _groupby_-objects
 
+| Method            | Description                       | Applies to               |
+| ----------------- | --------------------------------- | ------------------------ |
+| mean              | Averages                          | floats, (ints)           |
+| std               | Standard deviation                | floats, (ints)           |
+| median / quantile | Quantiles                         | floats, (ints)           |
+| min / max         | Minimum / Maximum                 | anything that is ordered |
+| count             | Number of non-mising observations | any                      |
+| value_counts      | Number of observations per value  | categorical, (ints)      |
+| apply             | Pass your own function            | depends                  |
 
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-assume `df` is our gapminder example
-
-```python
->>> df.index
-RangeIndex(start=0, stop=4, step=1)
-
->>> df = df.set_index(["country", "year"])
->>> df.index
-```
-```txt
-MultiIndex([( 'Cuba', 2002),
-            ( 'Cuba', 2007),
-            ('Spain', 2002),
-            ('Spain', 2007)],
-           names=['country', 'year'])
-```
-```python
->>> df = df.reset_index()
->>> df.index
-RangeIndex(start=0, stop=4, step=1)
-```
-
-
-</div>
-<div>
-
-<br/>
-<br/>
-
-- `set_index` and `reset_index` are inverse functions
-- `set_index` can take any column or list of columns
-- Optional argument `drop=True` or `drop=False` determines what happens with the old
-  index in `set_index`
-
-</div>
-</div>
-
----
-
-# Renaming columns
-
-<div class="flex gap-8">
-<div>
-
-assume `df` is our gapminder example
-
-```python
->>> df.columns
-```
-```txt
-Index(['country', 'continent', 'year',
- 'life_exp'], dtype='string')
-```
-
-```python
->>> new_names = {
-...     "life_exp": "life expectancy",
-...     "country": "country name",
-...     "continent": "continent name",
-... }
-
->>> df = df.rename(columns=new_names)
->>> df.columns
-```
-```txt
-Index(['country name', 'continent name',
- 'year', 'life expectancy'], dtype='string')
-```
-
-
-</div>
-<div>
-
-<br/>
-<br/>
-
-
-- Dict can contain only the subset of variables that is actually renamed
-- Renaming the index works the same way but is rarely needed
-- Instead of a dict, you can provide a function that converts old names to new names!
-
-
-</div>
-</div>
+**Semantics may change depending on whether you pass one or more columns!**

@@ -18,6 +18,7 @@ CHAPTER_NAMES = [
 
 SRC = Path(__file__).parent.resolve()
 SITE_SOURCE_DIR = SRC.parent.parent / "site_source"
+DATA_DIR = SRC.parent.parent / "piacc"
 SITE_DIR = Path("/home/hmg/admin/website/") / "_static" / "applied-data-analytics"
 
 

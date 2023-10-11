@@ -5,9 +5,11 @@ import itertools
 from ada_topics.pandas_data.birds_eye import (
     SITE_CONTENTS as BIRDS_EYE,
 )
+from ada_topics.pandas_data.groupby import SITE_CONTENTS as GROUPBY
 
 TOPICS = [
     BIRDS_EYE,
+    GROUPBY,
 ]
 SITE_CONTENTS = {
     "chapter_title": "First steps with pandas",
