@@ -32,7 +32,7 @@ Hans-Martin von Gaudecker
 
 # Contents
 
-- Representing numbers: integers and floats
+- Representing numbers: ints and floats
 - Using Python like a calculator
 - Comparing variables
 - Representing True and False: Booleans
@@ -41,23 +41,23 @@ Hans-Martin von Gaudecker
 
 # Integers
 
-<div class="grid grid-cols-2 gap-4">
+<div class="flex gap-12">
 <div>
 
 ```python
->>> a = 3
->>> a
-3
+[1] a = 3
+    a
+[1] 3
 
->>> type(a)
-<class 'int'>
+[2] type(a)
+[2] <class 'int'>
 
->>> type(3)
-<class 'int'>
+[3] type(3)
+[3] <class 'int'>
 
->>> a = 5
->>> a
-5
+[4] a = 5
+    a
+[4] 5
 ```
 
 
@@ -68,9 +68,6 @@ Hans-Martin von Gaudecker
 - Types are inferred, not declared upfront
 - Types can be inspected with `type()`
 - You can re-assign variables with different values
-- Ints can hold arbitrarily large numbers
-
-
 
 </div>
 </div>
@@ -80,20 +77,20 @@ Hans-Martin von Gaudecker
 
 # Floats
 
-<div class="grid grid-cols-2 gap-4">
+<div class="flex gap-12">
 <div>
 
 ```python
->>> b = 3.1415
->>> b
-3.1415
+[1] b = 3.1415
+    b
+[1] 3.1415
 
->>> type(b)
-<class 'float'>
+[2] type(b)
+[2] <class 'float'>
 
->>> c = 0.1 + 0.2
->>> c
-0.30000000000000004
+[3] c = 0.1 + 0.2
+    c
+[3] 0.30000000000000004
 ```
 
 
@@ -102,9 +99,6 @@ Hans-Martin von Gaudecker
 
 - Floats represent real numbers
 - They are imperfect representations
-  - Imperfect precision
-  - Can hold values between $-10 ^ {308}$ and $10^{308}$
-- Will discuss this in detail later
 
 </div>
 </div>
@@ -114,18 +108,20 @@ Hans-Martin von Gaudecker
 
 # Python as a calculator
 
-<div class="grid grid-cols-2 gap-4">
+<div class="flex gap-8">
 <div>
 
 ```python
->>> a = 3
->>> b = 3.1415
+[1] a = 3
+    b = 3.1415
+    b / a
+[1] 1.0471666666666668
 
->>> b / a
-1.0471666666666668
+[2] (a + b) * 3
+[2] 18.424500000000002
 
->>> (a + b) * 3
-18.424500000000002
+[3] a**b
+[3] 31.54106995953402
 
 ```
 
@@ -135,37 +131,7 @@ Hans-Martin von Gaudecker
 - Arithmetic works as you would expect
 - Brackets work as expected
 - Mixing ints and floats converts everything to floats
-
-</div>
-</div>
-
-
----
-
-# Some things you need to know
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-
-```python
->>> a**b
-31.54106995953402
-
->>> b // a
-1.0
-
->>> b % a
-0.14150000000000018
-```
-
-</div>
-<div>
-
 - `**` is exponentiation (not `^`)
-- `//` is floored quotient division
-- `%` yields the remainder of a division
-
 
 </div>
 </div>
@@ -175,27 +141,29 @@ Hans-Martin von Gaudecker
 
 # Comparisons
 
-<div class="grid grid-cols-2 gap-4">
+<div class="flex gap-8">
 <div>
 
 ```python
->>> a = 3
->>> b = 3
->>> a == b
-True
+[1] a = 3
+    b = 3
+    a == b
+[1] True
 
->>> a < b
-False
+[2] a < b
+[2] False
 
->>> a >= b
-True
+[3] a >= b
+[3] True
 ```
 
 </div>
 <div>
 
 - Comparison operators are `==`, `<`, `>`, `<=`, `>=`
-- Remember: `=` is used for assignment, not comparison
+- Remember:
+  - `=` is used for assignment
+  - Classic error is trying to use it for comparison
 - The result of a comparison is a Boolean
 
 </div>
@@ -206,23 +174,23 @@ True
 
 # Booleans
 
-<div class="grid grid-cols-2 gap-4">
+<div class="flex gap-8">
 <div>
 
 ```python
->>> a = True
->>> b = False
->>> type(a)
-<class 'bool'>
+[1] a = True
+    b = False
+    type(a)
+[1] <class 'bool'>
 
->>> a and b
-False
+[2] a and b
+[2] False
 
->>> a or b
-True
+[3] a or b
+[3] True
 
->>> not b
-True
+[4] not b
+[4] True
 ```
 
 </div>
@@ -230,7 +198,7 @@ True
 
 - Booleans can be `True` or `False` (case sensitive)
 - `and`, `or` and `not` can be used to express complex conditions
-- Fundamental for control flow we will see later
+- Important: `or` is the inclusive or!
 
 </div>
 </div>

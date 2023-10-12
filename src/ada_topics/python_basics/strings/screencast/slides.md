@@ -46,18 +46,18 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = "Hello"
->>> type(a)
+[1] a = "Hello"
+    type(a)
 str
 
->>> b = 'embed "double" quotes'
->>> c = "embed 'single' quotes"
+[1] b = 'embed "double" quotes'
+    c = "embed 'single' quotes"
 
->>> not_an_int = "123"
->>> type(not_an_int)
+[1] not_an_int = "123"
+    type(not_an_int)
 str
 
->>> not_an_int * 2
+[1] not_an_int * 2
 '123123'
 ```
 
@@ -93,14 +93,14 @@ str
 <div>
 
 ```python
->>> a = "Hello World!"
->>> a.lower()
+[1] a = "Hello World!"
+    a.lower()
 'hello world!'
 
->>> a.replace("!", ".")
+[1] a.replace("!", ".")
 "Hello World."
 
->>> a.startswith("Hello")
+[1] a.startswith("Hello")
 True
 ```
 
@@ -123,13 +123,13 @@ True
 <div>
 
 ```python
->>> a = "Hello"
->>> b = "3"
->>> f"{a} {b}"
+[1] a = "Hello"
+    b = "3"
+[1] f"{a} {b}"
 'Hello 3'
 
->>> c = 3.145
->>> f"{a} {c}"
+[1] c = 3.145
+    f"{a} {c}"
 'Hello 3.145'
 
 ```
@@ -157,17 +157,17 @@ True
 <div>
 
 ```python
->>> a = "Hello World!"
->>> len(a)
+[1] a = "Hello World!"
+    len(a)
 12
 
->>> a[0]
+[1] a[0]
 'H'
 
->>> a[1]
+[1] a[1]
 'e'
 
->>> a[-1]
+[1] a[-1]
 '!'
 ```
 

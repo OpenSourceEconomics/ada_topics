@@ -49,19 +49,19 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = [1, 2, 3]
->>> type(a)
+[1] a = [1, 2, 3]
+    type(a)
 <class 'list'>
 
->>> a.append(4)
->>> a
+[1] a.append(4)
+    a
 [1, 2, 3, 4]
 
->>> a[0] = "bla"
->>> a
+[1] a[0] = "bla"
+    a
 ['bla', 2, 3, 4]
 
->>> len(a)
+[1] len(a)
 4
 ```
 
@@ -91,20 +91,20 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = (1, 2, 3)
->>> type(a)
+[1] a = (1, 2, 3)
+    type(a)
 <class 'tuple'>
 
->>> b = (1)
->>> type(b)
+[1] b = (1)
+    type(b)
 <class 'int'>
 
->>> c = (1,)
->>> type(c)
+[1] c = (1,)
+    type(c)
 <class 'tuple'>
 
->>> d = 2,
->>> type(d)
+[1] d = 2,
+    type(d)
 <class 'tuple'>
 
 
@@ -136,20 +136,20 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = [1, 2, 3, 4, 5]
->>> a[1]
+[1] a = [1, 2, 3, 4, 5]
+    a[1]
 2
 
->>> a[1: 2]
+[1] a[1: 2]
 [2]
 
->>> a[:2]
+[1] a[:2]
 [1, 2]
 
->>> a[2:]
+[1] a[2:]
 [3, 4, 5]
 
->>> a[-1]
+[1] a[-1]
 [5]
 ```
 
@@ -175,17 +175,17 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = {3, 2, 1, 3}
->>> a
+[1] a = {3, 2, 1, 3}
+    a
 {1, 2, 3}
 
 
->>> b = {}
->>> type(b)
+[1] b = {}
+    type(b)
 <class 'dict'>
 
->>> c = set()
->>> type(c)
+[1] c = set()
+    type(c)
 <class 'set'>
 ```
 
@@ -212,19 +212,19 @@ Hans-Martin von Gaudecker
 
 ```python
 
->>> a = {1, 2, 3}
->>> b = {1, 5}
+[1] a = {1, 2, 3}
+    b = {1, 5}
 
 # membership checking
->>> 2 in a
+[1] 2 in a
 True
 
 # union
->>> a | b
+[1] a | b
 {1, 2, 3, 5}
 
 # intersection
->>> a & b
+[1] a & b
 {1}
 
 ```

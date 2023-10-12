@@ -45,7 +45,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> df["country"]
+[1] df["country"]
 ```
 ```txt
 0     Cuba
@@ -55,7 +55,7 @@ Hans-Martin von Gaudecker
 Name: country, dtype: string
 ```
 ```python
->>> df[["country", "continent"]]
+[1] df[["country", "continent"]]
 ```
 
 <style type="text/css">
@@ -149,7 +149,7 @@ Name: country, dtype: string
 <div>
 
 ```python
->>> df.loc[1]
+[1] df.loc[1]
 ```
 ```txt
 country          Cuba
@@ -159,8 +159,8 @@ life_exp       78.273
 Name: 1, dtype: object
 ```
 ```python
->>> df = df.set_index(["country", "year"])
->>> df.loc["Cuba"]
+[1] df = df.set_index(["country", "year"])
+    df.loc["Cuba"]
 ```
 
 <style type="text/css">
@@ -224,7 +224,7 @@ Name: 1, dtype: object
 <div>
 
 ```python
->>> df.loc[("Cuba", 2002)]
+[1] df.loc[("Cuba", 2002)]
 ```
 ```txt
 continent    Americas
@@ -250,10 +250,10 @@ Name: (Cuba, 2002), dtype: object
 <div>
 
 ```python
->>> df.loc[1, "country"]
+[1] df.loc[1, "country"]
 'Cuba'
 
->>> df.loc[[1, 3], ["country", "year"]]
+[1] df.loc[[1, 3], ["country", "year"]]
 ```
 
 <style type="text/css">
@@ -340,7 +340,7 @@ df["year"] >= 2005
 Name: year, dtype: bool
 ```
 ```python
->>> df[df["year"] >= 2005]
+[1] df[df["year"] >= 2005]
 ```
 
 <style type="text/css">
@@ -426,7 +426,7 @@ Name: year, dtype: bool
 <div>
 
 ```python
->>> df.query("year >= 2005")
+[1] df.query("year >= 2005")
 ```
 
 <style type="text/css">
@@ -492,7 +492,7 @@ Name: year, dtype: bool
 
 
 ```python
->>> df.query("year >= 2005 & continent == 'Europe'")
+[1] df.query("year >= 2005 & continent == 'Europe'")
 ```
 
 <style type="text/css">

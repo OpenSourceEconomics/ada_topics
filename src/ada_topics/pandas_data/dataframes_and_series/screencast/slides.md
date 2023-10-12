@@ -34,8 +34,8 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> df = pd.read_csv(path, engine="pyarrow")
->>> df
+[1] df = pd.read_csv(path, engine="pyarrow")
+    df
 ```
 
 <style type="text/css">
@@ -111,14 +111,14 @@ Hans-Martin von Gaudecker
 </table>
 
 ```python
->>> df.columns
+[1] df.columns
 ```
 ```txt
 Index(['country', 'continent', 'year', 'life_exp'],
 dtype='string')
 ```
 ```python
->>> df.index
+[1] df.index
 ```
 ```txt
 RangeIndex(start=0, stop=4, step=1)
@@ -150,11 +150,11 @@ RangeIndex(start=0, stop=4, step=1)
 <div>
 
 ```python
->>> sr = df["country"]
->>> type(sr)
+[1] sr = df["country"]
+    type(sr)
 pandas.core.series.Series
 
->>> sr
+[1] sr
 ```
 ```txt
 0     Cuba
@@ -185,12 +185,12 @@ Name: country, dtype: string
 <div>
 
 ```python
->>> df = pd.DataFrame(
+[1] df = pd.DataFrame(
 ...     data=[[1, "bla"], [3, "blubb"]],
 ...     columns=["a", "b"],
 ...     index=["c", "d"]
 ... )
->>> df
+[1] df
 ```
 
 
@@ -252,7 +252,7 @@ Name: country, dtype: string
 
 
 ```python
->>> pd.Series(
+[1] pd.Series(
 ...     [3.0, 4.5], index=["x", "y"],
 ... )
 ```
@@ -292,11 +292,11 @@ We continue using df from before
 
 
 ```python
->>> sr = pd.Series(
+[1] sr = pd.Series(
 ...   [2.71, 3.14],
 ...   index=["d", "c"],
 ... )
->>> df["new_col"] = sr
+[1] df["new_col"] = sr
 ```
 
 <style type="text/css">

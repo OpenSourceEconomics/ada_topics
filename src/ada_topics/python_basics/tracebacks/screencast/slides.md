@@ -58,9 +58,9 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> d = {"a" : 1}
->>> d[[1, 2, 3]] = "b"
->>> d["c"] = 3
+[1] d = {"a" : 1}
+    d[[1, 2, 3]] = "b"
+[1] d["c"] = 3
 ```
 <br/>
 

@@ -104,17 +104,17 @@ from numpy import *
 
 ```python
 # bad option
->>> from math import log
->>> log(2.718281828459045)
+[1] from math import log
+    log(2.718281828459045)
 1.0
 
 # better option
->>> import math
->>> math.log(2.718281828459045)
+[1] import math
+    math.log(2.718281828459045)
 1.0
 
->>> import numpy as np
->>> np.log(2.718281828459045)
+[1] import numpy as np
+    np.log(2.718281828459045)
 1.0
 ```
 
@@ -147,7 +147,7 @@ from numpy import *
 # ModuleNotFoundError
 
 ```python
->>> from numpai import array
+[1] from numpai import array
 --------------------------------------------------------------------
 ModuleNotFoundError                Traceback (most recent call last)
 Cell In[32], line 1

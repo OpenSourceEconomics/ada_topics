@@ -37,9 +37,9 @@ Hans-Martin von Gaudecker
 assume that `df` is the gapminder example
 
 ```python
->>> import numpy as np
->>> df["log_life_exp"] = np.log(df["life_exp"])
->>> df
+[1] import numpy as np
+    df["log_life_exp"] = np.log(df["life_exp"])
+[1] df
 ```
 
 <style type="text/css">
@@ -147,8 +147,8 @@ assume that `df` is the gapminder example
 <div>
 
 ```python
->>> df["gdp_billion"] = df["gdp_per_cap"] * df["pop"] / 1e9
->>> df
+[1] df["gdp_billion"] = df["gdp_per_cap"] * df["pop"] / 1e9
+    df
 ```
 
 <style type="text/css">
@@ -251,10 +251,10 @@ assume that `df` is the gapminder example
 <div>
 
 ```python
->>> df["country_code"] = df["country"].replace(
+[1] df["country_code"] = df["country"].replace(
 ...     {"Cuba": "CUB", "Spain": "ESP"}
 ... )
->>> df
+[1] df
 ```
 
 <style type="text/css">
@@ -356,12 +356,12 @@ assume that `df` is the gapminder example
 <div>
 
 ```python
->>> helper = pd.Series(
+[1] helper = pd.Series(
 ...     "rich",
 ...     index=df.index,
 ... )
 
->>> df["income_status"] = helper.where(
+[1] df["income_status"] = helper.where(
     cond=gapm_more["gdp_per_cap"] > 10000,
     other="not rich",
 )

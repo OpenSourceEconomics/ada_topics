@@ -59,16 +59,16 @@ Hans-Martin von Gaudecker
 <div class="col-span-2">
 
 ```python
->>> number = -3.1
+[1] number = -3.1
 
->>> if number < -3:
+[1] if number < -3:
 ...     clipped = -3.0
 ... elif number > 3:
 ...     clipped = 3.0
 ... else:
 ...     clipped = number
 
->>> clipped
+[1] clipped
 -3.0
 ```
 
@@ -95,25 +95,25 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> bool(0)
+[1] bool(0)
 False
 
->>> bool(-1)
+[1] bool(-1)
 True
 
->>> bool(1)
+[1] bool(1)
 True
 
->>> bool([])
+[1] bool([])
 False
 
->>> bool([1, 2, 3])
+[1] bool([1, 2, 3])
 True
 
->>> bool("")
+[1] bool("")
 False
 
->>> bool("abc")
+[1] bool("abc")
 True
 ```
 
@@ -163,12 +163,12 @@ else:
 <div>
 
 ```python
->>> names = ["Guy", "Ray", "Tim"]
->>> names_with_i = []
->>> for n in names:
->>>     if "i" in n:
->>>       names_with_i.append(n)
->>> names_with_i
+[1] names = ["Guy", "Ray", "Tim"]
+    names_with_i = []
+[1] for n in names:
+        if "i" in n:
+[1]       names_with_i.append(n)
+    names_with_i
 ['Tim']
 ```
 

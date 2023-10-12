@@ -85,16 +85,16 @@ $$
 <div class="col-span-3">
 
 ```python
->>> def utility_crra(c, γ=1.5):
+[1] def utility_crra(c, γ=1.5):
 ...     return c ** (1 - γ) / (1 - γ)
 
->>> utility_crra(1.0)
+[1] utility_crra(1.0)
 -2.0
 
->>> utility_crra(c=1.0, γ=1.5)
+[1] utility_crra(c=1.0, γ=1.5)
 -2.0
 
->>> utility_crra(c=1.0, γ=0.0)
+[1] utility_crra(c=1.0, γ=0.0)
 1.0
 ```
 

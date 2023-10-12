@@ -47,16 +47,16 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> a = {"a": 1, "b": 2, "c": 3}
->>> type(a)
+[1] a = {"a": 1, "b": 2, "c": 3}
+    type(a)
 <class 'dict'>
 
 
->>> a["b"]
+[1] a["b"]
 2
 
->>> a["c"] = 42
->>> a
+[1] a["c"] = 42
+    a
 {'a': 1, 'b': 2, 'c': 42}
 
 >>>a["d"] = 4
@@ -94,10 +94,10 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> nested = {
->>>   1: {"bla": "blubb"},
->>>   "two": {"foo": "bar"},
->>> }
+[1] nested = {
+      1: {"bla": "blubb"},
+[1]   "two": {"foo": "bar"},
+    }
 ```
 
 </div>
@@ -121,19 +121,19 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> flat = {"bla": "blubb"}
->>> nested = {
->>>   1: flat,
+[1] flat = {"bla": "blubb"}
+    nested = {
+[1]   1: flat,
       "two": {"foo": "bar"}
->>> }
+[1] }
 
->>> flat["bla"]
+[1] flat["bla"]
 'blubb'
 
->>> nested[1]
+[1] nested[1]
 {'bla': 'blubb'}
 
->>> nested[1]["bla"]
+[1] nested[1]["bla"]
 'blubb'
 
 ```
@@ -158,15 +158,15 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> flat = {"bla": "blubb"}
->>> nested = {
->>>   1: flat,
+[1] flat = {"bla": "blubb"}
+    nested = {
+[1]   1: flat,
       "two": {"foo": "bar"}
->>> }
+[1] }
 
 
->>> nested[1]["bla"] = 42
->>> flat
+[1] nested[1]["bla"] = 42
+    flat
 {'bla': 42}
 ```
 

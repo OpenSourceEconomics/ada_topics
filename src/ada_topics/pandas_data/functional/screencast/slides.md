@@ -36,8 +36,8 @@ consider this hypothetical survey about a programming course
 <div>
 
 ```python
->>> raw = pd.read_csv("survey.csv")
->>> raw
+[1] raw = pd.read_csv("survey.csv")
+    raw
 ```
 
 <style type="text/css">

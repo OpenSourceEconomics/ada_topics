@@ -28,25 +28,15 @@ for orig_screencast in find_orig_screencasts():
     topic_name = orig_dir.parent.name
     screencast_pdf = screencast_dir.parent / f"{chapter_name}-{topic_name}.pdf"
 
-    @task(id=f"{chapter_name}, {topic_name}")
-    def task_copy_style_css(
-        orig: Path = SRC / "slidev_config" / "style.css",
-        prod: Annotated[Path, Product] = screencast_dir / "style.css",
-    ):
-        """Copy style.css for slidev presentation."""
-        shutil.copy(orig, prod)
+    # Just copy these guys over
+    shutil.copy(SRC / "slidev_config" / "style.css", orig_dir / "style.css")
 
-    @task(id=f"{chapter_name}, {topic_name}")
-    def task_copy_slides_md(
-        orig: Path = orig_screencast,
-        prod: Annotated[Path, Product] = screencast_md,
-    ):
-        """Copy slides.md for slidev presentation."""
-        shutil.copy(orig, prod)
+    # TODO: Add symbolic links from src/.../screencast/public to generated figures
+    # (get example in inspecting/summarizing to work)
 
     @task(id=f"{chapter_name}, {topic_name}")
     def task_export_pdf(
-        screencast_md: Path = screencast_md,
+        screencast_md: Path = orig_screencast,
         screencast_pdf: Annotated[Path, Product] = screencast_pdf,
     ):
         """Create slidev presentation and export to pdf."""

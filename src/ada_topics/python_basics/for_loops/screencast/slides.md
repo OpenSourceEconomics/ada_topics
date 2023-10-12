@@ -48,13 +48,13 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> names = ["Guy", "Ray", "Tim"]
->>> lower_names = [
->>>   names[0].lower(),
->>>   names[1].lower(),
->>>   names[2].lower(),
->>> ]
->>> lower_names
+[1] names = ["Guy", "Ray", "Tim"]
+    lower_names = [
+[1]   names[0].lower(),
+      names[1].lower(),
+[1]   names[2].lower(),
+    ]
+[1] lower_names
 ['guy', 'ray', 'tim']
 ```
 
@@ -81,7 +81,7 @@ Hans-Martin von Gaudecker
 
 ```python
 # example
->>> for i in range(5):
+[1] for i in range(5):
 ...     print(i ** 2)
 0
 1
@@ -133,8 +133,8 @@ for running_var in iterable:
 <div>
 
 ```python
->>> names = ["Guy", "Ray", "Tim"]
->>> for name in names:
+[1] names = ["Guy", "Ray", "Tim"]
+    for name in names:
 ...     print(name.lower())
 'guy'
 'ray'
@@ -160,19 +160,19 @@ for running_var in iterable:
 <div class="col-span-3">
 
 ```python
->>> let_to_pos = {
+[1] let_to_pos = {
 ...     "a": 0,
 ...     "b": 1,
 ...     "c": 2,
 ... }
 
->>> for let in let_to_pos:
+[1] for let in let_to_pos:
 ...     print(let)
 a
 b
 c
 
->>> for let, pos in let_to_pos.items():
+[1] for let, pos in let_to_pos.items():
 ...     print(let, pos)
 a 0
 b 1
@@ -206,17 +206,17 @@ c 2
 <div class="col-span-3">
 
 ```python
->>> names = ["Guy", "Ray", "Tim"]
->>> lower_names = []
->>> for n in names:
+[1] names = ["Guy", "Ray", "Tim"]
+    lower_names = []
+[1] for n in names:
 ...     lower_names.append(n.lower())
->>> lower_names
+[1] lower_names
 ['guy', 'ray', 'tim']
 
->>> name_to_lower = {}
->>> for n in names:
+[1] name_to_lower = {}
+    for n in names:
 ...     name_to_lower[n] = n.lower()
->>> name_to_lower
+[1] name_to_lower
 {
   'Guy': 'guy',
   'Ray': 'ray',
@@ -246,9 +246,9 @@ c 2
 <div>
 
 ```python
->>> numbers = [1, 2, 3]
->>> mean = 0.0
->>> for n in numbers:
+[1] numbers = [1, 2, 3]
+    mean = 0.0
+[1] for n in numbers:
 ...     mean += n / len(numbers)
 ```
 

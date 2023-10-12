@@ -57,12 +57,12 @@ Hans-Martin von Gaudecker
 
 ```python
 # bad example
->>> global_msg = "Hello {}!"
+[1] global_msg = "Hello {}!"
 
->>> def greet_with_global(name):
+[1] def greet_with_global(name):
 ...     print(global_msg.format(name))
 
->>> greet_with_global("Guido")
+[1] greet_with_global("Guido")
 Hello Guido!
 ```
 
@@ -88,17 +88,17 @@ Hello Guido!
 
 ```python
 # solution 1: define inside function
->>> def greet(name):
+[1] def greet(name):
 ...     msg = "Hello {}!
 ...     print(msg.format(name))
->>> greet("Guido")
+[1] greet("Guido")
 Hello Guido!
 
 # solution 2: pass as argument
->>> def greet_explicit(name, msg):
+[1] def greet_explicit(name, msg):
 ...     print(msg.format(name))
 
->>> greet_explicit("Guido", "Hello {}!")
+[1] greet_explicit("Guido", "Hello {}!")
 Hello Guido!
 ```
 
@@ -123,19 +123,19 @@ Hello Guido!
 <div>
 
 ```python
->>> def append_4(some_list):
+[1] def append_4(some_list):
 ...     some_list.append(4)
 ...     return some_list
 
->>> a = [1, 2, 3]
->>> append_4(a)
+[1] a = [1, 2, 3]
+    append_4(a)
 [1, 2, 3, 4]
 
->>> a
+[1] a
 [1, 2, 3, 4]
 
 # better solution
->>> def append_4(some_list)
+[1] def append_4(some_list)
 ...     out = some_list.copy()
 ...     out.append(4)
 ...     return out

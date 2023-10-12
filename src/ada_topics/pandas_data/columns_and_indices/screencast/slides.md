@@ -210,11 +210,11 @@ Same dataset, different Index
 assume `df` is our gapminder example
 
 ```python
->>> df.index
+[1] df.index
 RangeIndex(start=0, stop=4, step=1)
 
->>> df = df.set_index(["country", "year"])
->>> df.index
+[1] df = df.set_index(["country", "year"])
+    df.index
 ```
 ```txt
 MultiIndex([( 'Cuba', 2002),
@@ -224,8 +224,8 @@ MultiIndex([( 'Cuba', 2002),
            names=['country', 'year'])
 ```
 ```python
->>> df = df.reset_index()
->>> df.index
+[1] df = df.reset_index()
+    df.index
 RangeIndex(start=0, stop=4, step=1)
 ```
 
@@ -254,7 +254,7 @@ RangeIndex(start=0, stop=4, step=1)
 assume `df` is our gapminder example
 
 ```python
->>> df.columns
+[1] df.columns
 ```
 ```txt
 Index(['country', 'continent', 'year',
@@ -262,14 +262,14 @@ Index(['country', 'continent', 'year',
 ```
 
 ```python
->>> new_names = {
+[1] new_names = {
 ...     "life_exp": "life expectancy",
 ...     "country": "country name",
 ...     "continent": "continent name",
 ... }
 
->>> df = df.rename(columns=new_names)
->>> df.columns
+[1] df = df.rename(columns=new_names)
+    df.columns
 ```
 ```txt
 Index(['country name', 'continent name',

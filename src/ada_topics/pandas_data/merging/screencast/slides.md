@@ -46,7 +46,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> top
+[1] top
 ```
 
 <style type="text/css">
@@ -112,7 +112,7 @@ Hans-Martin von Gaudecker
 
 
 ```python
->>> bottom
+[1] bottom
 ```
 
 <style type="text/css">
@@ -181,7 +181,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.concat([top, bottom])
+[1] pd.concat([top, bottom])
 ```
 
 <style type="text/css">
@@ -276,7 +276,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> left
+[1] left
 ```
 
 <style type="text/css">
@@ -351,7 +351,7 @@ Hans-Martin von Gaudecker
 </table>
 
 ```python
->>> right
+[1] right
 ```
 
 <style type="text/css">
@@ -430,7 +430,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.concat([left, right], axis="columns")
+[1] pd.concat([left, right], axis="columns")
 ```
 
 <style type="text/css">
@@ -534,7 +534,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> left
+[1] left
 ```
 
 <style type="text/css">
@@ -604,7 +604,7 @@ Hans-Martin von Gaudecker
 
 
 ```python
->>> right
+[1] right
 ```
 
 <style type="text/css">
@@ -677,7 +677,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.concat([left, right], axis="columns")
+[1] pd.concat([left, right], axis="columns")
 ```
 
 
@@ -779,7 +779,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> left
+[1] left
 ```
 
 <style type="text/css">
@@ -849,7 +849,7 @@ Hans-Martin von Gaudecker
 
 
 ```python
->>> right
+[1] right
 ```
 
 <style type="text/css">
@@ -922,7 +922,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.merge(left, right, on=["country", "year"])
+[1] pd.merge(left, right, on=["country", "year"])
 ```
 
 <style type="text/css">
@@ -1007,7 +1007,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.merge(left, right, on=["country", "year"], how="inner")
+[1] pd.merge(left, right, on=["country", "year"], how="inner")
 ```
 
 <style type="text/css">
@@ -1075,7 +1075,7 @@ Hans-Martin von Gaudecker
 </table>
 
 ```python
->>> pd.merge(left, right, on=["country", "year"], how="left")
+[1] pd.merge(left, right, on=["country", "year"], how="left")
 ```
 
 
@@ -1154,7 +1154,7 @@ Hans-Martin von Gaudecker
 
 
 ```python
->>> pd.merge(left, right, on=["country", "year"], how="outer")
+[1] pd.merge(left, right, on=["country", "year"], how="outer")
 ```
 
 <style type="text/css">
@@ -1263,7 +1263,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> left
+[1] left
 ```
 
 <style type="text/css">
@@ -1334,7 +1334,7 @@ Hans-Martin von Gaudecker
 </table>
 
 ```python
->>> right
+[1] right
 ```
 
 <style type="text/css">
@@ -1395,7 +1395,7 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> pd.merge(left, right, on="country")
+[1] pd.merge(left, right, on="country")
 ```
 
 <style type="text/css">

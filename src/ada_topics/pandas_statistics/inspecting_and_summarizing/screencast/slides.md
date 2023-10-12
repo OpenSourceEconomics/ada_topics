@@ -233,8 +233,8 @@ Hans-Martin von Gaudecker
 assume that `df` is the full gapminder data
 
 ```python
->>> relevant = ["life_exp", "pop", "gdp_per_cap"]
->>> df[relevant].describe()
+[1] relevant = ["life_exp", "pop", "gdp_per_cap"]
+    df[relevant].describe()
 ```
 
 <style type="text/css">
@@ -353,10 +353,10 @@ assume that `df` is the full gapminder data
 assume that `df` is the full gapminder data
 
 ```python
->>> df["life_exp"].mean()
+[1] df["life_exp"].mean()
 59.474439366197174
 
->>> df.groupby("year").mean()
+[1] df.groupby("year").mean()
 ```
 ```txt
 year
@@ -390,8 +390,8 @@ year
 <div>
 
 ```python
->>> pd.options.plotting.backend = "plotly"
->>> df.groupby("year")["life_exp"].mean().plot()
+[1] pd.options.plotting.backend = "plotly"
+    df.groupby("year")["life_exp"].mean().plot()
 ```
 <img src="lineplot.png" class="rounded" width="400"/>
 
@@ -413,8 +413,8 @@ year
 <div>
 
 ```python
->>> pd.options.plotting.backend = "plotly"
->>> df.plot.scatter(x="year", y="life_exp",
+[1] pd.options.plotting.backend = "plotly"
+    df.plot.scatter(x="year", y="life_exp",
                     color="country")
 ```
 <img src="scatterplot.png" class="rounded" width="400"/>
@@ -434,7 +434,7 @@ year
 # Statistics for categorical data
 
 ```python
->>> df["country"].unique()[:2]
+[1] df["country"].unique()[:2]
 ```
 ```txt
 <ArrowStringArrayNumpySemantics>
@@ -442,7 +442,7 @@ year
 Length: 2, dtype: string
 ```
 ```python
->>> df["country"].value_counts().sort_index()[:2]
+[1] df["country"].value_counts().sort_index()[:2]
 ```
 ```txt
 country

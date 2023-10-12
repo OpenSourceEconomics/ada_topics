@@ -33,12 +33,12 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
->>> df = pd.read_csv(
+[1] df = pd.read_csv(
 ...     "gapminder.csv",
 ...     engine="pyarrow",
 ... )
 
->>> df
+[1] df
 ```
 
 <style type="text/css">
