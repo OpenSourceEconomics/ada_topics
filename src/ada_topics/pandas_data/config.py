@@ -5,10 +5,14 @@ import itertools
 from ada_topics.pandas_data.birds_eye import (
     SITE_CONTENTS as BIRDS_EYE,
 )
+from ada_topics.pandas_data.datatypes import (
+    SITE_CONTENTS as DATATYPES,
+)
 from ada_topics.pandas_data.groupby import SITE_CONTENTS as GROUPBY
 
 TOPICS = [
     BIRDS_EYE,
+    DATATYPES,
     GROUPBY,
 ]
 SITE_CONTENTS = {
