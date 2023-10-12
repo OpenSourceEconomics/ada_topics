@@ -8,7 +8,7 @@ from typing import Annotated, Any
 import yaml
 from deepdiff import DeepHash
 from pybaum.tree_util import tree_just_flatten
-from pytask import Product, PythonNode, task
+from pytask import Product, PythonNode, mark, task
 
 from ada_topics.config import (
     CHAPTER_NAMES,
@@ -172,6 +172,10 @@ def task_compile_book(
         raise RuntimeError("Jupyter book compilation failed.")
 
 
+@mark.skipif(
+    condition=not SITE_DIR.parent.exists(),
+    reason="Website directory does not exist.",
+)
 def task_copy_book(
     site_index_local: Path = SITE_SOURCE_DIR / "_build" / "html" / "index.html",
     all_site_sources: list[Path] = all_site_sources,  # noqa: ARG001

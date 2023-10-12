@@ -10,7 +10,7 @@ description: >-
   Background on topics covering Python and Pandas in particular
 # HTML-specific settings
 html:
-  google_analytics_id: G-JNV9WF0QCS
+  google_analytics_id: G-53S5N5Y3VS
   home_page_in_navbar: false
   # Add GitHub buttons to your book
   # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
