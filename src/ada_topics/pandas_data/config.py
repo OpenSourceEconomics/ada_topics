@@ -16,7 +16,7 @@ TOPICS = [
     GROUPBY,
 ]
 SITE_CONTENTS = {
-    "chapter_title": "First steps with pandas",
+    "chapter_title": "Data wrangling with pandas",
     "pages": tuple(
         itertools.chain(
             ("content_objectives.md",),

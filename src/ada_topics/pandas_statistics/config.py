@@ -40,7 +40,7 @@ TOPICS = [
     FUNCTIONAL_DATA_MANAGEMENT,
 ]
 SITE_CONTENTS = {
-    "chapter_title": "First steps with pandas",
+    "chapter_title": "Statistics with pandas",
     "pages": tuple(
         itertools.chain(
             ("content_objectives.md",),
