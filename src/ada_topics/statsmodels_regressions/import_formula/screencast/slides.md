@@ -19,7 +19,7 @@ defaults:
 
 # Data management with pandas
 
-### Inspecting and summarizing data
+### Importing and using the formula interface
 
 <br>
 
@@ -30,12 +30,6 @@ Hans-Martin von Gaudecker
 
 # Motivation
 
-- So far we have looked at tiny DataFrames
-- Real datasets don't fit on a screen
-- Need quick ways to:
-  - Look at subsets
-  - Calculate summary statistics
-  - Plot distributions
 
 ---
 

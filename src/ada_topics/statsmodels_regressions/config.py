@@ -2,10 +2,12 @@
 
 import itertools
 
-from ada_topics.pandas_data.what_is_pandas import SITE_CONTENTS as WHAT_IS_PANDAS
+from ada_topics.statsmodels_regressions.import_formula import (
+    SITE_CONTENTS as IMPORT_FORMULA,
+)
 
 TOPICS = [
-    WHAT_IS_PANDAS,
+    IMPORT_FORMULA,
 ]
 SITE_CONTENTS = {
     "chapter_title": "Regressions with Statsmodels",

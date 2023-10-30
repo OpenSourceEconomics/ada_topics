@@ -1,4 +1,4 @@
-# Script: Inspecting and summarizing data
+# Script: Importing and using the formula interface
 
 ## Motivation
 
