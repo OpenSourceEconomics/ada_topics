@@ -1,0 +1,36 @@
+/* Set colors for light theme */
+
+[data-theme='light'] .bd-sidebar-secondary {
+    background-color: #ecf2f9 !important;
+}
+
+[data-theme='light'] .bd-sidebar-primary {
+    background-color: #ecf2f9 !important;
+}
+
+[data-theme='light'] body {
+   background-color: #ecf2f9 !important;
+}
+
+[data-theme='light'] .bd-header-article {
+   background-color: #ecf2f9 !important;
+}
+
+
+/* Set colors for dark theme */
+
+[data-theme='dark'] .bd-sidebar-secondary {
+    background-color: #152b41 !important;
+}
+
+[data-theme='dark'] .bd-sidebar-primary {
+    background-color: #152b41 !important;
+}
+
+[data-theme='dark'] body {
+   background-color: #152b41 !important;
+}
+
+[data-theme='dark'] .bd-header-article {
+   background-color: #152b41 !important;
+}
