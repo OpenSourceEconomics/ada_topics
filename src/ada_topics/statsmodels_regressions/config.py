@@ -2,21 +2,13 @@
 
 import itertools
 
-from ada_topics.pandas_data.birds_eye import (
-    SITE_CONTENTS as BIRDS_EYE,
-)
-from ada_topics.pandas_data.datatypes import (
-    SITE_CONTENTS as DATATYPES,
-)
-from ada_topics.pandas_data.groupby import SITE_CONTENTS as GROUPBY
+from ada_topics.pandas_data.what_is_pandas import SITE_CONTENTS as WHAT_IS_PANDAS
 
 TOPICS = [
-    BIRDS_EYE,
-    DATATYPES,
-    GROUPBY,
+    WHAT_IS_PANDAS,
 ]
 SITE_CONTENTS = {
-    "chapter_title": "Data wrangling with pandas",
+    "chapter_title": "Regressions with Statsmodels",
     "pages": tuple(
         itertools.chain(
             ("content_objectives.md",),
