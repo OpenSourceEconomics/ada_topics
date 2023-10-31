@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("pandas_statistics-inspecting_and_summarizing.pdf",),
+    "built": ("statsmodels_regressions-results_objects.pdf",),
 }
