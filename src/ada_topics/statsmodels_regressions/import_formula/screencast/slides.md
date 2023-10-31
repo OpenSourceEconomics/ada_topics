@@ -18,9 +18,9 @@ defaults:
 
 <br>
 
-# Data management with pandas
+# Regressions with Statsmodels
 
-### Importing and using the formula interface
+### Importing and Using the Formula Interface
 
 <br>
 
@@ -111,6 +111,7 @@ model = smf.ols(
 - Use a regression model implemented in `statsmodels.formula.api`
 - `data` is a dataframe, `formula` is a string
 - Separate left-hand side and right-hand by `~`
+- Intercept is implicit for OLS
 - Right hand-side can contain lots of mathematical expressions
   - `+`, `**`, `*`, `:` for sums, powers, interactions
   - `C()` for categorical variables

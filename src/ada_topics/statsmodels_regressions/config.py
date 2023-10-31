@@ -5,9 +5,13 @@ import itertools
 from ada_topics.statsmodels_regressions.import_formula import (
     SITE_CONTENTS as IMPORT_FORMULA,
 )
+from ada_topics.statsmodels_regressions.results_objects import (
+    SITE_CONTENTS as RESULTS_OBJECTS,
+)
 
 TOPICS = [
     IMPORT_FORMULA,
+    RESULTS_OBJECTS,
 ]
 SITE_CONTENTS = {
     "chapter_title": "Regressions with Statsmodels",
