@@ -13,6 +13,7 @@ OrigSourceOrSiteSource = Literal["orig_source", "site_source"]
 CHAPTER_NAMES = [
     "python_basics",
     "pandas_data",
+    "statsmodels_regressions",
 ]
 
 
