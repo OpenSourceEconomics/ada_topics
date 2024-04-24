@@ -5,3 +5,7 @@ The topics in this chapter ...
 After working through this chapter, you should be able to:
 
 - ...
+
+```{todo}
+Add quizzes.
+```
