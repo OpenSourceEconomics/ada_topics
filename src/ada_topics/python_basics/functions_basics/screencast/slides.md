@@ -25,7 +25,6 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker
 
 ---
@@ -33,9 +32,8 @@ Hans-Martin von Gaudecker
 # Contents
 
 - Anatomy of functions
-- Examples of functions
-- Why functions are important!
 
+- An example
 
 ---
 
@@ -45,6 +43,19 @@ $$
 u(c, γ) = \frac{c ^{(1 - γ)}}{1 - γ}
 $$
 
+---
+
+# Functions are like math functions
+
+- They take arguments
+
+- They return a value
+
+- Difference
+
+  - Math functions typically operate on numerical values
+
+  - Python functions can operate on almost anything
 
 ---
 
@@ -60,7 +71,6 @@ $$
 
 <img src="/function_anatomy.png" class="rounded" width="400"/>
 
-
 </div>
 <div>
 
@@ -71,15 +81,12 @@ $$
 - Function body is indented by 4 spaces and can have one or several lines
 - Inside the body you can do everything you have seen so far!
 
-
 </div>
 </div>
-
 
 ---
 
 # Example: CRRA Utility function
-
 
 <div class="grid grid-cols-5 gap-4">
 <div class="col-span-3">
@@ -88,36 +95,23 @@ $$
 [1] def utility_crra(c, γ=1.5):
 ...     return c ** (1 - γ) / (1 - γ)
 
-[1] utility_crra(1.0)
+[2] utility_crra(1.0)
 -2.0
 
-[1] utility_crra(c=1.0, γ=1.5)
+[3] utility_crra(c=1.0, γ=1.5)
 -2.0
 
-[1] utility_crra(c=1.0, γ=0.0)
+[4] utility_crra(c=1.0, γ=0.0)
 1.0
+
 ```
 
 </div>
 <div class="col-span-2">
 
 - Function calls work with positional and keyword arguments
+
 - Pass keyword arguments for any function with more than one argument!
 
-
 </div>
 </div>
-
-
----
-layout: fact
----
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-# Defining functions like a pro is the most important skill to become a good Python programmer!

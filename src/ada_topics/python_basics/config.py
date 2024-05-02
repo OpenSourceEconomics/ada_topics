@@ -5,11 +5,22 @@ import itertools
 from ada_topics.python_basics.assignment_and_scalar_types import (
     SITE_CONTENTS as ASSIGNMENT_AND_SCALAR_TYPES,
 )
+from ada_topics.python_basics.functions_basics import (
+    SITE_CONTENTS as FUNCTIONS_BASICS,
+)
+from ada_topics.python_basics.functions_principles import (
+    SITE_CONTENTS as FUNCTIONS_PRINCIPLES,
+)
 from ada_topics.python_basics.getting_started_with_notebooks import (
     SITE_CONTENTS as GETTING_STARTED_WITH_NOTEBOOKS,
 )
 
-TOPICS = [GETTING_STARTED_WITH_NOTEBOOKS, ASSIGNMENT_AND_SCALAR_TYPES]
+TOPICS = [
+    GETTING_STARTED_WITH_NOTEBOOKS,
+    ASSIGNMENT_AND_SCALAR_TYPES,
+    FUNCTIONS_BASICS,
+    FUNCTIONS_PRINCIPLES,
+]
 
 SITE_CONTENTS = {
     "chapter_title": "Python Basics",

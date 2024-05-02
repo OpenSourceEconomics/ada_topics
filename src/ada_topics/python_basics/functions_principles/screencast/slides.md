@@ -33,8 +33,11 @@ Hans-Martin von Gaudecker
 # Contents
 
 - Why functions are important!
+
 - Guidelines for self-contained functions
+
   - Pass all variables you want to use inside
+
   - Do not modify mutable arguments
 
 ---
@@ -42,11 +45,10 @@ Hans-Martin von Gaudecker
 # Why functions are important
 
 - Help to re-use code and avoid duplication
+
 - Help to structure code and reduce cognitive load
+
 - Make individual code snippets testable
-- Help to make your projects more reproducible
-- Unlock the power of functional programming concepts
-- Are also the basis for good object oriented code
 
 ---
 
@@ -70,8 +72,10 @@ Hello Guido!
 <div class="col-span-2">
 
 - Inside a function you have access to variables in the enclosing scope
+
 - This is dangerous because the behaviour of the function now depends on global
   variables
+
 - Do not use this in your code!
 
 
@@ -107,8 +111,10 @@ Hello Guido!
 <div class="col-span-2">
 
 - Inside a function you have access to variables in the enclosing scope
+
 - This is dangerous because the behaviour of the function now depends on global
   variables
+
 - Do not use this in your code!
 
 </div>
@@ -127,27 +133,68 @@ Hello Guido!
 ...     some_list.append(4)
 ...     return some_list
 
-[1] a = [1, 2, 3]
-    append_4(a)
+[2] a = [1, 2, 3]
+
+[3] b = append_4(a)
+
+[4] b
 [1, 2, 3, 4]
 
-[1] a
+[5] a
 [1, 2, 3, 4]
-
-# better solution
-[1] def append_4(some_list)
-...     out = some_list.copy()
-...     out.append(4)
-...     return out
 ```
 
 </div>
 <div>
 
-- Arguments are passed by reference, i.e. without making a copy
+- Arguments are passed without making a copy
+
 - Make sure that functions do not modify mutable arguments!
-    - Make copies
-    - Avoid changing objects in the first place
+
+  - Make copies
+
+  - Avoid changing objects in the first place
+
+</div>
+</div>
+
+
+---
+
+# Do not modify mutable arguments
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+```python
+[1] def append_4(some_list)
+...     out = some_list.copy()
+...     out.append(4)
+...     return out
+
+[2] a = [1, 2, 3]
+
+[3] b = append_4(a)
+
+[4] b
+[1, 2, 3, 4]
+
+[5] a
+[1, 2, 3]
+
+```
+
+</div>
+<div>
+
+
+- Arguments are passed without making a copy
+
+- Make sure that functions do not modify mutable arguments!
+
+  - Make copies
+
+  - Avoid changing objects in the first place
 
 </div>
 </div>
