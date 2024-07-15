@@ -100,6 +100,15 @@ use *sample statistics*.
 
 ---
 
-# Differences between Mean and Median: how they can be used to BS.
+# Differences between Mean and Median...
 
 - Classic example of mean vs median income changes over the years?
+- Hint at the idea that the mean is more sensitive to outliers than the median.
+- Hint at the fact that averages are more precise if you have many people.
+
+### notes
+
+- screencasts should be super short; don't include explanation on series of data (definitions etc.).
+- These slides are for the screencast!!!
+- First half of lectures are catchup previous week: errors from assignments, etc.
+- Second half of lectures is introducing the substantive example for the week.
