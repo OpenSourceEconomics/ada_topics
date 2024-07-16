@@ -1,9 +1,6 @@
-# Script: Subchapter Name
-
-## First slide
+# Script: Pitfalls
 
 - Create different python cells in which the following operations are performed:
-  - 2+2
   - a = 2 and return a
   - return a
   - a = 3 (highlight that the variable is overwritten)
