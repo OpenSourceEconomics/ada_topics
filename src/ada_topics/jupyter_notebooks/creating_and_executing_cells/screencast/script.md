@@ -9,3 +9,4 @@
   - ctrl + enter
   - shift + enter
   - run all
+- Show how to move cells around (drag and drop on the side)

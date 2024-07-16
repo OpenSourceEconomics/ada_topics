@@ -18,9 +18,6 @@
 
 - To start: launch notebook and rename "first_steps". Describe extension ipynb
 - Fill a cell with print("hello world") (mentioning that they don't need to understand
-  the content) and show how to execute it
-  - run cell
-  - Shift-Enter
-  - ctrl-Enter
-- Create a new cell and show that you can move the order of cells - but explain that
-  this is not common.
+  the content) and execute it (mentioning that there is another screencast where \
+  we go
+  into details of execution)
