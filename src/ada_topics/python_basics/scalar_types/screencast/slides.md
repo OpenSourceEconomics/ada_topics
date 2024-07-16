@@ -24,12 +24,9 @@ defaults:
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
-
-Hans-Martin von Gaudecker
-
 ---
 
-# Contents
+## Contents
 
 - What are types
 - How to inspect a variable type
@@ -38,22 +35,26 @@ Hans-Martin von Gaudecker
 - Representing text: strings
 
 ---
-# What is a variable type
+
+### What is a variable type
 
 - Different types of variables are used to store different kinds of data
 - The main scalar types are:
-  - int
-  - float
-  - boolean
-  - string
+  + int
+  + float
+  + boolean
+  + string
 - The type of a variable tells us what kind of information is stored in the variable
-  - e.g. an int variable contains a whole number
+  + e.g. an int variable contains a whole number
 
 ---
-# How to inspect and change variables types
 
-<div class="flex gap-12">
+### How to inspect and change variables types
+
+<div class="flex gap-6">
 <div>
+<br>
+<br>
 
 ```python
 [1] type(3)
@@ -63,8 +64,6 @@ Hans-Martin von Gaudecker
     type(a)
 [2] <class 'int'>
 ```
-
-
 </div>
 <div>
 
@@ -83,9 +82,9 @@ Hans-Martin von Gaudecker
 
 ---
 
-# Representing numbers: ints and floats
+### Representing numbers: ints and floats
 
-<div class="flex gap-12">
+<div class="flex gap-6">
 <div>
 
 ```python
@@ -103,10 +102,11 @@ Hans-Martin von Gaudecker
     type(c)
 [3] <class 'float'>
 ```
-
-
 </div>
 <div>
+
+  <br>
+  <br>
 
 - In addition to the integers, floats represent real numbers
 - They are imperfect representations
@@ -134,34 +134,29 @@ Hans-Martin von Gaudecker
     a < b
 [2] False
 
-[3] type(a < b)
-[3] <class 'bool'>
+[3] int(True)
+[3] 1
 
-[4] c = a == b
-    type(c)
-[4] <class 'bool'>
-
-[5] int(True)
-[5] 1
-
-[6] bool(6)
-[6] True
+[4] bool(6)
+[4] True
 ```
 
 </div>
 <div>
+<br>
+<br>
 
 - Booleans can be `True` or `False` (case sensitive)
 - The result of a comparison is a Boolean
 - `True` or `False` are interpreted as 1 and 0
-- All int and floats different from 0 are converted to True (but you will never do this)
+- All int and floats different from 0 are converted to True (but you should never use this)
 
 </div>
 </div>
 
 ---
 
-# Representing text: strings
+### Representing text: strings
 
 <div class="flex gap-8">
 <div>
@@ -184,6 +179,9 @@ Hans-Martin von Gaudecker
 
 </div>
 <div>
+
+<br>
+<br>
 
 - Strings represent texts
 - A string can contain any alphanumeric character

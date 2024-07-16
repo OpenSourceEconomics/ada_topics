@@ -17,7 +17,9 @@ marp: true
 
 <br>
 
-# Measures of Central Tendency: Mean, Mode and Median
+# Descriptive Statistics
+
+### Measures of Central Tendency: Mean, Mode and Median
 
 <br>
 

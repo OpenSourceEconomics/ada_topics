@@ -34,7 +34,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Assigning variables
+### Assigning variables
 
 <div class="flex gap-12">
 <div>
@@ -57,6 +57,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 </div>
 <div>
+
+<br>
+<br>
+<br>
 
 - Variables are assigned with a single `=` sign
 - You can re-assign variables with different values
@@ -88,6 +92,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 </div>
 <div>
+
+<br>
+<br>
+<br>
 
 - Arithmetic works as you would expect
 - Brackets work as expected
@@ -123,6 +131,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 </div>
 <div>
 
+<br>
+<br>
+
 - Comparison operators are `==`, `<`, `>`, `<=`, `>=`, `!=`
 - Remember:
   - `=` is used for assignment
@@ -133,6 +144,3 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 </div>
 </div>
-
-
----
