@@ -18,9 +18,9 @@ defaults:
 
 <br/>
 
-# Some Chapter
+# Python basices
 
-### Some Subchapter
+### Scalar types
 
 <br/>
 
@@ -31,15 +31,26 @@ Hans-Martin von Gaudecker
 
 # Contents
 
-- Why types and how to inspect a variable type
+- What are types
+- How to inspect a variable type
 - Representing numbers: ints and floats
 - Representing True and False: booleans
 - Representing text: strings
-- Operations among different types
 
 ---
-
 # What is a variable type
+
+- Different types of variables are used to store different kinds of data
+- The main scalar types are:
+  - int
+  - float
+  - boolean
+  - string
+- The type of a variable tells us what kind of information is stored in the variable
+  - e.g. an int variable contains a whole number
+
+---
+# How to inspect and change variables types
 
 <div class="flex gap-12">
 <div>
@@ -57,14 +68,6 @@ Hans-Martin von Gaudecker
 </div>
 <div>
 
-- Different types of variables are used to store different kinds of data
-- The main scalar types are:
-  - int
-  - float
-  - boolean
-  - string
-- The type of a variable tells us what kind of information is stored in the variable
-  - e.g. an int variable contains a whole number
 - When you assign variables, the types are inferred, not declared upfront
 - Types can be inspected with `type()`
 - The type of a variable can be changed using the functions:
@@ -72,11 +75,11 @@ Hans-Martin von Gaudecker
   - float()
   - bool()
   - str()
-- Variables types can be changed (not always)
+- A variable type cannot be always changed
+  - e.g. "hello" cannot be converted into int
 
 </div>
 </div>
-
 
 ---
 
@@ -105,7 +108,7 @@ Hans-Martin von Gaudecker
 </div>
 <div>
 
-- Floats represent real numbers
+- In addition to the integers, floats represent real numbers
 - They are imperfect representations
 - When performing operations among ints and floats,
   ints are automatically converted into floats
@@ -137,6 +140,12 @@ Hans-Martin von Gaudecker
 [4] c = a == b
     type(c)
 [4] <class 'bool'>
+
+[5] int(True)
+[5] 1
+
+[6] bool(6)
+[6] True
 ```
 
 </div>
@@ -144,12 +153,11 @@ Hans-Martin von Gaudecker
 
 - Booleans can be `True` or `False` (case sensitive)
 - The result of a comparison is a Boolean
-- `True` or `False` are also interpreted as 1 and 0
+- `True` or `False` are interpreted as 1 and 0
+- All int and floats different from 0 are converted to True (but you will never do this)
 
 </div>
 </div>
-
-
 
 ---
 
@@ -159,30 +167,28 @@ Hans-Martin von Gaudecker
 <div>
 
 ```python
-[1] a = True
-    b = False
+[1] a = "Hello world"
     type(a)
-[1] <class 'bool'>
+[1] <class 'str'>
 
-[2] a = 3
-    b = 3
-    a < b
-[2] False
+[2] a = "1.0"
+    type(a)
+[2] <class 'str'>
 
-[3] type(a < b)
-[3] <class 'bool'>
-
-[4] c = a == b
-    type(c)
-[4] <class 'bool'>
+[3] a = "Hello"
+    b = " "
+    c = "world"
+    a + b + c
+[3] "Hello world"
 ```
 
 </div>
 <div>
 
-- Booleans can be `True` or `False` (case sensitive)
-- The result of a comparison is a Boolean
-- `True` or `False` are also interpreted as 1 and 0
+- Strings represent texts
+- A string can contain any alphanumeric character
+- "+" is used to concatenate strings
+- "-" is not supported by strings
 
 </div>
 </div>

@@ -18,9 +18,9 @@ defaults:
 
 <br/>
 
-# Some Chapter
+# Python basics
 
-### Some Subchapter
+### Assigning variables
 
 <br/>
 
