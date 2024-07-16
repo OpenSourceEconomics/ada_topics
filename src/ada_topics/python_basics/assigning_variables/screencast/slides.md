@@ -14,18 +14,15 @@ defaults:
 #   paginationPagesDisabled: true
 ---
 
-### Applied Data Analytics
+## Applied Data Analytics
 
-<br/>
+<br>
 
 # Python basics
 
 ### Assigning variables
 
-<br/>
-
-
-Hans-Martin von Gaudecker
+Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 

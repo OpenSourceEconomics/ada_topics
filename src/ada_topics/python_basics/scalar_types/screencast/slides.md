@@ -14,15 +14,15 @@ defaults:
 #   paginationPagesDisabled: true
 ---
 
-### Applied Data Analytics
+## Applied Data Analytics
 
-<br/>
+<br>
 
-# Python basices
+# Python basics
 
 ### Scalar types
 
-<br/>
+Hans-Martin von Gaudecker and Aapo Stenhammar
 
 
 Hans-Martin von Gaudecker
