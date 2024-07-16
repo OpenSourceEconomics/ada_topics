@@ -1,0 +1,4 @@
+-e .
+kaleido
+jupyter-book
+pyperclip

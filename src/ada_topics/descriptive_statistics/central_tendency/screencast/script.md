@@ -1,6 +1,5 @@
 # Script: Subchapter Name
 
-## First slide
+## Slide with Median
 
-- Some bullet point
-- Another bullet point
+- Remember to quickly tell them about what happens with even number of observations.
