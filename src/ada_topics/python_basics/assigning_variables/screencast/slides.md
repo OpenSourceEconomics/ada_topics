@@ -8,7 +8,6 @@ info: |
 drawings:
   persist: false
 transition: fade
-title: Applied Data Analytics
 defaults:
   layout: center
 # themeConfig:
@@ -19,9 +18,9 @@ defaults:
 
 <br/>
 
-# Basic Python
+# Some Chapter
 
-### Assigning variables and built-in scalar types
+### Some Subchapter
 
 <br/>
 
@@ -32,14 +31,13 @@ Hans-Martin von Gaudecker
 
 # Contents
 
-- Representing numbers: ints and floats
+- Assigning variables
 - Using Python like a calculator
 - Comparing variables
-- Representing True and False: Booleans
 
 ---
 
-# Integers
+# Assigning variables
 
 <div class="flex gap-12">
 <div>
@@ -49,15 +47,14 @@ Hans-Martin von Gaudecker
     a
 [1] 3
 
-[2] type(a)
-[2] <class 'int'>
-
-[3] type(3)
-[3] <class 'int'>
-
-[4] a = 5
+[2] a = 3.1415
     a
-[4] 5
+[2] 3.1415
+
+[2] a = "Hello world"
+    a
+[2] "Hello world"
+
 ```
 
 
@@ -65,40 +62,7 @@ Hans-Martin von Gaudecker
 <div>
 
 - Variables are assigned with a single `=` sign
-- Types are inferred, not declared upfront
-- Types can be inspected with `type()`
 - You can re-assign variables with different values
-
-</div>
-</div>
-
-
----
-
-# Floats
-
-<div class="flex gap-12">
-<div>
-
-```python
-[1] b = 3.1415
-    b
-[1] 3.1415
-
-[2] type(b)
-[2] <class 'float'>
-
-[3] c = 0.1 + 0.2
-    c
-[3] 0.30000000000000004
-```
-
-
-</div>
-<div>
-
-- Floats represent real numbers
-- They are imperfect representations
 
 </div>
 </div>
@@ -130,7 +94,6 @@ Hans-Martin von Gaudecker
 
 - Arithmetic works as you would expect
 - Brackets work as expected
-- Mixing ints and floats converts everything to floats
 - `**` is exponentiation (not `^`)
 
 </div>
@@ -155,50 +118,24 @@ Hans-Martin von Gaudecker
 
 [3] a >= b
 [3] True
+
+[2] a != b
+[2] False
 ```
 
 </div>
 <div>
 
-- Comparison operators are `==`, `<`, `>`, `<=`, `>=`
+- Comparison operators are `==`, `<`, `>`, `<=`, `>=`, `!=`
 - Remember:
   - `=` is used for assignment
   - Classic error is trying to use it for comparison
-- The result of a comparison is a Boolean
+- You cannot compare any two variables
+  - e.g. "two" < 3 will return an error
+  - More on this in the lecture on scalar types
 
 </div>
 </div>
 
 
 ---
-
-# Booleans
-
-<div class="flex gap-8">
-<div>
-
-```python
-[1] a = True
-    b = False
-    type(a)
-[1] <class 'bool'>
-
-[2] a and b
-[2] False
-
-[3] a or b
-[3] True
-
-[4] not b
-[4] True
-```
-
-</div>
-<div>
-
-- Booleans can be `True` or `False` (case sensitive)
-- `and`, `or` and `not` can be used to express complex conditions
-- Important: `or` is the inclusive or!
-
-</div>
-</div>
