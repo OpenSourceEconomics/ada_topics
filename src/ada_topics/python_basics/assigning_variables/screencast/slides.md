@@ -100,6 +100,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - Arithmetic works as you would expect
 - Brackets work as expected
 - `**` is exponentiation (not `^`)
+- You cannot make operations between any two variables
+  - e.g. "two" + 3 will return an error
+  - More on this in the lecture on scalar types
 
 </div>
 </div>
