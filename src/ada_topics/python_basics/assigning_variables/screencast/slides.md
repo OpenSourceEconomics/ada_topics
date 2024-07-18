@@ -63,6 +63,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <br>
 
 - Variables are assigned with a single `=` sign
+- Variables names are case sensitive
 - You can re-assign variables with different values
 
 </div>

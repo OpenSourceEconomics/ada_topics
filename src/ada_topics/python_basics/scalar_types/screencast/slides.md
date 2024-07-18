@@ -32,7 +32,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - How to inspect a variable type
 - Representing numbers: ints and floats
 - Representing True and False: booleans
-- Representing text: strings
 
 ---
 
@@ -43,7 +42,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
   + int
   + float
   + boolean
-  + string
 - The type of a variable tells us what kind of information is stored in the variable
   + e.g. an int variable contains a whole number
 
@@ -58,11 +56,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ```python
 [1] type(3)
-[1] <class 'int'>
+[1] 'int'
 
 [2] a = 3
     type(a)
-[2] <class 'int'>
+[2] 'int'
 ```
 </div>
 <div>
@@ -73,7 +71,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
   - int()
   - float()
   - bool()
-  - str()
 - A variable type cannot be always changed
   - e.g. "hello" cannot be converted into int
 
@@ -90,7 +87,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 ```python
 [1] b = 3.1415
     type(b)
-[1] <class 'float'>
+[1] 'float'
 
 [2] c = 0.1 + 0.2
     c
@@ -100,7 +97,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
     b = 3.1415
     c = a + b
     type(c)
-[3] <class 'float'>
+[3] 'float'
 ```
 </div>
 <div>
@@ -127,7 +124,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 [1] a = True
     b = False
     type(a)
-[1] <class 'bool'>
+[1] 'bool'
 
 [2] a = 3
     b = 3
@@ -150,43 +147,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - The result of a comparison is a Boolean
 - `True` or `False` are interpreted as 1 and 0
 - All int and floats different from 0 are converted to True (but you should never use this)
-
-</div>
-</div>
-
----
-
-### Representing text: strings
-
-<div class="flex gap-8">
-<div>
-
-```python
-[1] a = "Hello world"
-    type(a)
-[1] <class 'str'>
-
-[2] a = "1.0"
-    type(a)
-[2] <class 'str'>
-
-[3] a = "Hello"
-    b = " "
-    c = "world"
-    a + b + c
-[3] "Hello world"
-```
-
-</div>
-<div>
-
-<br>
-<br>
-
-- Strings represent texts
-- A string can contain any alphanumeric character
-- "+" is used to concatenate strings
-- "-" is not supported by strings
 
 </div>
 </div>
