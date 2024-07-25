@@ -58,10 +58,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - **Definition**: the mode is _the value that appears most frequently in the data_.
 
 - If more values appear with the same highest frequency, the data is _multimodal_.
-
-- If no value appears more than once, the data has _no mode_.
-
-- The mode is computed by calculating the frequency of each possible realization and taking the most frequent one(s).
+  If no value appears more than once, the data has _no mode_.
 
 - The mode can be computed for any type of data (categorical, ordinal, and cardinal).
 
@@ -99,7 +96,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-### Median: alternative explanation
+### Median
 
 <div class="grid grid-cols-2 gap-4">
 <div>

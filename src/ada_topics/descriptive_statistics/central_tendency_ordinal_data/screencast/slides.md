@@ -74,7 +74,6 @@ Examples of ordinal data are:
 
 ---
 
-### Example Data
 
 | Value | Frequency |
 | ----------- | ----- |
@@ -97,13 +96,9 @@ Examples of ordinal data are:
 
 - To compute the median sort the data and find the _middle value_ (what happens if the values are an even number?).
 
-- Practically: the median is the value that occupies the [(n+1)/2]th position of the ordered data.
-
 - Can be computed for any type of _ordered_ data (ordinal and cardinal).
 
 ---
-
-### Median: alternative explanation
 
 
 | Observation | Value |
