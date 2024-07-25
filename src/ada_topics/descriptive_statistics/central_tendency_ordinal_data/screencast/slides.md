@@ -29,11 +29,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ### Ordinal Data
 
-Ordinal data is a categorical data type where 
-- the variables have natural, ordered categories and 
+Ordinal data is a categorical data type where
+- the variables have natural, ordered categories and
 - the distances between the categories are not known/defined
 
-Examples of ordinal data are: 
+Examples of ordinal data are:
 - Likert scale (e.g. strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
 - Education level (e.g. primary education, secondary education, higher education)
 - Any binned cardinal variable (e.g. low income (income lower than \$40k), middle income (income between \$40k and \$130k), high income (income above $130k))
@@ -86,9 +86,10 @@ Examples of ordinal data are:
 - In our case, the mode is *low income*.
 
 ---
+
 ### Median
 
-- **Definition**: the median is the value such that 
+- **Definition**: the median is the value such that:
   - at least half of the observations are higher or equal than the value
   - at least half of the observations are lower or equal than the value
 
@@ -119,3 +120,4 @@ Examples of ordinal data are:
 
 - In our case, the median is *middle income*.
 
+---
