@@ -71,33 +71,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ### Median
 
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-<img src="median.png" class="rounded" style="width: 85%; height: 85%; margin: auto"/>
-
-</div>
-<div>
-
-<br>
-
-- **Intuition**: the median is _the value that separates the higher half from the lower half of the data_.
-
-- To compute the median sort the data and find the _middle value_ (what happens if the values
-  are an even number?).
-
-- Can be computed for any type of _ordered_ data (numerical and ordinal).
-
-- In our case, the median is 1.5.
-
-</div>
-</div>
-
----
-
-### Median
-
 <div class="grid grid-cols-2 gap-4">
 <div>
 
@@ -133,8 +106,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ### Mean
 
-
-- **Definition**: The mean is _the sum of all the values in the sample divided by the total number of
+  - **Definition**: The mean is _the sum of all the values in the sample divided by the total number of
   values_.
 
 - In our case, it is computed by:
@@ -159,10 +131,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
+### Summary
+
 | Statistic | Sensitivity to outliers | Type of data | Aggregation to higher level |
 | --------- | ----------------------- | ------------ | --------------------------- |
 | Mean      | High                    | Numerical    | Sum of all values / N |
 | Median    | Low                     | Numerical, ordinal | Middle value |
 | Mode      | Low                     | Numerical, ordinal, categorical | Most frequent value |
-
----
