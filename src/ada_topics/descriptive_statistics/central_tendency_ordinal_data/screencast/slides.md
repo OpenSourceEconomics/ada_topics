@@ -36,24 +36,24 @@ Ordinal data is a categorical data type where
 Examples of ordinal data are:
 - Likert scale (e.g. strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
 - Education level (e.g. primary education, secondary education, higher education)
-- Any binned cardinal variable (e.g. low income (income lower than \$40k), middle income (income between \$40k and \$130k), high income (income above $130k))
+- Any binned cardinal variable (e.g. low income (income lower than \$40k), middle income (income between \$40k and \$130k), income (income above $130k))
 
 ---
 
 ### Example Data
 
 
-| Observation | Value |
+| Observation | GDP per capita (binned) |
 | ----------- | ----- |
-| Argentina           | high income     |
-| Bolivia           | low income     |
-| Brazil           | middle income   |
-| Chile           | high income   |
-| Colombia           | low income   |
-| Ecuador           | low income     |
-| Panama           | high income   |
-| Paraguay           | low income   |
-| Peru           | middle income   |
+| Argentina           | high GDP per capita     |
+| Bolivia           | low GDP per capita     |
+| Brazil           | middle GDP per capita   |
+| Chile           | high GDP per capita   |
+| Colombia           | low GDP per capita   |
+| Ecuador           | low GDP per capita     |
+| Panama           | high GDP per capita   |
+| Paraguay           | low GDP per capita   |
+| Peru           | middle GDP per capita   |
 
 ---
 
@@ -75,13 +75,13 @@ Examples of ordinal data are:
 
 | Value | Frequency |
 | ----------- | ----- |
-| **low income**           |  **4**    |
-| middle income           |   2   |
-| high income           | 3   |
+| **low GDP per capita**           |  **4**    |
+| middle GDP per capita           |   2   |
+| high GDP per capita           | 3   |
 
 <br>
 
-- In our case, the mode is **low income**.
+- In our case, the mode is **low GDP per capita**.
 
 ---
 
@@ -101,18 +101,18 @@ Examples of ordinal data are:
 
 ### Example Data
 
-| Observation | Value |
+| Observation | GDP per capita (binned) |
 | ----------- | ----- |
-| Bolivia           | low income     |
-| Paraguay           | low income   |
-| Ecuador           | low income   |
-| Colombia           | low income   |
-| **Peru**          | **middle income**     |
-| Brazil           | middle income   |
-| Argentina           | high income     |
-| Chile           | high income   |
-| Panama           | high income   |
+| Bolivia           | low GDP per capita     |
+| Paraguay           | low GDP per capita   |
+| Ecuador           | low GDP per capita   |
+| Colombia           | low GDP per capita   |
+| **Peru**          | **middle GDP per capita**     |
+| Brazil           | middle GDP per capita   |
+| Argentina           | high GDP per capita     |
+| Chile           | high GDP per capita   |
+| Panama           | high GDP per capita   |
 
 <br>
 
-- In our case, the median is **middle income**.
+- In our case, the median is **middle GDP per capita**.

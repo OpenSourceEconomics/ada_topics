@@ -29,7 +29,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ### Example Data
 
-| Observation | Value |
+| Observation | GDP per capita ($)|
 | ----------- | ----- |
 | Argentina           | 13,731   |
 | Bolivia           | 3,701   |
@@ -62,7 +62,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-| Observation | Value |
+| Observation | GDP per capita ($) |
 | ----------- | ----- |
 | Bolivia           | 3,701    |
 | Paraguay           | 6,260    |
@@ -85,7 +85,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Can be computed for any type of _ordered_ data (numerical and ordinal).
 
-- In our case, the median is observed at the 5th position, which is 1.5.
+- In our case, the median is observed at the 5th position, which is $7,790.
 
 </div>
 </div>
@@ -113,9 +113,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - The mean is more sensitive to outliers than the median and the mode.
 
-- Imagine Panama's GDP per capita increasing to 1,000,000.
+- Imagine Panama's GDP per capita increasing to $1,000,000.
 
-- The mean changes to 119,125.77, while the median and the mode remain the same (7,790 and no mode).
+- The mean changes to $119,125.77, while the median and the mode remain the same ($7,790 and no mode).
 
 ---
 
