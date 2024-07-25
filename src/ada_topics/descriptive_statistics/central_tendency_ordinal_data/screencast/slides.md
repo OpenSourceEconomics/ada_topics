@@ -74,6 +74,7 @@ Examples of ordinal data are:
 
 ---
 
+### Example Data
 
 | Value | Frequency |
 | ----------- | ----- |
@@ -81,8 +82,9 @@ Examples of ordinal data are:
 | middle income           |   2   |
 | high income           | 3   |
 
+<br>
 
-- In our case, the mode is *low income*.
+- In our case, the mode is **low income**.
 
 ---
 
@@ -100,6 +102,7 @@ Examples of ordinal data are:
 
 ---
 
+### Example Data
 
 | Observation | Value |
 | ----------- | ----- |
@@ -113,6 +116,6 @@ Examples of ordinal data are:
 | 2           | high income   |
 | 8           | high income   |
 
-- In our case, the median is *middle income*.
+<br>
 
----
+- In our case, the median is **middle income**.
