@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("chapter_template-subchapter_1.pdf",),
+    "built": ("jupyter_notebooks-markdown_cells.pdf",),
 }
