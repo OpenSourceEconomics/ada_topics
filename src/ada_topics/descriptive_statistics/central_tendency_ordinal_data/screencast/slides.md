@@ -45,18 +45,15 @@ Examples of ordinal data are:
 
 | Observation | Value |
 | ----------- | ----- |
-| 0           | low income     |
-| 1           | high income     |
-| 2           | high income   |
-| 3           | low income   |
-| 4           | low income   |
-| 5           | middle income     |
-| 6           | low income   |
-| 7           | middle income   |
-| 8           | high income   |
-
-<!--Would be ideal to use some actual data, but no more than 5 obs and need repeated value for mode -->
-<!-- I think with 5 obs. there is not a very interesting histogram we can plot... -->
+| Argentina           | high income     |
+| Bolivia           | low income     |
+| Brazil           | middle income   |
+| Chile           | high income   |
+| Colombia           | low income   |
+| Ecuador           | low income     |
+| Panama           | high income   |
+| Paraguay           | low income   |
+| Peru           | middle income   |
 
 ---
 
@@ -106,15 +103,15 @@ Examples of ordinal data are:
 
 | Observation | Value |
 | ----------- | ----- |
-| 0           | low income     |
-| 3           | low income   |
-| 4           | low income   |
-| 6           | low income   |
-| **5**          | **middle income**     |
-| 7           | middle income   |
-| 1           | high income     |
-| 2           | high income   |
-| 8           | high income   |
+| Bolivia           | low income     |
+| Paraguay           | low income   |
+| Ecuador           | low income   |
+| Colombia           | low income   |
+| **Peru**          | **middle income**     |
+| Brazil           | middle income   |
+| Argentina           | high income     |
+| Chile           | high income   |
+| Panama           | high income   |
 
 <br>
 
