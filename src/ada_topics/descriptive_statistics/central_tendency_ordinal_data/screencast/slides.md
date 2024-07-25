@@ -27,21 +27,33 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
+### Ordinal Data
+
+Ordinal data is a categorical data type where 
+- the variables have natural, ordered categories and 
+- the distances between the categories are not known/defined
+
+Examples of ordinal data are: 
+- Likert scale (e.g. strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
+- Education level (e.g. primary education, secondary education, higher education)
+- Any binned cardinal variable (e.g. low income (income lower than \$40k), middle income (income between \$40k and \$130k), high income (income above $130k))
+
+---
+
 ### Example Data
 
-TODO: Make the median and mode different; add final slides.
 
 | Observation | Value |
 | ----------- | ----- |
-| 0           | 1     |
-| 1           | 1     |
-| 2           | 1.5   |
-| 3           | 1.5   |
-| 4           | 2.5   |
-| 5           | 1     |
-| 6           | 0.5   |
-| 7           | 2     |
-| 8           | 2.5   |
+| 0           | low income     |
+| 1           | high income     |
+| 2           | high income   |
+| 3           | low income   |
+| 4           | low income   |
+| 5           | middle income     |
+| 6           | low income   |
+| 7           | middle income   |
+| 8           | high income   |
 
 <!--Would be ideal to use some actual data, but no more than 5 obs and need repeated value for mode -->
 <!-- I think with 5 obs. there is not a very interesting histogram we can plot... -->
@@ -50,125 +62,60 @@ TODO: Make the median and mode different; add final slides.
 
 ### Mode
 
-<div class="grid grid-cols-2 gap-4">
-<div>
+- **Definition**: the mode is _the value that appears most frequently in the data_.
 
-<img src="mode.png" class="rounded" style="width: 85%; height: 85%; margin: auto"/>
-
-</div>
-<div>
-
-<br>
-
-- **Intuition**: the mode is _the value that appears most frequently in the data_.
-
-- If more values appear with the same frequency, the data is _multimodal_.
+- If more values appear with the same highest frequency, the data is _multimodal_.
 
 - If no value appears more than once, the data has _no mode_.
 
-- The mode can be computed for any type of data (numerical, ordinal, and categorical).
+- The mode is computed by calculating the frequency of each possible realization and taking the most frequent one(s).
 
-- In our case, the mode is 1.
-
-</div>
-</div>
+- The mode can be computed for any type of data (categorical, ordinal, and cardinal).
 
 ---
 
+### Example Data
+
+| Value | Frequency |
+| ----------- | ----- |
+| **low income**           |  **4**    |
+| middle income           |   2   |
+| high income           | 3   |
+
+
+- In our case, the mode is *low income*.
+
+---
 ### Median
 
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-<img src="median.png" class="rounded" style="width: 85%; height: 85%; margin: auto"/>
-
-</div>
-<div>
-
-<br>
+- **Definition**: the median is the value such that 
+  - at least half of the observations are higher or equal than the value
+  - at least half of the observations are lower or equal than the value
 
 - **Intuition**: the median is _the value that separates the higher half from the lower half of the data_.
 
-- To compute the median sort the data and find the _middle value_ (what happens if the values
-  are an even number?).
+- To compute the median sort the data and find the _middle value_ (what happens if the values are an even number?).
 
-- Can be computed for any type of _ordered_ data (numerical and ordinal).
+- Practically: the median is the value that occupies the [(n+1)/2]th position of the ordered data.
 
-- In our case, the median is 1.5.
-
-</div>
-</div>
+- Can be computed for any type of _ordered_ data (ordinal and cardinal).
 
 ---
 
 ### Median: alternative explanation
 
-<div class="grid grid-cols-2 gap-4">
-<div>
 
 | Observation | Value |
 | ----------- | ----- |
-| 6           | 0.5   |
-| 0           | 1     |
-| 1           | 1     |
-|    5        | 1     |
-| **2**           | **1.5**   |
-| 3           | 1.5   |
-| 7           | 2     |
-| 4           | 2.5   |
-| 8           | 2.5   |
+| 0           | low income     |
+| 3           | low income   |
+| 4           | low income   |
+| 6           | low income   |
+| **5**          | **middle income**     |
+| 7           | middle income   |
+| 1           | high income     |
+| 2           | high income   |
+| 8           | high income   |
 
-</div>
-<div>
+- In our case, the median is *middle income*.
 
-
-- **Intuition**: the median is _the value that separates the higher half from the lower half of the data_.
-
-- To compute the median sort the data and find the _middle value_ (what happens if the values
-  are an even number?).
-
-- Can be computed for any type of _ordered_ data (numerical and ordinal).
-
-- In our case, the median is observed at the 5th position, which is 1.5.
-
-</div>
-</div>
-
----
-
-### Mean
-
-
-- The **mean** is _the sum of all the values in the sample divided by the total number of
-  values_.
-
-- In our case, it is computed by:
-
-    $$
-    \text{mean} = \frac{1 + 1 + 1.5 + 1.5 + 2.5 + 1 + 0.5 + 2 + 2.5}{9} = 1.5
-    $$
-
-- Can be computed *only* for numerical data.
-
-- The mean is more sensitive to outliers than the median and the mode. Why?
-
----
-
-### Mean vs Median and Mode: sensitivity to outliers.
-
-- The mean is more sensitive to outliers than the median and the mode.
-
-- Imagine to add an observation with value 1000 to our data.
-
-- The mean changes to 113.5, while the median and the mode remain the same (1.5 and 1).
-
----
-
-| Statistic | Sensitivity to outliers | Type of data | Aggregation to higher level |
-| --------- | ----------------------- | ------------ | --------------------------- |
-| Mean      | High                    | Numerical    | Sum of all values / N |
-| Median    | Low                     | Numerical, ordinal | Middle value |
-| Mode      | Low                     | Numerical, ordinal, categorical | Most frequent value |
-
----
