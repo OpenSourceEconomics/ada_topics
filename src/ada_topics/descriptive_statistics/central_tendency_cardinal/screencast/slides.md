@@ -29,8 +29,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ### Example Data
 
-TODO: Make the median and mode different; add final slides.
-
 | Observation | Value |
 | ----------- | ----- |
 | 0           | 1     |
@@ -42,9 +40,6 @@ TODO: Make the median and mode different; add final slides.
 | 6           | 0.5   |
 | 7           | 2     |
 | 8           | 2.5   |
-
-<!--Would be ideal to use some actual data, but no more than 5 obs and need repeated value for mode -->
-<!-- I think with 5 obs. there is not a very interesting histogram we can plot... -->
 
 ---
 
@@ -60,13 +55,15 @@ TODO: Make the median and mode different; add final slides.
 
 <br>
 
-- **Intuition**: the mode is _the value that appears most frequently in the data_.
+- **Definition**: the mode is _the value that appears most frequently in the data_.
 
-- If more values appear with the same frequency, the data is _multimodal_.
+- If more values appear with the same highest frequency, the data is _multimodal_.
 
 - If no value appears more than once, the data has _no mode_.
 
-- The mode can be computed for any type of data (numerical, ordinal, and categorical).
+- The mode is computed by calculating the frequency of each possible realization and taking the most frequent one(s).
+
+- The mode can be computed for any type of data (categorical, ordinal, and cardinal).
 
 - In our case, the mode is 1.
 
@@ -140,7 +137,7 @@ TODO: Make the median and mode different; add final slides.
 ### Mean
 
 
-- The **mean** is _the sum of all the values in the sample divided by the total number of
+- **Definition**: The mean is _the sum of all the values in the sample divided by the total number of
   values_.
 
 - In our case, it is computed by:
@@ -149,7 +146,7 @@ TODO: Make the median and mode different; add final slides.
     \text{mean} = \frac{1 + 1 + 1.5 + 1.5 + 2.5 + 1 + 0.5 + 2 + 2.5}{9} = 1.5
     $$
 
-- Can be computed *only* for numerical data.
+- Can be computed *only* for cardinal data.
 
 - The mean is more sensitive to outliers than the median and the mode. Why?
 
