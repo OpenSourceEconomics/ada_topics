@@ -36,14 +36,14 @@ Ordinal data is a categorical data type where
 Examples of ordinal data are:
 - Likert scale (e.g. strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
 - Education level (e.g. primary education, secondary education, higher education)
-- Any binned cardinal variable (e.g. low income (income lower than \$40k), middle income (income between \$40k and \$130k), income (income above $130k))
+- Any binned cardinal variable (e.g. low wealth (wealth lower than \$40k), middle wealth (wealth between \$40k and \$130k), wealth (wealth above $130k))
 
 ---
 
 ### Example Data
 
 
-| Observation | GDP per capita (binned) |
+| Country | GDP per capita (binned) |
 | ----------- | ----- |
 | Argentina           | high GDP per capita     |
 | Bolivia           | low GDP per capita     |
@@ -51,9 +51,11 @@ Examples of ordinal data are:
 | Chile           | high GDP per capita   |
 | Colombia           | low GDP per capita   |
 | Ecuador           | low GDP per capita     |
-| Panama           | high GDP per capita   |
+| Guatemala           | high GDP per capita   |
 | Paraguay           | low GDP per capita   |
 | Peru           | middle GDP per capita   |
+
+
 
 ---
 
@@ -67,13 +69,13 @@ Examples of ordinal data are:
 
 - The mode is computed by calculating the frequency of each possible realization and taking the most frequent one(s).
 
-- The mode can be computed for any type of data (categorical, ordinal, and cardinal).
+- The mode can be computed for any type of data (unordered, ordinal, and cardinal).
 
 ---
 
 ### Example Data
 
-| Value | Frequency |
+| GDP per capita (binned) | Frequency |
 | ----------- | ----- |
 | **low GDP per capita**           |  **4**    |
 | middle GDP per capita           |   2   |
@@ -101,17 +103,17 @@ Examples of ordinal data are:
 
 ### Example Data
 
-| Observation | GDP per capita (binned) |
+| Country | GDP per capita (binned) |
 | ----------- | ----- |
 | Bolivia           | low GDP per capita     |
+| Guatemala           | low GDP per capita     |
 | Paraguay           | low GDP per capita   |
 | Ecuador           | low GDP per capita   |
-| Colombia           | low GDP per capita   |
-| **Peru**          | **middle GDP per capita**     |
-| Brazil           | middle GDP per capita   |
+| **Colombia**           | **middle GDP per capita**   |
+| Peru          | middle GDP per capita     |
+| Brazil           | high GDP per capita   |
 | Argentina           | high GDP per capita     |
 | Chile           | high GDP per capita   |
-| Panama           | high GDP per capita   |
 
 <br>
 
