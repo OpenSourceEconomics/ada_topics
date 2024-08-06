@@ -11,7 +11,7 @@ dependencies:
   - nodejs
   - numba
   - openpyxl
-  - pandas >= 2.1.2
+  - pandas >= 2.2
   - pdbpp
   - pip
   - plotly
