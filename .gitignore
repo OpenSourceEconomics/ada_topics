@@ -33,6 +33,7 @@ dist
 index.html
 .remote-assets
 components.d.ts
+.slides_pdf
 
 # nonsense
 desktop.ini
@@ -50,5 +51,4 @@ gapminder.arrow
 **/screencast/style.css
 
 # extra
-
 *:Zone.Identifier

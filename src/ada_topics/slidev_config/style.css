@@ -50,3 +50,97 @@ td {
 .dark #slide-content {
   background-color: #152b41 !important;
 }
+
+.dark .slidev-code {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.slidev-code code {
+  font-size: 0.8rem !important;
+  background: transparent !important;
+}
+
+table {
+  margin: 0;
+  font-family: "Helvetica", "Helvetica", sans-serif;
+  border-collapse: collapse;
+  border: none;
+  font-size: 80%;
+}
+
+table caption {
+  caption-side: bottom;
+}
+
+table td {
+  padding: 0em !important;
+  padding-left: 0.2em !important;
+}
+
+table th {
+  font-weight: bold !important;
+  text-align: left !important;
+  padding: 0em !important;
+  padding-left: 0.2em !important;
+}
+
+table code {
+  font-size: 0.7rem !important;
+  background: transparent !important;
+  padding-left: 0em !important;
+}
+
+
+html.dark {
+  /* Darkmode Tables */
+  table {
+    color: white;
+  }
+  table thead {
+    background-color: #19334d;
+  }
+  table tbody tr:nth-child(even) {
+    background-color: #19334d;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color: #1f4060;
+  }
+
+  code {
+    font-weight: bold !important;
+    background: transparent !important;
+    color: #CD7F32 !important;
+  }
+
+}
+
+html:not(.dark) {
+  /* Lightmode Tables */
+  table {
+    color: #5b5b5b;
+  }
+  table thead {
+    background-color: white;
+  }
+  table tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+
+  /* Lightmode Code blocks */
+  .slidev-code {
+    background: white;
+  }
+
+  .slidev-code code {
+    font-weight: normal !important;
+  }
+
+  code {
+    font-weight: bold !important;
+    background: white !important;
+    color: #0065bd !important;
+  }
+}

@@ -14,19 +14,22 @@ from ada_topics.python_basics.functions_principles import (
 from ada_topics.python_basics.scalar_types import (
     SITE_CONTENTS as SCALAR_TYPES,
 )
+from ada_topics.python_basics.strings_intro import (
+    SITE_CONTENTS as STRINGS_INTRO,
+)
 
 TOPICS = [
+    ASSIGNING_VARIABLES,
     SCALAR_TYPES,
+    STRINGS_INTRO,
     FUNCTIONS_BASICS,
     FUNCTIONS_PRINCIPLES,
-    ASSIGNING_VARIABLES,
 ]
 
 SITE_CONTENTS = {
     "chapter_title": "Python Basics",
     "pages": tuple(
         itertools.chain(
-            ("content_objectives.md",),
             *[topic["pages"] for topic in TOPICS],
         ),
     ),
