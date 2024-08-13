@@ -19,7 +19,6 @@ SITE_CONTENTS = {
     "chapter_title": "Data wrangling with pandas",
     "pages": tuple(
         itertools.chain(
-            ("content_objectives.md",),
             *[topic["pages"] for topic in TOPICS],
         ),
     ),

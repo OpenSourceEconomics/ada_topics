@@ -17,7 +17,6 @@ SITE_CONTENTS = {
     "chapter_title": "Regressions with Statsmodels",
     "pages": tuple(
         itertools.chain(
-            ("content_objectives.md",),
             *[topic["pages"] for topic in TOPICS],
         ),
     ),

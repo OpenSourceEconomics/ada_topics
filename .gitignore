@@ -33,6 +33,7 @@ dist
 index.html
 .remote-assets
 components.d.ts
+.slides_pdf
 
 # nonsense
 desktop.ini
@@ -46,5 +47,3 @@ site_*
 *.mp4
 
 gapminder.arrow
-
-**/screencast/style.css
