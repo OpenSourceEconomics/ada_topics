@@ -2,7 +2,6 @@
 name: ada_topics
 channels: [conda-forge, nodefaults]
 dependencies:
-  - conda-lock
   - deepdiff
   - gitpython
   - ipykernel
@@ -11,21 +10,21 @@ dependencies:
   - nodejs
   - numba
   - openpyxl
-  - pandas >= 2.1.2
+  - pandas >= 2.2
   - pdbpp
   - pip
   - plotly
   - pre-commit
-  - pyarrow >= 13.0
+  - pyarrow
   - pybaum
   - pydata-sphinx-theme>=0.13.3
   - pygraphviz
-  - pytask >= 0.4.0
+  - pytask
   # - pytask-parallel  # Do not use, slidev exports get mixed up.
   - pytest
   - pytest-cov
   - pytest-xdist
-  - python==3.11
+  - python==3.12
   - pyyaml
   - scikit-learn
   - setuptools_scm
