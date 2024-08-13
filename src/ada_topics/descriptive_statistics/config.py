@@ -1,10 +1,17 @@
 """Definitions of source files for the current chapter."""
+
 import itertools
 
-from ada_topics.chapter_template.subchapter_1 import SITE_CONTENTS as SUBCHAPTER_1
+from ada_topics.descriptive_statistics.central_tendency_cardinal_data import (
+    SITE_CONTENTS as CENTRAL_TENDENCY_CARDINAL_DATA,
+)
+from ada_topics.descriptive_statistics.central_tendency_ordinal_data import (
+    SITE_CONTENTS as CENTRAL_TENDENCY_ORDINAL_DATA,
+)
 
 TOPICS = [
-    SUBCHAPTER_1,
+    CENTRAL_TENDENCY_ORDINAL_DATA,
+    CENTRAL_TENDENCY_CARDINAL_DATA,
 ]
 
 
