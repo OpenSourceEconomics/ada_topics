@@ -16,6 +16,22 @@
    background-color: #ecf2f9 !important;
 }
 
+[data-theme='light'] .table {
+    border: #EDF8EC !important;
+}
+
+[data-theme='light'] .table thead {
+    --bs-table-bg: hsl(115, 46%, 92%) !important;
+}
+
+[data-theme='light'] .table tbody tr:nth-child(odd) {
+    --bs-table-bg: hsl(115, 46%, 87%) !important;
+}
+
+[data-theme='light'] .table tbody tr:nth-child(even) {
+    --bs-table-bg: hsl(115, 46%, 92%) !important;
+}
+
 
 /* Set colors for dark theme */
 
@@ -35,6 +51,21 @@
    background-color: #152b41 !important;
 }
 
+[data-theme='dark'] .table {
+    border: hsl(111, 6%, 20%) !important;
+}
+
+[data-theme='dark'] .table thead {
+    --bs-table-bg: hsl(111, 6%, 20%) !important;
+}
+
+[data-theme='dark'] .table tbody tr:nth-child(odd) {
+    --bs-table-bg: hsl(111, 6%, 16%) !important;
+}
+
+[data-theme='dark'] .table tbody tr:nth-child(even) {
+    --bs-table-bg: hsl(111, 6%, 20%) !important;
+}
 
 /* Set color of quiz for dark thme */
 
