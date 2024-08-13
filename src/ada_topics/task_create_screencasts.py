@@ -31,8 +31,9 @@ for orig_screencast in find_orig_screencasts():
     # Just copy these guys over
     shutil.copy(SRC / "slidev_config" / "style.css", orig_dir / "style.css")
 
-    # TODO: Add symbolic links from src/.../screencast/public to generated figures
-    # (get example in inspecting/summarizing to work)
+    # TODO(@hmgaudecker): Add symbolic links from src/.../screencast/public to generated
+    # figures (get example in inspecting/summarizing to work):
+    # https://github.com/OpenSourceEconomics/ada_topics/issues/6
 
     @task(id=f"{chapter_name}, {topic_name}")
     def task_export_pdf(

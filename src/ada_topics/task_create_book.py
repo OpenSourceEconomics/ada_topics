@@ -126,10 +126,10 @@ for fn in [
                 config_file = yaml.safe_load(d)
             config_file.update(config_nb_exec)
             config_file["sphinx"]["config"].update(config_sphinx)
-            with prod.open(mode="w", encoding="utf-8") as prod:
+            with prod.open(mode="w", encoding="utf-8") as prod_stream:
                 yaml.safe_dump(
                     config_file,
-                    stream=prod,
+                    stream=prod_stream,
                     default_flow_style=False,
                     sort_keys=False,
                 )
