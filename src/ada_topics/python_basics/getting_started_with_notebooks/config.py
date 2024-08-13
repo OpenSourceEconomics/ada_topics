@@ -2,12 +2,6 @@
 
 SITE_CONTENTS = {
     "pages": ("objectives_materials.ipynb",),
-    "other": (
-        "screencast/public/activate_and_info.png",
-        "screencast/public/blocked_terminal.png",
-        "screencast/public/folder.png",
-        "screencast/public/notebook.png",
-        "screencast/public/starting_page.png",
-    ),
+    "other": (),
     "built": ("python_basics-getting_started_with_notebooks.pdf",),
 }
