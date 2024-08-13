@@ -175,7 +175,7 @@ Cell In[33], line 1
 ----> 1 from numpy import arrrrray
 
 ImportError: cannot import name 'arrrrray' from 'numpy'
-(/home/user_1/mambaforge/envs/ada_topics/lib/python3.11/
+(/home/user_1/mambaforge/envs/ada_topics/lib/python3.12/
    site-packages/numpy/__init__.py)
 ```
 
