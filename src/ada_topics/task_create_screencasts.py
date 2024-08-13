@@ -1,6 +1,5 @@
 """Create figure for this subchapter's screencast."""
 
-import shutil
 import subprocess
 from pathlib import Path
 from typing import Annotated
@@ -27,9 +26,6 @@ for orig_screencast in find_orig_screencasts():
     chapter_name = orig_dir.parent.parent.name
     topic_name = orig_dir.parent.name
     screencast_pdf = screencast_dir.parent / f"{chapter_name}-{topic_name}.pdf"
-
-    # Just copy these guys over
-    shutil.copy(SRC / "slidev_config" / "style.css", orig_dir / "style.css")
 
     # TODO(@hmgaudecker): Add symbolic links from src/.../screencast/public to generated
     # figures (get example in inspecting/summarizing to work):
