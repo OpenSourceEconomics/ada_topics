@@ -1,6 +1,5 @@
 ---
 theme: academic
-coverDate: ""
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -19,9 +18,9 @@ defaults:
 
 <br/>
 
-# Some Chapter
+# Jupyter Notebooks
 
-### Some Subchapter
+### Opening Notebooks
 
 <br/>
 
@@ -30,7 +29,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+# How-to: Let's see
 
-- First bullet
-- Second bullet
+...
+
+</div>
+</div>
