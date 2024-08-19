@@ -52,10 +52,7 @@ allow-direct-references = true
 
 [tool.pytask.ini_options]
 paths = ["./src/ada_topics"]
-ignore = [
-    "src/ada_topics/python_basics/executing_pytask/screencast/example/",
-    "src/ada_topics/projects/what_does_pytask_do/screencast/example/",
-]
+pdbcls = "pdbp:Pdb"
 
 [tool.ruff]
 target-version = "py312"
