@@ -1,16 +1,11 @@
 # Applied Data Analytics: Topics
 
-Code for building https://applied-data-analytics.vercel.app/ via
-https://github.com/OpenSourceEconomics/applied-data-analytics
+Code for building https://www.wiwi.uni-bonn.de/gaudecker/\_static/applied-data-analytics
 
 ## Installation
 
-- Create the conda environment
+- Install [pixi](https://pixi.sh/latest/#installation)
 
-- Run `npm install`
+- Run `pixi run npm install`
 
-- Run `pip install jupyterquiz jupytercards`
-
-  (Adding jupyterquiz directly in environment.yml leads to problems)
-
-- Build the project by running `pytask`
+- Build the project by running `pixi run pytask`
