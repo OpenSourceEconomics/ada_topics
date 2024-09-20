@@ -41,16 +41,19 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ```python
 [1] a = 3
-    a
-[1] 3
 
-[2] a = 3.1415
-    a
-[2] 3.1415
+[2] a
+[2] 3
 
-[2] a = "Hello world"
-    a
-[2] "Hello world"
+[3] a = 3.1415
+
+[4] a
+[4] 3.1415
+
+[5] a = "Hello world"
+[6] a
+
+[6] "Hello world"
 
 ```
 
@@ -103,47 +106,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - `**` is exponentiation (not `^`)
 - You cannot make operations between any two variables
   - e.g. "two" + 3 will return an error
-  - More on this in the lecture on scalar types
-
-</div>
-</div>
-
-
----
-
-# Comparisons
-
-<div class="flex gap-8">
-<div>
-
-```python
-[1] a = 3
-    b = 3
-    a == b
-[1] True
-
-[2] a < b
-[2] False
-
-[3] a >= b
-[3] True
-
-[4] a != b
-[4] False
-```
-
-</div>
-<div>
-
-<br>
-<br>
-
-- Comparison operators are `==`, `<`, `>`, `<=`, `>=`, `!=`
-- Remember:
-  - `=` is used for assignment
-  - Classic error is trying to use it for comparison
-- You cannot compare any two variables
-  - e.g. "two" < 3 will return an error
   - More on this in the lecture on scalar types
 
 </div>
