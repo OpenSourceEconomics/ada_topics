@@ -5,17 +5,17 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Applied Data Analytics
+  ## Econometrics (BSc)
 drawings:
   persist: false
 transition: fade
-title: Applied Data Analytics
+title: Econometrics (BSc)
 defaults:
   layout: center
 
 ---
 
-### Applied Data Analytics
+### Econometrics (BSc)
 
 <br>
 

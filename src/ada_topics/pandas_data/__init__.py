@@ -1,1 +1,1 @@
-"""Code for producing the website of Applied Data Analytics: Topics."""
+"""Code for producing the website of Econometrics: Coding Tutorials."""

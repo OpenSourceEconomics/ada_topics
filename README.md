@@ -1,7 +1,6 @@
-# Applied Data Analytics: Topics
+# Econometrics: Coding Tutorials
 
-Code for building https://applied-data-analytics.vercel.app/ via
-https://github.com/OpenSourceEconomics/applied-data-analytics
+Code for building https://www.wiwi.uni-bonn.de/gaudecker/\_static/econometrics
 
 ## Installation
 

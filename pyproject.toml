@@ -1,6 +1,6 @@
 [project]
 name = "ada_topics"
-description = "Applied Data Analytics: Topics"
+description = "Econometrics: Coding Tutorials"
 requires-python = ">=3.12"
 dependencies = [
     "pytask"

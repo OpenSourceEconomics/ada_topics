@@ -1,4 +1,4 @@
-# Applied Data Analytics: Topics
+# Econometrics: Coding Tutorials
 
 Universität Bonn, Department of Economics
 
