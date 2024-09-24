@@ -53,3 +53,6 @@ gapminder.arrow
 
 # extra
 *:Zone.Identifier
+# pixi environments
+.pixi
+*.egg-info
