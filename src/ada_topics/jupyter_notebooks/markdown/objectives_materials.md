@@ -18,7 +18,7 @@ After working through this topic, you should be able to:
 
 Here is the
 [screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
-These are the [slides](jupyter_notebooks-markdown_cells.pdf).
+These are the [slides](jupyter_notebooks-markdown.pdf).
 
 ## Additional Materials
 
