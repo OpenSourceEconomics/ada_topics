@@ -3,14 +3,14 @@
 import itertools
 
 from ada_topics.jupyter_notebooks.early_pitfalls import SITE_CONTENTS as EARLY_PITFALLS
-from ada_topics.jupyter_notebooks.markdown_cells import SITE_CONTENTS as MARKDOWN_CELLS
+from ada_topics.jupyter_notebooks.markdown import SITE_CONTENTS as MARKDOWN
 from ada_topics.jupyter_notebooks.working_with_cells import (
     SITE_CONTENTS as WORKING_WITH_CELLS,
 )
 
 TOPICS = [
     WORKING_WITH_CELLS,
-    MARKDOWN_CELLS,
+    MARKDOWN,
     EARLY_PITFALLS,
 ]
 SITE_CONTENTS = {

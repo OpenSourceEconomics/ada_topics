@@ -20,7 +20,7 @@ defaults:
 
 # Python basics
 
-### Scalar types
+### Scalar data types
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
@@ -115,7 +115,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Representing True and False: booleans
+# Representing True and False: Booleans
 
 <div class="flex gap-8">
 <div>
@@ -146,7 +146,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - Booleans can be `True` or `False` (case sensitive)
 - The result of a comparison is a Boolean
 - `True` or `False` are interpreted as 1 and 0
-- All int and floats different from 0 are converted to True (but you should never use this)
+- All int and floats different from 0 are converted to `True`
 
 </div>
 </div>

@@ -29,9 +29,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Motivation
+# Boolean logic
 
--
+- George Boole (1815-1864)
+- Basis of all things programming: Will define
+- Define conditions (true or false) and combine them
 
 ---
 

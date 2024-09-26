@@ -28,3 +28,11 @@ defaults:
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
+
+# Markup
+
+e.g., HTML — rather complex, source unreadable
+
+# Markdown!
+
+Try to make source look close to rendered output
