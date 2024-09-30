@@ -15,6 +15,8 @@ CHAPTER_NAMES = [
     "python_basics",
     # "pandas_data",
     "descriptive_statistics",
+    "plotly_graphs",
+    "pandas_basics",
 ]
 
 

@@ -8,15 +8,23 @@ from ada_topics.descriptive_statistics.central_tendency_cardinal_data import (
 from ada_topics.descriptive_statistics.central_tendency_ordinal_data import (
     SITE_CONTENTS as CENTRAL_TENDENCY_ORDINAL_DATA,
 )
+from ada_topics.descriptive_statistics.histograms import (
+    SITE_CONTENTS as HISTOGRAMS,
+)
+from ada_topics.descriptive_statistics.what_is_data import (
+    SITE_CONTENTS as WHAT_IS_DATA,
+)
 
 TOPICS = [
     CENTRAL_TENDENCY_ORDINAL_DATA,
     CENTRAL_TENDENCY_CARDINAL_DATA,
+    WHAT_IS_DATA,
+    HISTOGRAMS,
 ]
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Python Basics",
+    "chapter_title": "Descriptive Statistics",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],
