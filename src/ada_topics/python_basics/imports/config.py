@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("python_basics-boolean_logic.pdf",),
+    "built": ("python_basics-imports.pdf",),
 }

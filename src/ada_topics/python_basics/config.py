@@ -5,6 +5,9 @@ import itertools
 from ada_topics.python_basics.assigning_variables import (
     SITE_CONTENTS as ASSIGNING_VARIABLES,
 )
+from ada_topics.python_basics.boolean_logic import (
+    SITE_CONTENTS as BOOLEAN_LOGIC,
+)
 from ada_topics.python_basics.functions_basics import (
     SITE_CONTENTS as FUNCTIONS_BASICS,
 )
@@ -20,6 +23,7 @@ from ada_topics.python_basics.strings_intro import (
 
 TOPICS = [
     ASSIGNING_VARIABLES,
+    BOOLEAN_LOGIC,
     SCALAR_TYPES,
     STRINGS_INTRO,
     FUNCTIONS_BASICS,
