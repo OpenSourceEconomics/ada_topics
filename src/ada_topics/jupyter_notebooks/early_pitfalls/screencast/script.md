@@ -2,9 +2,9 @@
 
 - Create different python cells in which the following operations are performed:
 
-  - `a = 2`
+  - `a = 2_000`
   - `print("Mark's income is", a)`
-  - `a = 3` (highlight that the variable is overwritten)
+  - `a = 3_000` (highlight that the variable is overwritten)
 
 - Now execute the print cell again and show that it's different
 

@@ -33,7 +33,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - George Boole (1815-1864)
 - Basis of all things programming: Will define
-- Define conditions (true or false) and combine them
+- Define conditions (True or False) and combine them
 
 ---
 
@@ -65,12 +65,17 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <br>
 
 - Comparison operators are `==`, `<`, `>`, `<=`, `>=`, `!=`
+
 - Remember:
+
   - `=` is used for assignment
+
   - Classic error is trying to use it for comparison
+
 - You cannot compare any two variables
-  - e.g. "two" < 3 will return an error
-  - More on this in the lecture on scalar types
+
+  - e.g. `"two" < 3` will return an error
+
 
 </div>
 </div>

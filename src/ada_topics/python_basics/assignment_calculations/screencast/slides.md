@@ -20,7 +20,7 @@ defaults:
 
 # Python basics
 
-### Assigning variables
+### Assigning values to variables
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
@@ -28,13 +28,14 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Contents
 
-- Assigning variables
+- Assigning values to variables
+
 - Using Python like a calculator
-- Comparing variables
+
 
 ---
 
-### Assigning variables
+### Assigning values to variables
 
 <div class="flex gap-12">
 <div>
@@ -62,12 +63,15 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 <br>
-<br>
-<br>
 
-- Variables are assigned with a single `=` sign
+- Assign values to variables using a single equality sign `=`
+
 - Variables names are case sensitive
-- You can re-assign variables with different values
+
+- You can re-assign variables (i.e., give them different values)
+
+<br>
+<br>
 
 </div>
 </div>
@@ -81,16 +85,21 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 ```python
-[1] a = 3
-    b = 3.1415
-    b / a
+[1] 3.1415 / 3
 [1] 1.0471666666666668
 
-[2] (a + b) * 3
-[2] 18.424500000000002
+[2] a = 3.1415
+    b = 3
+    a / b<br>
+<br>
 
-[3] a**b
-[3] 31.54106995953402
+[2] 1.0471666666666668
+
+[3] (a + b) * 3
+[3] 18.424500000000002
+
+[4] b**a
+[4] 31.54106995953402
 
 ```
 
@@ -98,15 +107,16 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 <br>
-<br>
-<br>
 
 - Arithmetic works as you would expect
+
 - Brackets work as expected
+
 - `**` is exponentiation (not `^`)
-- You cannot make operations between any two variables
-  - e.g. "two" + 3 will return an error
-  - More on this in the lecture on scalar types
+
+<br>
+<br>
+<br>
 
 </div>
 </div>

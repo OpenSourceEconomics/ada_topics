@@ -2,8 +2,8 @@
 
 import itertools
 
-from ada_topics.python_basics.assignment_scalars import (
-    SITE_CONTENTS as ASSIGNMENT_SCALARS,
+from ada_topics.python_basics.assignment_calculations import (
+    SITE_CONTENTS as ASSIGNMENT_CALCULATIONS,
 )
 from ada_topics.python_basics.boolean_logic import (
     SITE_CONTENTS as BOOLEAN_LOGIC,
@@ -14,12 +14,16 @@ from ada_topics.python_basics.functions_basics import (
 from ada_topics.python_basics.functions_principles import (
     SITE_CONTENTS as FUNCTIONS_PRINCIPLES,
 )
+from ada_topics.python_basics.scalar_types import (
+    SITE_CONTENTS as SCALAR_TYPES,
+)
 from ada_topics.python_basics.strings_intro import (
     SITE_CONTENTS as STRINGS_INTRO,
 )
 
 TOPICS = [
-    ASSIGNMENT_SCALARS,
+    ASSIGNMENT_CALCULATIONS,
+    SCALAR_TYPES,
     BOOLEAN_LOGIC,
     STRINGS_INTRO,
     FUNCTIONS_BASICS,
