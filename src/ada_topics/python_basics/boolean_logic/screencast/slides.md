@@ -29,15 +29,22 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Boolean logic
+### Boolean logic
 
 - George Boole (1815-1864)
-- Basis of all things programming: Will define
+
+- Basis of all things programming
+
 - Define conditions (True or False) and combine them
+
+<br>
+<br>
+<br>
+<br>
 
 ---
 
-# Comparisons
+### Comparisons
 
 <div class="flex gap-8">
 <div>
@@ -61,9 +68,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 </div>
 <div>
 
-<br>
-<br>
-
 - Comparison operators are `==`, `<`, `>`, `<=`, `>=`, `!=`
 
 - Remember:
@@ -76,19 +80,28 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
   - e.g. `"two" < 3` will return an error
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 </div>
 </div>
-
 
 ---
 
+### Truth Table
 
-# Truth Table
+|       |       | not a | a and b | a or b |
+| ----- | ----- | ----- | ------- | ------ |
+| **a** | **b** |       |         |        |
+| ✅    | ✅    | ❌    | ✅      | ✅     |
+| ✅    | ❌    | ❌    | ❌      | ✅     |
+| ❌    | ✅    | ✅    | ❌      | ✅     |
+| ❌    | ❌    | ✅    | ❌      | ❌     |
 
-| `a`   | `b`   | not `a` | `a` and `b` | `a` or `b` |
-| ----- | ----- | ------- | ----------- | ---------- |
-| True  | True  | False   | True        | True       |
-| True  | False | False   | False       | True       |
-| False | True  | True    | False       | True       |
-| False | False | True    | False       | False      |
+<br>
+<br>
+<br>
+<br>

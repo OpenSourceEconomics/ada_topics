@@ -28,22 +28,37 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ## Contents
 
-- What are types
+- What are types?
+
 - How to inspect a variable type
+
 - Representing numbers: ints and floats
+
 - Representing True and False: Booleans
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 ---
 
-### What is a variable type
+### What is a variable type?
 
-- Different types of variables are used to store different kinds of data
-- The main scalar types are:
-  + int
-  + float
-  + boolean
-- The type of a variable tells us what kind of information is stored in the variable
-  + e.g. an int variable contains a whole number
+- The type indicates the type of information stored in a variable
+
+  - int: An Integer
+
+  - float: A real number (approximation)
+
+  - Boolean: True or False
+
+- Types are inferred upon assignment
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 ---
 
@@ -61,18 +76,33 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 [2] a = 3
     type(a)
 [2] 'int'
+
+[3] b = float(a)
+    b
+[3] 3.0
+
+[4] type(b)
+[4] 'float'
 ```
 </div>
 <div>
 
-- When you assign variables, the types are inferred, not declared upfront
 - Types can be inspected with `type()`
+
 - The type of a variable can be changed using the functions:
+
   - int()
   - float()
   - bool()
+
 - A variable type cannot be always changed
-  - e.g. "hello" cannot be converted into int
+
+  - e.g. `"hello"` cannot be converted into int
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 </div>
 </div>
@@ -106,19 +136,23 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
   <br>
 
 
-- In addition to the integers, floats represent real numbers
+- Floats represent real numbers
 
 - They are imperfect representations
 
 - When performing operations involving ints and floats, ints are automatically converted
   into floats
+<br/>
+<br/>
+<br/>
+<br/>
 
 </div>
 </div>
 
 ---
 
-# Representing True and False: Booleans
+### Representing True and False: Booleans
 
 <div class="flex gap-8">
 <div>
@@ -147,9 +181,17 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <br>
 
 - Booleans can be `True` or `False` (case sensitive)
+
 - The result of a comparison is a Boolean
+
 - `True` or `False` are interpreted as 1 and 0
+
 - All int and floats different from 0 are converted to `True`
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 </div>
 </div>

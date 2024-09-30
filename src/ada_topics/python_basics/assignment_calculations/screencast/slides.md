@@ -52,9 +52,8 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 [4] 3.1415
 
 [5] a = "Hello world"
-[6] a
-
-[6] "Hello world"
+    a
+[5] "Hello world"
 
 ```
 
@@ -90,9 +89,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 [2] a = 3.1415
     b = 3
-    a / b<br>
-<br>
-
+    a / b
 [2] 1.0471666666666668
 
 [3] (a + b) * 3
