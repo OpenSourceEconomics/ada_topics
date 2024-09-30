@@ -1,4 +1,4 @@
-# Measures of Central Tendency
+# Measures of Central Tendency: Ordinal Data
 
 ## Learning Objectives
 
