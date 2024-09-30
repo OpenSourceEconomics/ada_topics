@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("python_basics-assigning_variables.pdf",),
+    "built": ("python_basics-assignment_scalars.pdf",),
 }
