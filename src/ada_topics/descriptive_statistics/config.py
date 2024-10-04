@@ -11,14 +11,14 @@ from ada_topics.descriptive_statistics.central_tendency_ordinal_data import (
 from ada_topics.descriptive_statistics.histograms import (
     SITE_CONTENTS as HISTOGRAMS,
 )
-from ada_topics.descriptive_statistics.what_is_data import (
-    SITE_CONTENTS as WHAT_IS_DATA,
+from ada_topics.descriptive_statistics.what_are_data import (
+    SITE_CONTENTS as WHAT_ARE_DATA,
 )
 
 TOPICS = [
     CENTRAL_TENDENCY_ORDINAL_DATA,
     CENTRAL_TENDENCY_CARDINAL_DATA,
-    WHAT_IS_DATA,
+    WHAT_ARE_DATA,
     HISTOGRAMS,
 ]
 

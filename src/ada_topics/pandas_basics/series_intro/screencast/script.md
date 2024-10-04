@@ -1,4 +1,4 @@
-# Script: Subchapter Name
+# Script: Introduction to Series
 
 ## First slide
 
