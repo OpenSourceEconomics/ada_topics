@@ -19,9 +19,9 @@ defaults:
 
 <br/>
 
-# Some Chapter
+# Creating Visualisations with plotly
 
-### Some Subchapter
+### Modifying plotly graphs
 
 <br/>
 

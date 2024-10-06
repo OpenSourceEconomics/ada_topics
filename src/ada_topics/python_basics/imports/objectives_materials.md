@@ -2,6 +2,8 @@
 
 ## Learning objectives
 
-- Students learn about libraries and why they are useful.
+- Students explain why we need libraries in Python
 
-- Students learn to import whole libraries and specific functions from libraries.
+- Students import relevant libraries using common aliases
+
+- Students recognise other ways of importing objects

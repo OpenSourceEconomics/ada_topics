@@ -33,9 +33,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Contents
 
 - What are libraries?
+
 - Different ways to import libraries or parts of libraries
-- Namespaces
-- Modules
+
 - Typical errors when importing
 
 
@@ -85,7 +85,7 @@ from pandas import *
 </div>
 <div class="col-span-1">
 
-1. All that needed in this course
+1. All that is needed in this course
 
    - `pandas` (pd)
    - `plotly.express` (px)

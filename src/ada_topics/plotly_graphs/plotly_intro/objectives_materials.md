@@ -5,8 +5,14 @@
 After working through this topic, you should be able to:
 
 - explain the difference between a frontend and a backend
+
 - set Plotly as Pandas' plotting backend
-- visualise features of Pandas Series with Plotly
+
+- visualise features of Pandas Series with Plotly:
+
+  - line plots
+  - bar charts
+  - histograms (including setting the number of bins)
 
 ## Materials
 

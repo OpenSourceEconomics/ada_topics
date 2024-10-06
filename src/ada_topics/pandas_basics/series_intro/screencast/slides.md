@@ -132,10 +132,99 @@ Example
 
 - Set a meaningful `index` with values in square brackets, separated by
   commas.
-
+0
   The number of elements must be the same as in the data.
 
 - To continue working with the Series, assign it to a variable
 
+</div>
+</div>
+
+
+---
+
+# Accessing elements
+
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-1">
+
+```python
+[5] capacity.loc["Laura Mærsk"]
+[5] 2100
+
+[6] capacity.iloc[1]
+[6] 6956
+
+[7] capacity.loc[1]
+[7] [very long message clipped]
+
+    KeyError: 1
+
+[8] capacity.iloc[2]
+[8] [very long message clipped]
+
+    IndexError: single positional indexer
+                is out-of-bounds
+```
+
+</div>
+<div class="col-span-1">
+
+
+- Use loc + index value (label) in square brackets
+
+<br/>
+
+- Use iloc + index position (integer) in square brackets
+
+  Indexing starts at 0 in Python!!!
+
+<br/>
+
+- Indices must exist, else you get errors
+
+  Error messages are scary at first. Reading the last line is often enough.
+
+<br/>
+<br/>
+</div>
+</div>
+
+
+---
+
+# Attributes and methods
+
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-1">
+
+```python
+[9] capacity.dtype
+[9] dtype('int64')
+
+[10] capacity.value_counts
+[10] <bound method IndexOpsMixin.value_counts of Laura Mærsk              2100
+     CMA CGM San Francisco    6956
+     Name: capacity, dtype: int64>
+
+[11] capacity.value_counts()
+[11] 2100    1
+     6956    1
+     Name: capacity, dtype: int64
+```
+
+</div>
+<div class="col-span-1">
+
+- `[pd.Series].[xyz]` lets you do lots of useful stuff
+
+- Attributes are static characteristics of the Series
+
+- Methods are functions that operate on the Series
+
+- Need to call them with parentheses
+
+<br/>
+<br/>
 </div>
 </div>

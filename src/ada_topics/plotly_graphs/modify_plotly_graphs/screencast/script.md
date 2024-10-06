@@ -1,4 +1,4 @@
-# Script: Subchapter Name
+# Script: Modifying plotly graphs
 
 ## First slide
 
