@@ -26,7 +26,7 @@ defaults:
 
 <br/>
 
-Hans-Martin von Gaudecker
+Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 

@@ -2,7 +2,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 title: 'Applied Data Analytics: Topics'
-author: Hans-Martin von Gaudecker
+author: Hans-Martin von Gaudecker and Aapo Stenhammar
 logo: ose-logo.png
 
 # Short description about the book

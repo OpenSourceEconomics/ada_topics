@@ -2,4 +2,4 @@
 
 Universität Bonn, Department of Economics
 
-Hans-Martin von Gaudecker
+Hans-Martin von Gaudecker and Aapo Stenhammar

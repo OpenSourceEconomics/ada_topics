@@ -34,7 +34,7 @@ li {
   margin-bottom: .35rem !important;
 }
 code {
-  font-size: 1.0rem !important;
+  font-size: 1.35rem !important;
 }
 
 td {
@@ -56,7 +56,7 @@ td {
 }
 
 .slidev-code code {
-  font-size: 0.8rem !important;
+  font-size: 1.0rem !important;
   background: transparent !important;
 }
 
@@ -65,7 +65,7 @@ table {
   font-family: "Helvetica", "Helvetica", sans-serif;
   border-collapse: collapse;
   border: none;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 table caption {
@@ -73,21 +73,24 @@ table caption {
 }
 
 table td {
-  padding: 0em !important;
-  padding-left: 0.2em !important;
+  padding: 0.25em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
 }
 
 table th {
   font-weight: bold !important;
   text-align: left !important;
-  padding: 0em !important;
-  padding-left: 0.2em !important;
+  padding: 0.25em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
 }
 
 table code {
-  font-size: 0.7rem !important;
+  font-size: 1rem !important;
   background: transparent !important;
   padding-left: 0em !important;
+  padding-right: 0em !important;
 }
 
 

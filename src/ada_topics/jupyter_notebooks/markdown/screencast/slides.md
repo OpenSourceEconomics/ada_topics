@@ -1,0 +1,38 @@
+---
+theme: academic
+class: text-center
+highlighter: shiki
+lineNumbers: false
+info: |
+  ## Applied Data Analytics
+drawings:
+  persist: false
+transition: fade
+defaults:
+  layout: center
+# themeConfig:
+#   paginationPagesDisabled: true
+---
+
+### Applied Data Analytics
+
+<br/>
+
+# Jupyter Notebooks
+
+### Markdown Cells
+
+<br/>
+
+
+Hans-Martin von Gaudecker and Aapo Stenhammar
+
+---
+
+# Markup
+
+e.g., HTML — rather complex, source unreadable
+
+# Markdown!
+
+Try to make source look close to rendered output

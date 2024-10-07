@@ -10,7 +10,7 @@ TOPICS = [
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Python Basics",
+    "chapter_title": "Template Chapter",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],

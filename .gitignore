@@ -4,6 +4,7 @@
 *.pyc
 *__pycache__
 .mypy_cache
+.pixi
 
 # pytask
 .pytask*
@@ -47,3 +48,9 @@ site_*
 *.mp4
 
 gapminder.arrow
+
+# extra
+*:Zone.Identifier
+# pixi environments
+.pixi
+*.egg-info
