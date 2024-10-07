@@ -12,5 +12,5 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is the
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
+[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=151074a5-ea77-493f-9d2d-6f5651b37af4).
 These are the [slides](python_basics-scalar_types.pdf).

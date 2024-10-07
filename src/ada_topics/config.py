@@ -13,10 +13,9 @@ OrigSourceOrSiteSource = Literal["orig_source", "site_source"]
 CHAPTER_NAMES = [
     "jupyter_notebooks",
     "python_basics",
-    # "pandas_data",
-    "descriptive_statistics",
-    "plotly_graphs",
-    "pandas_basics",
+    # "descriptive_statistics",
+    # "pandas_basics",
+    # "plotly_graphs",
 ]
 
 
@@ -24,8 +23,7 @@ SRC = Path(__file__).parent.resolve()
 SLIDES_PDF_DIR = SRC.parent.parent / ".slides_pdf"
 SITE_SOURCE_DIR = SRC.parent.parent / "site_source"
 DATA_DIR = SRC.parent.parent / "piaac"
-SITE_DIR = SRC.parent.parent.parent / "applied-data-analytics-website"
-# SITE_DIR = Path("/home/hmg/admin/website/") / "_static" / "applied-data-analytics"
+SITE_DIR = Path("/home/hmg/admin/website/") / "_static" / "applied-data-analytics"
 
 
 def load_sources(chapter_name):

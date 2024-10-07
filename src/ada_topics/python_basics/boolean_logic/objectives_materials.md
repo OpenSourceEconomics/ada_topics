@@ -11,7 +11,7 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
+[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=668e4bdc-0a07-4a31-b297-ce70b08aa806).
 These are the [slides](python_basics-boolean_logic.pdf).
 
 If you're interested in where the name "Boolean logic" comes from, the
