@@ -13,9 +13,9 @@ OrigSourceOrSiteSource = Literal["orig_source", "site_source"]
 CHAPTER_NAMES = [
     "jupyter_notebooks",
     "python_basics",
-    # "descriptive_statistics",
-    # "pandas_basics",
-    # "plotly_graphs",
+    "descriptive_statistics",
+    "pandas_basics",
+    "plotly_graphs",
 ]
 
 

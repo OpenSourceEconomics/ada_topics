@@ -30,7 +30,8 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+# Making graphs nicer
 
-- First bullet
-- Second bullet
+- Title
+- Non-default labels
+- Adding lines
