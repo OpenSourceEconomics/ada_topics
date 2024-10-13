@@ -5,5 +5,5 @@ SITE_CONTENTS = {
     "other": (
         # "existing figures etc.",
     ),
-    "built": ("plotly_graphs-modify_plotly_graphs.pdf",),
+    "built": ("plotly_graphs-modifying-plotly-graphs.pdf",),
 }
