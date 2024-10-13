@@ -1,6 +1,6 @@
 # Introduction to Plotly Graphs
 
-## Learning Objectives
+## Learning objectives
 
 After working through this topic, you should be able to:
 
@@ -17,7 +17,7 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is the
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
+[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=5cf79a62-13bd-4b26-83cc-af51000a1fb3).
 These are the [slides](plotly_graphs-plotly_intro.pdf).
 
 ## Additional Materials

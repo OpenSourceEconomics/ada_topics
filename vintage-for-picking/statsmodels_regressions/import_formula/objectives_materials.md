@@ -1,6 +1,6 @@
 # Importing and Using the Formula Interface
 
-## Learning Objectives
+## Learning objectives
 
 After working through this topic, you should be able to:
 

@@ -11,12 +11,12 @@ from ada_topics.plotly_graphs.plotly_intro import (
 
 TOPICS = [
     PLOTLY_INTRO,
-    MODIFY_PLOTLY_GRAPHS,
+    # MODIFY_PLOTLY_GRAPHS,
 ]
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Plotly Graphs",
+    "chapter_title": "Visualisations with plotly",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],

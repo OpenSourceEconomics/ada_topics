@@ -1,6 +1,6 @@
 # Measures of Central Tendency: Ordinal Data
 
-## Learning Objectives
+## Learning objectives
 
 After working through this topic, you should be able to:
 

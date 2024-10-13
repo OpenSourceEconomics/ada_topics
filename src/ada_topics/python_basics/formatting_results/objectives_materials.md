@@ -1,6 +1,6 @@
 # Formatting Results
 
-## Learning Objectives
+## Learning objectives
 
 After working through this topic, you should be able to:
 

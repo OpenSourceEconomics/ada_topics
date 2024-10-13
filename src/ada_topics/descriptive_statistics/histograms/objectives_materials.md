@@ -1,6 +1,6 @@
 # Histograms
 
-## Learning Objectives
+## Learning objectives
 
 After working through this topic, you should be able to:
 
@@ -19,5 +19,5 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
+[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=1b8bb337-a290-4858-872c-048f26f5cdfd).
 These are the [slides](descriptive_statistics-histograms.pdf).
