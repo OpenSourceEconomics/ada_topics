@@ -40,20 +40,29 @@ Examples of ordinal data are:
 
 ---
 
-### Example Data
+# Ordinal, non-numeric data
+
+Example:
+
+- Variable: Annual Income in Euros, binned
+
+- Possible values: $[0, 30,000), [30,000, 60,000), [60,000, \infty)$
+
+- Observed values: $[30,000, 60,000)$, $[0, 30,000)$, $[30,000, 60,000)$, $[0, 30,000)$,
+
+---
+
+# Distribution of observed income categories
 
 
-| Country | GDP per capita (binned) |
-| ----------- | ----- |
-| Argentina           | high GDP per capita     |
-| Bolivia           | low GDP per capita     |
-| Brazil           | middle GDP per capita   |
-| Chile           | high GDP per capita   |
-| Colombia           | low GDP per capita   |
-| Ecuador           | low GDP per capita     |
-| Guatemala           | high GDP per capita   |
-| Paraguay           | low GDP per capita   |
-| Peru           | middle GDP per capita   |
+<center>
+<img src="/income_in_bins_bare.png" width=500>
+</center>
+
+<br/>
+<br/>
+<br/>
+
 
 
 

@@ -4,9 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- Make an example of ordinal data
-- Compute measures of central tendency for a series of ordinal data (median, mode).
-- Recognise the potential limitations of each measure given the context of the data.
+- Come up with examples of ordinal data
+- Explain why we can calculate the median and mode for ordinal data
+- Explain why it is pointless to calculate the average for ordinal data
 
 ## Materials
 
