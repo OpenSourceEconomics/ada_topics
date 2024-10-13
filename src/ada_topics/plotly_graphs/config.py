@@ -11,7 +11,7 @@ from ada_topics.plotly_graphs.plotly_intro import (
 
 TOPICS = [
     PLOTLY_INTRO,
-    MODIFY_PLOTLY_GRAPHS,
+    # MODIFY_PLOTLY_GRAPHS,
 ]
 
 

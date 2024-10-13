@@ -9,7 +9,7 @@ from ada_topics.pandas_basics.types_of_data_dtypes import (
 
 TOPICS = [
     SERIES_INTRO,
-    TYPES_OF_DATA_DTYPES,
+    # TYPES_OF_DATA_DTYPES,
 ]
 
 
