@@ -21,5 +21,5 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is the
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
+[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=cf5d31d4-daad-4120-bc6b-4c9582269034).
 These are the [slides](pandas_basics-series_intro.pdf).
