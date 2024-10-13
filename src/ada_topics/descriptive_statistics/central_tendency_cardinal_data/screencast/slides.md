@@ -35,7 +35,7 @@ Example:
 
 - Possible values: 0, 1, 2, ...
 
-- Observed values: 18, 22, 19, 29
+- Observed values: 18, 22, 19, 31
 
 <br/>
 <br/>
@@ -45,7 +45,7 @@ Example:
 # Distribution
 
 <center>
-<img src="/income_in_bins_bare.png" width=500>
+<img src="/age_bare.png" width=500>
 </center>
 
 <br/>
@@ -56,37 +56,6 @@ Example:
 
 
 ---
-
-### Mode: Definition
-
-The mode is the value that appears most frequently in the data.
-
-### Mode: In practice
-
-- Get a frequency distribution, take the maximum.
-- Defined for any type of data (nominal, ordinal, cardinal).
-
-### Mode: Corner cases
-
-- If more values appear with the same highest frequency, the data is _multimodal_.
-- If no value appears more than once, the data has _no mode_.
-
-
-
----
-
-# Distribution with mode
-
-<center>
-<img src="/income_in_bins_mode.png" width=500>
-</center>
-
-<br/>
-<br/>
-<br/>
-
----
-
 
 ### Median: Definition
 
@@ -106,11 +75,33 @@ A value such that:
 
 ---
 
-# Distribution with mode
+# Distribution with median
 
 <center>
-<img src="/income_in_bins_median.png" width=500>
+<img src="/age_median.png" width=500>
 </center>
+
+<br/>
+<br/>
+<br/>
+
+
+
+---
+
+### Mean: Definition
+
+The mean is _the sum of all the values in the sample divided by the total number of values_
+
+$$
+\bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i
+$$
+
+### Mean: in practice
+
+- Sum up all values and divide by the number of observations
+
+- Is influenced by all observations, median only by the middle one(s)
 
 <br/>
 <br/>
@@ -118,21 +109,47 @@ A value such that:
 
 ---
 
-# Mode and median in pandas
+# Distribution with mean
+
+<center>
+<img src="/age_mean.png" width=500>
+</center>
+
+<br/>
+<br/>
+<br/>
+
+
+---
+
+# Distribution with median and mean
+
+<center>
+<img src="/age_median_mean.png" width=500>
+</center>
+
+
+<br/>
+<br/>
+<br/>
+
+
+
+
+---
+
+# Median and mean in pandas
 
 <div class="grid grid-cols-7 gap-4">
 <div class="col-span-3">
 
 ```python
-[1] income.mode()
-[1] 0    [0, 30,000)
-    dtype: category
+[1] age.median()
+[1] np.float64(20.5)
 
+[2] age.mean()
+[2] np.float64(22.5)
 
-[2] income.median()
-[2] TypeError: 'Categorical' with
-    dtype category does not support
-    reduction 'median'
 ```
 
 </div>
@@ -140,13 +157,46 @@ A value such that:
 
 - Just call methods with the respective name
 
-- Median only works for numerical data
-
-- Reason is that it is not clear what should be returned if the
-  median is not a category in the data.
+- Median gives the average of the two middle values for even $N$
 
 <br/>
 <br/>
 <br/>
 </div>
 </div>
+
+---
+
+### Median vs Median: sensitivity to outliers.
+
+- The median is less sensitive to outliers than the mean.
+
+- Reason is that it is influenced by all observations, while the median only by the
+  middle one(s).
+
+- Example: Observed values: 18, 22, 19, <span style="color:red;">22</span>
+
+---
+
+# Distribution
+
+<center>
+<img src="/age_other_bare.png" width=500>
+</center>
+
+<br/>
+<br/>
+<br/>
+
+
+---
+
+# Distribution with median and mean
+
+<center>
+<img src="/age_other_median_mean.png" width=500>
+</center>
+
+<br/>
+<br/>
+<br/>
