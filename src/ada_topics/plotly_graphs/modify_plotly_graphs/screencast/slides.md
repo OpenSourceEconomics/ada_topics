@@ -19,7 +19,7 @@ defaults:
 
 <br/>
 
-# Creating Visualisations with plotly
+# Visualisations with plotly
 
 ### Modifying plotly graphs
 

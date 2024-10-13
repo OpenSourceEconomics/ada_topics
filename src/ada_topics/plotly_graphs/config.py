@@ -16,7 +16,7 @@ TOPICS = [
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Plotly Graphs",
+    "chapter_title": "Visualisations with plotly",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],
