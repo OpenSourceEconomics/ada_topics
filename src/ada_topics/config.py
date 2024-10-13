@@ -11,9 +11,9 @@ OrigSourceOrSiteSource = Literal["orig_source", "site_source"]
 
 # Add the chapter names here in the order they should appear in the book
 CHAPTER_NAMES = [
+    "descriptive_statistics",
     "jupyter_notebooks",
     "python_basics",
-    "descriptive_statistics",
     "pandas_basics",
     "plotly_graphs",
 ]

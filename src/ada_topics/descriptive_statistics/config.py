@@ -11,15 +11,16 @@ from ada_topics.descriptive_statistics.central_tendency_ordinal_data import (
 from ada_topics.descriptive_statistics.histograms import (
     SITE_CONTENTS as HISTOGRAMS,
 )
+from ada_topics.descriptive_statistics.types_of_data_dtypes import (
+    SITE_CONTENTS as TYPES_OF_DATA_DTYPES,
+)
 from ada_topics.descriptive_statistics.what_are_data import (
     SITE_CONTENTS as WHAT_ARE_DATA,
 )
 
-# from ada_topics.descriptive_statistics.types_of_data_dtypes import SITE_CONTENTS as TYPES_OF_DATA_DTYPES
-
 TOPICS = [
     WHAT_ARE_DATA,
-    # TYPES_OF_DATA_DTYPES,
+    TYPES_OF_DATA_DTYPES,
     HISTOGRAMS,
     CENTRAL_TENDENCY_ORDINAL_DATA,
     CENTRAL_TENDENCY_CARDINAL_DATA,
