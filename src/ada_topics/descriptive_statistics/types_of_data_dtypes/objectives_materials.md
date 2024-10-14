@@ -1,3 +1,5 @@
+(types-of-data-dtypes-des-stats)=
+
 # Types of data and data types
 
 Please note that this page appears in both the chapters "Descriptive Statistics" and
@@ -31,8 +33,10 @@ These are the [slides](descriptive_statistics-types_of_data_dtypes.pdf).
 
 This is the decision tree for the "correct" form of data. Just because a variable
 arrives as a number, it does not mean that you should think about it as numerical data.
-Very often this happens when categories are encoded as numbers (e.g., 0, 1, 2 meaning $[0,
-30,000)$, $[30,000, 60,000)$, $[60,000, \infty)$, which would be described in some metadata).
+Very often this happens when categories are encoded as numbers (e.g., 0, 1, 2 meaning
+$[0,
+30,000)$, $[30,000, 60,000)$, $[60,000, \infty)$, which would be described in some
+metadata).
 
 ```{mermaid}
 flowchart LR

@@ -107,7 +107,7 @@ monthly_income.plot.hist()
 ```
 
 <center>
-<img src="/hist.png" width=400>
+<img src="/hist.png" width=500>
 </center>
 
 <br/>
@@ -121,7 +121,7 @@ monthly_income.plot.hist(nbins=100)
 ```
 
 <center>
-<img src="/hist_nbins100.png" width=400>
+<img src="/hist_nbins100.png" width=500>
 </center>
 
 <br/>
@@ -129,16 +129,22 @@ monthly_income.plot.hist(nbins=100)
 <br/>
 
 ---
+
+# Adding a title
 
 ```python
 monthly_income.plot.hist(
     nbins=100,
-    title="Distribution of monthly income (1,000s of Euros)"
+    title="Distribution of monthly income (1,000s of Euros)",
 )
 ```
 
+---
+
+# Adding a title
+
 <center>
-<img src="/hist_nbins100_title.png" width=400>
+<img src="/hist_nbins100_title.png" width=500>
 </center>
 
 <br/>
@@ -148,17 +154,34 @@ monthly_income.plot.hist(
 
 ---
 
+# Removing the legend
+
 ```python
 fig = monthly_income.plot.hist(
     nbins=100,
-    title="Distribution of monthly income (1,000s of Euros)"
+    title="Distribution of monthly income (1,000s of Euros)",
 )
 fig.update_layout(showlegend=False)
 fig
 ```
 
+<br/>
+
+1. Assign the figure to a new variable
+
+2. Call the `.update_layout()` method
+
+<br/>
+<br/>
+<br/>
+
+
+---
+
+# Removing the legend
+
 <center>
-<img src="/hist_nbins100_title_nolegend.png" width=400>
+<img src="/hist_nbins100_title_nolegend.png" width=500>
 </center>
 
 <br/>
@@ -169,23 +192,38 @@ fig
 
 ---
 
+# Making the axes nice
+
 ```python
 fig = monthly_income.plot.hist(
     nbins=100,
-    title="Distribution of monthly income (1,000s of Euros)"
+    title="Distribution of monthly income",
 )
 fig.update_layout(
     showlegend=False,
-    yaxis_tickvals=[0, 1, 2],
+    xaxis_title="Monthly income in 1,000s of Euros",
     yaxis_title="Number of observations",
-    xaxis_title="Monthly income in 1,000s of Euros"
+    yaxis_tickvals=[0, 1, 2],
 )
-
 fig
 ```
 
+<br/>
+
+1. Sensible titles for x- and y-axes
+
+2. Sensible ticks for y-axis
+
+<br/>
+<br/>
+<br/>
+
+---
+
+# Making the axes nice
+
 <center>
-<img src="/hist_final.png" width=400>
+<img src="/hist_final.png" width=500>
 </center>
 
 <br/>
@@ -196,23 +234,37 @@ fig
 
 ---
 
+# Adding the mean
+
 ```python
 fig = monthly_income.plot.hist(
     nbins=100,
-    title="Distribution of monthly income (1,000s of Euros)"
+    title="Distribution of monthly income",
 )
 fig.update_layout(
     showlegend=False,
-    yaxis_tickvals=[0, 1, 2],
-    yaxis_title="Number of observations",
     xaxis_title="Monthly income in 1,000s of Euros"
+    yaxis_title="Number of observations",
+    yaxis_tickvals=[0, 1, 2],
 )
 fig.add_vline(x=monthly_income.mean(), line_width=3, line_color="red")
 fig
 ```
 
+<br/>
+
+Call the `.add_vline()` method on the graph object
+
+<br/>
+<br/>
+<br/>
+
+---
+
+# Adding the mean
+
 <center>
-<img src="/hist_final_with_mean.png" width=400>
+<img src="/hist_final_with_mean.png" width=500>
 </center>
 
 <br/>

@@ -18,4 +18,4 @@ After working through this topic, you should be able to:
 ## Materials
 
 Here is the [screencast](https://electure.uni-bonn.de/xxx). These are the
-[slides](plotly_graphs-modifying-plotly-graphs.pdf).
+[slides](plotly_graphs-modifying_plotly_graphs.pdf).

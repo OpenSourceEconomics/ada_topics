@@ -1,12 +1,16 @@
 # Measures of Central Tendency: Cardinal Data
 
+This topic builds very heavily upon [](#types-of-data-dtypes-des-stats). Make sure you
+have fully grasped the contents of that one.
+
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- Provide an example of cardinal data
-- Compute measures of central tendency for a given data set (mean, median, mode).
-- Be aware of the potential limitations of each measure given the context of the data.
+- Come up with examples of cardinal data
+- Explain why we can calculate mean, median, and mode for cardinal data
+- Calculate the mean, median, and mode for pandas series
+- Explain why the mean is more sensitive to outliers than the median
 
 ## Materials
 
