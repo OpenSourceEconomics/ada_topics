@@ -8,6 +8,9 @@ from ada_topics.python_basics.assignment_calculations import (
 from ada_topics.python_basics.boolean_logic import (
     SITE_CONTENTS as BOOLEAN_LOGIC,
 )
+from ada_topics.python_basics.imports import (
+    SITE_CONTENTS as IMPORTS,
+)
 from ada_topics.python_basics.print import SITE_CONTENTS as PRINT
 from ada_topics.python_basics.scalar_types import (
     SITE_CONTENTS as SCALAR_TYPES,
@@ -17,6 +20,7 @@ TOPICS = [
     ASSIGNMENT_CALCULATIONS,
     SCALAR_TYPES,
     BOOLEAN_LOGIC,
+    IMPORTS,
     PRINT,
     # STRINGS_INTRO,
     # FUNCTIONS_BASICS,
