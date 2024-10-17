@@ -32,6 +32,24 @@
     --bs-table-bg: hsl(115, 46%, 92%) !important;
 }
 
+/* Default background for light mode
+#iframe {
+    background-color: #152b41 !important;
+} */
+
+.iframe-container {
+    display: flex;               /* Use Flexbox for alignment */
+    justify-content: center;     /* Center horizontally */
+    align-items: flex-start;     /* Align items at the top */
+    width: 560px;                  /* Set desired width */
+    height: 415px;               /* Optional: Set height of the container */
+    background-color: #152b41
+}
+
+.video-iframe {
+    height: 315px;              /* Set desired height */
+    border: none;               /* Optional: Remove border */
+}
 
 /* Set colors for dark theme */
 

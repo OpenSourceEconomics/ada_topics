@@ -21,7 +21,7 @@ Video with English subtitles:
 <iframe
   src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=3f42fae9-0163-4073-8348-1f73f4a83603"
   width="560"
-  height="315"
+  height="311"
   frameborder="0"
   allowfullscreen
 ></iframe>
@@ -35,7 +35,7 @@ Video with German subtitles:
 <iframe
   src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=34dd31ab-316a-45a7-a84c-a8361df2682f"
   width="560"
-  height="315"
+  height="311"
   frameborder="0"
   allowfullscreen
 ></iframe>
