@@ -10,6 +10,26 @@
 
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=a331198a-7e97-41e7-af17-cfd1858db58d).
-These are the [slides](python_basics-imports.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=a331198a-7e97-41e7-af17-cfd1858db58d"
+  width="560"
+  height="315"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](python_basics-imports.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=e9a08f64-e9ab-4dc0-9935-2fc7891fc6c7"
+  width="560"
+  height="315"
+  frameborder="0"
+  allowfullscreen
+></iframe>
