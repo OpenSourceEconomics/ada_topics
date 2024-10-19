@@ -21,21 +21,40 @@ After working through this topic, you should be able to:
   - integer
   - ordered categorical
 
-
-
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
-These are the [slides](pandas_basics-types_of_data_dtypes.pdf).
+Video with English subtitles:
 
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](pandas_basics-types_of_data_dtypes.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
 ## Decision tree
 
 This is the decision tree for the "correct" form of data. Just because a variable
 arrives as a number, it does not mean that you should think about it as numerical data.
-Very often this happens when categories are encoded as numbers (e.g., 0, 1, 2 meaning $[0,
-30,000)$, $[30,000, 60,000)$, $[60,000, \infty)$, which would be described in some metadata).
+Very often this happens when categories are encoded as numbers (e.g., 0, 1, 2 meaning
+$[0,
+30,000)$, $[30,000, 60,000)$, $[60,000, \infty)$, which would be described in some
+metadata).
 
 ```{mermaid}
 flowchart LR
