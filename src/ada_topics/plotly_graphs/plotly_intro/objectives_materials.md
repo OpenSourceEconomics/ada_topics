@@ -16,9 +16,29 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=5cf79a62-13bd-4b26-83cc-af51000a1fb3).
-These are the [slides](plotly_graphs-plotly_intro.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=5cf79a62-13bd-4b26-83cc-af51000a1fb3"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](plotly_graphs-plotly_intro.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
 ## Additional Materials
 

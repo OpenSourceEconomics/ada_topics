@@ -10,9 +10,29 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is
-[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=668e4bdc-0a07-4a31-b297-ce70b08aa806).
-These are the [slides](python_basics-boolean_logic.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=668e4bdc-0a07-4a31-b297-ce70b08aa806"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](python_basics-boolean_logic.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=d439f9ba-3dbf-4a84-aa4c-8950053fd6a5"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
 If you're interested in where the name "Boolean logic" comes from, the
 [Wikipedia entry on George Boole](https://en.wikipedia.org/wiki/George_Boole) is a good

@@ -11,6 +11,26 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=151074a5-ea77-493f-9d2d-6f5651b37af4).
-These are the [slides](python_basics-scalar_types.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=151074a5-ea77-493f-9d2d-6f5651b37af4"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](python_basics-scalar_types.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=24c82dca-698f-4d53-aad6-e77f921eb8e0"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
