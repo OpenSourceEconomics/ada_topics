@@ -33,14 +33,14 @@ Example:
 
 - Variable: Annual Income in Euros, binned
 
-- Possible values: $[0, 30,000), [30,000, 60,000), [60,000, \infty)$
+- Possible values: $[0, 30000), [30000, 60000), [60000, \infty)$
 
 - Observed values:
 
-  - $[30,000, 60,000)$
-  - $[0, 30,000)$
-  - $[30,000, 60,000)$
-  - $[0, 30,000)$,
+  - $[0, 30000)$
+  - $[60000, \infty)$
+  - $[30000, 60000)$
+  - $[0, 30000)$
 
 <br/>
 <br/>
@@ -130,7 +130,7 @@ A value such that:
 
 ```python
 [1] income.mode()
-[1] 0    [0, 30,000)
+[1] 0    [0, 30000)
     dtype: category
 
 

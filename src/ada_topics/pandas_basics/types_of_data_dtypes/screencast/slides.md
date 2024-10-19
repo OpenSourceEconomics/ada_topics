@@ -217,9 +217,9 @@ Example:
 
 - Variable: Annual Income in Euros, binned
 
-- Possible values: $[0, 30,000), [30,000, 60,000), [60,000, \infty)$
+- Possible values: $[0, 30000), [30000, 60000), [60000, \infty)$
 
-- Observed values: $[30,000, 60,000)$, $[30,000, 60,000)$, $[0, 30,000)$,
+- Observed values: $[30000, 60000)$, $[30000, 60000)$, $[0, 30000)$,
 
 ---
 src: ./decision_tree.md
@@ -256,16 +256,23 @@ Social status / class
 Ordered categorical
 
 ```python
-
-pd.Categorical(
-  [
-    "[0, 30,000)"
-    "[30,000, 60,000)"
-    "[60,000, ∞)"
-  ],
-  ordered=True
+pd.Series(
+    [
+        "[30000, 60000)",
+        "[30000, 60000)",
+        "[0, 30000)",
+    ],
+    dtype=pd.CategoricalDtype(
+        [
+            "[0, 30000)"
+            "[30000, 60000)"
+            "[60000, ∞)"
+        ],
+        ordered=True
+    )
 )
 ```
+
 
 </div>
 </div>
