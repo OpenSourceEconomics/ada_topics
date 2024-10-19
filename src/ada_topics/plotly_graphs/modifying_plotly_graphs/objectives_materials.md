@@ -17,5 +17,26 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is the [screencast](https://electure.uni-bonn.de/xxx). These are the
-[slides](plotly_graphs-modifying_plotly_graphs.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=d744cef8-583a-4ac7-8345-029e44230065"
+  width="560"
+  height="315"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](plotly_graphs-modifying_plotly_graphs.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=2eb0295d-9109-49cb-ba38-a1adf50467fd"
+  width="560"
+  height="315"
+  frameborder="0"
+  allowfullscreen
+></iframe>
