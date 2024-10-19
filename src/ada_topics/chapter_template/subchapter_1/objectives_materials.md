@@ -9,10 +9,26 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/static/mh_default_org/engage-player/xxx).
-These are the [slides](chapter_template-subchapter_1.pdf).
+Video with English subtitles:
 
-## Additional Materials
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
-- XXX
+Download the [slides](chapter_template-subchapter_1.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>

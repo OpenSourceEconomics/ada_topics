@@ -16,9 +16,29 @@ After working through this topic, you should be able to:
 
 ## Materials
 
-Here is the
-[screencast](https://electure.uni-bonn.de/paella7/ui/watch.html?id=3f42fae9-0163-4073-8348-1f73f4a83603).
-These are the [slides](jupyter_notebooks-markdown.pdf).
+Video with English subtitles:
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=3f42fae9-0163-4073-8348-1f73f4a83603"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+Download the [slides](jupyter_notebooks-markdown.pdf).
+
+Video with German subtitles:
+
+*(turn subtitles on in the bottom right corner of the video)*
+
+<iframe
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=34dd31ab-316a-45a7-a84c-a8361df2682f"
+  width="640"
+  height="360"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
 ## Additional Materials
 
