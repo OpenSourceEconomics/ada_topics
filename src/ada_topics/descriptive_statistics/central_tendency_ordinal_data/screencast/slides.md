@@ -19,7 +19,7 @@ marp: true
 
 # Descriptive Statistics
 
-### Measures of Central Tendency: Mean, Mode and Median
+### Measures of Central Tendency: Ordinal data
 
 <br>
 
@@ -27,94 +27,131 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-### Ordinal Data
+# Ordinal, non-numeric data
 
-Ordinal data is a categorical data type where
-- the variables have natural, ordered categories and
-- the distances between the categories are not known/defined
+Example:
 
-Examples of ordinal data are:
-- Likert scale (e.g. strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
-- Education level (e.g. primary education, secondary education, higher education)
-- Any binned cardinal variable (e.g. low wealth (wealth lower than \$40k), middle wealth (wealth between \$40k and \$130k), wealth (wealth above $130k))
+- Variable: Annual Income in Euros, binned
 
----
+- Possible values: $[0, 30000), [30000, 60000), [60000, \infty)$
 
-### Example Data
+- Observed values:
 
+  - $[0, 30000)$
+  - $[60000, \infty)$
+  - $[30000, 60000)$
+  - $[0, 30000)$
 
-| Country | GDP per capita (binned) |
-| ----------- | ----- |
-| Argentina           | high GDP per capita     |
-| Bolivia           | low GDP per capita     |
-| Brazil           | middle GDP per capita   |
-| Chile           | high GDP per capita   |
-| Colombia           | low GDP per capita   |
-| Ecuador           | low GDP per capita     |
-| Guatemala           | high GDP per capita   |
-| Paraguay           | low GDP per capita   |
-| Peru           | middle GDP per capita   |
-
-
+<br/>
+<br/>
 
 ---
 
-### Mode
+# Distribution
 
-- **Definition**: the mode is _the value that appears most frequently in the data_.
+<center>
+<img src="/income_in_bins_bare.png" width=500>
+</center>
+
+<br/>
+<br/>
+<br/>
+
+
+
+
+---
+
+### Mode: Definition
+
+The mode is the value that appears most frequently in the data.
+
+### Mode: In practice
+
+- Get a frequency distribution, take the maximum.
+- Defined for any type of data (nominal, ordinal, cardinal).
+
+### Mode: Corner cases
 
 - If more values appear with the same highest frequency, the data is _multimodal_.
-
 - If no value appears more than once, the data has _no mode_.
 
-- The mode is computed by calculating the frequency of each possible realization and taking the most frequent one(s).
 
-- The mode can be computed for any type of data (unordered, ordinal, and cardinal).
 
 ---
 
-### Example Data
+# Distribution with mode
 
-| GDP per capita (binned) | Frequency |
-| ----------- | ----- |
-| **low GDP per capita**           |  **4**    |
-| middle GDP per capita           |   2   |
-| high GDP per capita           | 3   |
+<center>
+<img src="/income_in_bins_mode.png" width=500>
+</center>
 
-<br>
-
-- In our case, the mode is **low GDP per capita**.
+<br/>
+<br/>
+<br/>
 
 ---
 
-### Median
 
-- **Definition**: the median is the value such that:
+### Median: Definition
+
+A value such that:
   - at least half of the observations are higher or equal than the value
   - at least half of the observations are lower or equal than the value
 
-- **Intuition**: the median is _the value that separates the higher half from the lower half of the data_.
+### Median: in practice
 
-- To compute the median sort the data and find the _middle value_ (what happens if the values are an even number?).
-
+- Sort the data and find the _middle value_
+- Even $N$ and distinct values at $N/2$ and $N/2 + 1$: Any value between the two, typically the average.
 - Can be computed for any type of _ordered_ data (ordinal and cardinal).
+
+<br/>
+<br/>
+<br/>
 
 ---
 
-### Example Data
+# Distribution with mode
 
-| Country | GDP per capita (binned) |
-| ----------- | ----- |
-| Bolivia           | low GDP per capita     |
-| Guatemala           | low GDP per capita     |
-| Paraguay           | low GDP per capita   |
-| Ecuador           | low GDP per capita   |
-| **Colombia**           | **middle GDP per capita**   |
-| Peru          | middle GDP per capita     |
-| Brazil           | high GDP per capita   |
-| Argentina           | high GDP per capita     |
-| Chile           | high GDP per capita   |
+<center>
+<img src="/income_in_bins_median.png" width=500>
+</center>
 
-<br>
+<br/>
+<br/>
+<br/>
 
-- In our case, the median is **middle GDP per capita**.
+---
+
+# Mode and median in pandas
+
+<div class="grid grid-cols-7 gap-4">
+<div class="col-span-3">
+
+```python
+[1] income.mode()
+[1] 0    [0, 30000)
+    dtype: category
+
+
+[2] income.median()
+[2] TypeError: 'Categorical' with
+    dtype category does not support
+    reduction 'median'
+```
+
+</div>
+<div class="col-span-4">
+
+- Just call methods with the respective name
+
+- Median only works for numerical data
+
+- Reason is that it is not clear what should be returned if the
+  median is not a category in the data.
+
+<br/>
+<br/>
+<br/>
+</div>
+</div>

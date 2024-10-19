@@ -2,8 +2,8 @@
 
 import itertools
 
-from ada_topics.plotly_graphs.modify_plotly_graphs import (
-    SITE_CONTENTS as MODIFY_PLOTLY_GRAPHS,
+from ada_topics.plotly_graphs.modifying_plotly_graphs import (
+    SITE_CONTENTS as MODIFYING_PLOTLY_GRAPHS,
 )
 from ada_topics.plotly_graphs.plotly_intro import (
     SITE_CONTENTS as PLOTLY_INTRO,
@@ -11,7 +11,7 @@ from ada_topics.plotly_graphs.plotly_intro import (
 
 TOPICS = [
     PLOTLY_INTRO,
-    # MODIFY_PLOTLY_GRAPHS,
+    MODIFYING_PLOTLY_GRAPHS,
 ]
 
 
