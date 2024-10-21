@@ -1,13 +1,10 @@
-# Measures of Central Tendency: More properties
+# Quantiles
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- explain why you can go back and forth between totals and averages, but not between
-  totals and medians / modes.
-- explain why the median is invariant under monotonic transformations, while the mean is
-  only invariant to positive affine transformations.
+- calculate quantiles using pandas
 
 ## Materials
 
@@ -21,7 +18,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](descriptive_statistics-central_tendency_properties.pdf).
+Download the [slides](pandas_basics-quantiles.pdf).
 
 Video with German subtitles:
 

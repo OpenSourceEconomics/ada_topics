@@ -27,24 +27,116 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
+# Reduction operations
 
+Technically, mean and median are reduction operations
 
-### Mean vs Median: sensitivity to outliers.
+Take a sequence of numbers and reduce it to a single number
 
-- The mean is more sensitive to outliers than the median. Why?
+You will encounter that term a lot in programming-related contexts
 
-- After ranking as the top tourist destination for the next year, Guatemala's GDP per capita is expected to spike to approximately $10,000
-
-- The mean changes to $9,125, while the median remains more stable ($7,790)
-
-- Note: if the shock would have affected a country in the top half of the distribution, the median wouldn't have changed
+In a sense, all of statistics is about reduction operations
 
 ---
 
-### Summary
+# Mean, median, and aggregates
 
-| Statistic | Sensitivity to outliers | Type of data | Aggregation to higher level |
-| --------- | ----------------------- | ------------ | --------------------------- |
-| Mean      | High                    | Cardinal    | Sum of all values / N |
-| Median    | Low                     | Cardinal, ordinal | Middle value |
-| Mode      | Low                     | Cardinal, ordinal, categorical | Most frequent value |
+- Remember median depends on middle value(s) of the data only, mean on all
+
+- Highest-earning person has a disproportionate impact on total income — not reflected
+  in median at all
+
+- Having data on mean income and population size allows me to calculate aggregate income
+
+- Median income and population size don't allow me to do that
+
+- Flipside of sensitivity to outliers
+
+---
+
+# Transformations
+
+- We are often interested in relative effects
+
+- E.g., a 5€ increase in hourly pay makes a large difference if the base is 15€ / hour.
+
+- If the base is 150€ / hour, the same 5€ increase is less important
+
+- Take logarithms for that
+
+---
+
+### Median is invariant to order-preserving transform's
+
+$$
+\begin{aligned}
+\text{med}(1, 10, 100) & = 10\\
+\text{med}(\log(1), \log(10), \log(100)) & = \log(10)
+\end{aligned}
+$$
+
+In general:
+
+$$
+f(\text{med}(\text{data})) = \text{med}(f(\text{data}))
+$$
+
+so long as $f$ does not change the order of the data
+
+<br/>
+<br/>
+
+---
+
+### Mean is invariant to positive affine transformations
+
+$$
+\begin{aligned}
+\text{mean}(1, 10, 100) & = \frac{1 + 10 + 100}{3} = 37\\[3ex]
+\text{mean}(\log(1), \log(10), \log(100)) & = \frac{0 + 1 + 2}{3} = 1
+\end{aligned}
+$$
+
+In general:
+
+$$
+f(\text{mean}(\text{data})) = \text{mean}(f(\text{data}))
+$$
+
+if and only if $f(x) = a + b \cdot x$ with $b > 0$ (positive affine transformation)
+
+<br/>
+<br/>
+
+---
+
+<img src="/income_nbins_100.svg" class="rounded" width="600">
+
+---
+
+<img src="/log_income_nbins_100.svg" class="rounded" width="600">
+
+---
+
+<img src="/income_nbins_100_vlines.svg" class="rounded" width="600">
+
+---
+
+<img src="/log_income_nbins_100_vlines.svg" class="rounded" width="600">
+
+---
+
+# Numerical values
+
+| Measure             | $g(x_1, ..., x_N)$ | $10 ^ {g(\log_{10}{x_1}, ..., \log_{10}{x_N})}$ |
+| ------------------- | ------------------ | ----------------------------------------------- |
+| $g = \text{median}$ | 18300              | 18300                                           |
+| $g = \text{mean}$   | 20600              | 17900                                           |
+
+---
+
+<img src="/symmetric.svg" class="rounded" width="600">
+
+---
+
+<img src="/right-skewed.svg" class="rounded" width="600">

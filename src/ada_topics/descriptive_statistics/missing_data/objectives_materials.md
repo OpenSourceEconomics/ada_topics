@@ -1,13 +1,12 @@
-# Measures of Central Tendency: More properties
+# Missing data
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- explain why you can go back and forth between totals and averages, but not between
-  totals and medians / modes.
-- explain why the median is invariant under monotonic transformations, while the mean is
-  only invariant to positive affine transformations.
+- explain why it is important to have a random sample
+- give an intuitive explanation of selection effects
+- recognise some common cases of non-random samples
 
 ## Materials
 
@@ -21,7 +20,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](descriptive_statistics-central_tendency_properties.pdf).
+Download the [slides](descriptive_statistics-missing_data.pdf).
 
 Video with German subtitles:
 
