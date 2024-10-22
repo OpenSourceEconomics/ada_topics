@@ -17,20 +17,10 @@ marp: true
 
 <br>
 
-# Descriptive Statistics
+# Pandas basics
 
 ### Quantiles
 
 <br>
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
-
----
-
-
-### Reduction operation
-
-
----
-
-# Quantiles

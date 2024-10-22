@@ -29,7 +29,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Reduction operations
 
-Technically, mean and median are reduction operations
+Technically, mean/median/mode are reduction operations
 
 Take a sequence of numbers and reduce it to a single number
 

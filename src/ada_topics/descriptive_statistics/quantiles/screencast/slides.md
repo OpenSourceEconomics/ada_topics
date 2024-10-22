@@ -69,6 +69,36 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Quantiles
+# Quantile $\in [0, 1]$
 
-Generalisation of the previous concepts
+The $q$-th quantile of a distribution is the value $x$ such that:
+
+1. A fraction $q$ of the data is less than or equal to $x$.
+
+2. A fraction $1 - q$ is greater than or equal to $x$.
+
+Examples:
+
+- The median is the 0.5 quantile.
+
+- The 57th percentile is the 0.57 quantile.
+
+<br/>
+<br/>
+
+---
+
+# Terminology often a bit loose
+
+We often refer to things like "the top quartile", meaning all observations above the
+3<sup>rd</sup> quartile / 0.75-quantile.
+
+Another example: "Observations in the 90<sup>th</sup> percentile" would mean
+observations such that
+
+$$q_{0.9} \leq x_i < q_{0.91} $$
+
+Hence, reference to bins instead of points.
+<br/>
+<br/>
+<br/>
