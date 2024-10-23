@@ -4,9 +4,13 @@
 
 After working through this topic, you should be able to:
 
-- explain why it is important to have a random sample
-- give an intuitive explanation of selection effects
-- recognise some common cases of non-random samples
+- explain how missing values may affect analysis
+
+- discuss different strategies to deal with missing data
+
+  - refrain from using data with missing values
+  - ignore all observations with missing valuees
+  - impute values from other information
 
 ## Materials
 

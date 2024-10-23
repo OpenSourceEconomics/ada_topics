@@ -27,7 +27,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# ...
+# Bob refuses to report his income
 
 | Name    | Income |
 | ------- | ------ |
@@ -35,7 +35,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 | Bob     |        |
 | Charlie | 5000   |
 
-What is mean / median income in this dataset?
+Q: What is mean / median income in this dataset?
 
 ---
 
@@ -46,3 +46,16 @@ What is mean / median income in this dataset?
 1. 4000 *(just ignore)*
 
 1. Come up with a number for Bob based on external information *(impute)*
+
+
+---
+
+# Reasons for why data might be missing
+
+- Refusal to answer
+
+- Does not apply: Ask only those who are employed about labour income
+
+- Question routing
+
+- Privacy concerns (e.g., small cells)
