@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.ipynb",),
     "other": (),
-    "built": ("getting_help-tracebacks.pdf",),
+    "built": ("getting_help-asking.pdf",),
 }

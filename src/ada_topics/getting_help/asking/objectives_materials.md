@@ -1,11 +1,12 @@
-# Subchapter Title
+# Asking for Help
 
-## Learning objectives
+## Learning Objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- Describe an error precisely in your own words
+
+- Ask your fellow students and instructors for help
 
 ## Materials
 
@@ -19,7 +20,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_1.pdf).
+Download the [slides](getting_help-asking.pdf).
 
 Video with German subtitles:
 

@@ -20,14 +20,14 @@ defaults:
 
 <br/>
 
-# Basic Python
+# Getting help / Python basics
 
-### Tracebacks
+### Python tracebacks
 
 <br/>
 
 
-Janoś Gabler and Hans-Martin von Gaudecker
+Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
@@ -36,7 +36,6 @@ Janoś Gabler and Hans-Martin von Gaudecker
 - What are Exceptions and Tracebacks?
 - The Anatomy of a Python Traceback
 - Reading tracebacks
-- Asking for help
 
 
 ---
@@ -89,61 +88,3 @@ Janoś Gabler and Hans-Martin von Gaudecker
 - `KeyError`: Typo in a variable name or a dictionary key
 - `TypeError`: Called a function with something that has the wrong type
 - `ImportError`: Typo in an import
-
----
-
-# How not to ask for help
-
-- "I wanted to do the exercise but it does not work"
-- "Python does not work on my computer"
-- "My code does not work, here is a screenshot"
-- Asking via DM on Zulip instead of the course stream
-
----
-
-# What to keep in mind
-
-- We do not remember what task 3 in exercise 5 is
-- We like to see that you tried on your own
-- We like to see that you tried to reduce the amount we have to read
-- We love well formatted, self-contained examples
-
-
----
-
-# A better way (for a hypothetical task)
-
-In the task where we should use Python to calculate the output value of a Cobb-Douglas
-production function (assignment 1, exercise 2) the following line:
-
-```python
-cobb_douglas(labor, capital, alpha)
-```
-
-gives me a type error:
-
-```python
-TypeError: unsupported operand type(s) for ** or pow(): 'tuple' and 'float'
-```
-
-I don't understand the error because I'm just passing in numbers.
-
----
-
-# A better way (continued)
-
-Here is a minimal example to reproduce the error:
-
-```python
-labor = 2.5,
-capital = 4.5
-alpha = 0.33
-
-def cobb_douglas(labor, capital, alpha):
-    return labor**alpha * capital**(1 - alpha)
-
-
-cobb_douglas(labor, capital, alpha)
-```
-
-I attach the entire traceback as `txt` file ...

@@ -2,10 +2,14 @@
 
 import itertools
 
-from ada_topics.getting_help.subchapter_1 import SITE_CONTENTS as SUBCHAPTER_1
+from ada_topics.getting_help.asking import SITE_CONTENTS as ASKING
+from ada_topics.getting_help.tracebacks import SITE_CONTENTS as TRACEBACKS
+from ada_topics.getting_help.within_notebooks import SITE_CONTENTS as WITHIN_NOTEBOOKS
 
 TOPICS = [
-    SUBCHAPTER_1,
+    WITHIN_NOTEBOOKS,
+    ASKING,
+    TRACEBACKS,
 ]
 
 
