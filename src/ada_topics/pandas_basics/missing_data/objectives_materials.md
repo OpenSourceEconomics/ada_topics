@@ -4,8 +4,12 @@
 
 After working through this topic, you should be able to:
 
-- explain why it may be misleading to just ignore missing data
-- discuss different strategies to deal with missing data
+- explain that some command accept parameters for handling missing data in different
+  ways
+
+- identify missing values in a pandas Series
+
+- explicitly exclude missing data from Series
 
 ## Materials
 

@@ -5,7 +5,9 @@
 After working through this topic, you should be able to:
 
 - explain why it is important to have a random sample
+
 - give an intuitive explanation of selection effects as a missing data problem
+
 - recognise some common cases of non-random samples
 
 ## Materials

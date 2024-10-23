@@ -27,35 +27,126 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Bob refuses to report his income
+# No income data for Bob and Derek
+
+<div class="grid grid-cols-3 gap-4">
+<div>
+</div>
+<div>
 
 | Name    | Income |
-| ------- | ------ |
-| Alice   | 3000   |
+| :------ | :----- |
+| Alice   | 3000.0 |
 | Bob     |        |
-| Charlie | 5000   |
+| Charlie | 5000.0 |
+| Derek   |        |
 
-Q: What is mean / median income in this dataset?
+<br/>
+<br/>
+<br/>
 
----
-
-# Three strategies for answers
-
-1. We don't know *(propagate missing values)*
-
-1. 4000 *(just ignore)*
-
-1. Come up with a number for Bob based on external information *(impute)*
-
+</div>
+<div>
+</div>
+</div>
 
 ---
 
-# Reasons for why data might be missing
+# Use pd.NA, take missings into account
 
-- Refusal to answer
+<div class="grid grid-cols-5 gap-4">
+<div class="col-span-3">
 
-- Does not apply: Ask only those who are employed about labour income
+```python
+[1] income = pd.Series(
+        data=[3000.0, pd.NA, 5000.0, pd.NA],
+        index=["Alice", "Bob", "Charlie", "Derek"],
+        name="Income",
+    )income.isna()
+    income
 
-- Question routing
+[1] Alice      3000.0
+    Bob          <NA>
+    Charlie    5000.0
+    Derek        <NA>
+    Name: Income, dtype: object
+```
+<br/>
+<br/>
+<br/>
 
-- Privacy concerns (e.g., small cells)
+</div>
+<div class="col-span-2">
+
+```python
+[2] income.value_counts()
+[2] Income
+    3000.0    1
+    5000.0    1
+    Name: count, dtype: int64
+
+[3] income.value_counts(
+      dropna=False
+    )
+[3] Income
+    <NA>      2
+    3000.0    1
+    5000.0    1
+    Name: count, dtype: int64
+```
+</div>
+</div>
+
+
+---
+
+# Checking for (non-)missing values
+
+<div class="grid grid-cols-2 gap-20">
+<div>
+
+```python
+[4] income.isna()
+
+[4] Alice      False
+    Bob         True
+    Charlie    False
+    Derek       True
+    Name: Income, dtype: bool
+```
+
+<br/>
+<br/>
+<br/>
+</div>
+<div>
+
+```python
+[5] income.notna()
+
+[5] Alice       True
+    Bob        False
+    Charlie     True
+    Derek      False
+    Name: Income, dtype: bool
+```
+
+<br/>
+<br/>
+<br/>
+</div>
+</div>
+
+---
+
+# Explicitly excluding missing data
+
+```python
+[6] income.loc[income.isna()]
+
+[6] Alice       True
+    Bob        False
+    Charlie     True
+    Derek      False
+    Name: Income, dtype: bool
+```
