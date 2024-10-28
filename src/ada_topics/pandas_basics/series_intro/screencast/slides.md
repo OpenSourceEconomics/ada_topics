@@ -19,7 +19,7 @@ defaults:
 
 <br/>
 
-# Pandas
+# Pandas basics
 
 ### Introduction to Series
 
