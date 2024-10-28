@@ -6,7 +6,7 @@ After working through this topic, you should be able to:
 
 - Describe an error precisely in your own words
 
-- Ask your fellow students and instructors for help
+- Ask your fellow students and instructors for help in an effective fashion
 
 ## Materials
 

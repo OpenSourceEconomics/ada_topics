@@ -9,9 +9,10 @@ of data and the specific implementation in Pandas.
 After working through this topic, you should be able to:
 
 - Read Python tracebacks and focus on the important parts
+
   - What type of error occurred?
   - Where did it happen?
-  - What exactly did happen?
+  - What happened exactly?
 
 ## Materials
 

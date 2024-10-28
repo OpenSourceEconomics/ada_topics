@@ -1,11 +1,10 @@
-# Subchapter Title
+# Helping yourself within notebooks
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- Use the `object?` functionality in Jupyter notebooks
 
 ## Materials
 
@@ -18,8 +17,6 @@ Video with English subtitles:
   frameborder="0"
   allowfullscreen
 ></iframe>
-
-Download the [slides](getting_help-within_notebooks.pdf).
 
 Video with German subtitles:
 

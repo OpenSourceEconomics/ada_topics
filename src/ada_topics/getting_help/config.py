@@ -3,13 +3,17 @@
 import itertools
 
 from ada_topics.getting_help.asking import SITE_CONTENTS as ASKING
+from ada_topics.getting_help.on_the_web import SITE_CONTENTS as ON_THE_WEB
+from ada_topics.getting_help.strategies import SITE_CONTENTS as STRATEGIES
 from ada_topics.getting_help.tracebacks import SITE_CONTENTS as TRACEBACKS
 from ada_topics.getting_help.within_notebooks import SITE_CONTENTS as WITHIN_NOTEBOOKS
 
 TOPICS = [
-    WITHIN_NOTEBOOKS,
-    ASKING,
+    STRATEGIES,
     TRACEBACKS,
+    WITHIN_NOTEBOOKS,
+    ON_THE_WEB,
+    ASKING,
 ]
 
 

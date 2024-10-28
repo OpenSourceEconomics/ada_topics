@@ -34,7 +34,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # How not to ask for help
 
 - "I wanted to do the exercise but it does not work"
+
 - "Jupyteach does not do anything"
+
 - "My code does not work, here is a screenshot"
 
 ---
@@ -42,8 +44,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # What to keep in mind
 
 - We do not remember what task 3 in exercise 5 is
+
 - We like to see that you tried on your own
+
 - We like to see that you tried to reduce the amount we have to read
+
 - We love well formatted, self-contained examples
 
 
@@ -51,20 +56,22 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # A better way (for a hypothetical task)
 
-In the task where we should use Python to calculate the output value of a Cobb-Douglas
-production function (assignment 1, exercise 2) the following line:
+In the task where we are asked to create a series from scratch
+(assignment 2, exercise 2.3), the following line
 
 ```python
-cobb_douglas(labor, capital, alpha)
+pd.Series([1, 2, 3], labels=["a", "b", "c"])
 ```
 
 gives me a type error:
 
 ```python
-TypeError: unsupported operand type(s) for ** or pow(): 'tuple' and 'float'
+TypeError: Series.__init__() got an unexpected keyword argument 'labels'
 ```
 
-I don't understand the error because I'm just passing in numbers.
+I don't understand the error because all I am passing in are the values and their
+associated labels. I have looked at the documentation of `pd.Series` and searched the
+web, to no avail. Can you help me?
 
 ---
 
@@ -73,15 +80,9 @@ I don't understand the error because I'm just passing in numbers.
 Here is a minimal example to reproduce the error:
 
 ```python
-labor = 2.5,
-capital = 4.5
-alpha = 0.33
+import pandas as pd
 
-def cobb_douglas(labor, capital, alpha):
-    return labor**alpha * capital**(1 - alpha)
-
-
-cobb_douglas(labor, capital, alpha)
+pd.Series([1, 2, 3], labels=["a", "b", "c"])
 ```
 
-I attach the entire traceback as `txt` file ...
+I attach the entire traceback as a `.txt` file ...
