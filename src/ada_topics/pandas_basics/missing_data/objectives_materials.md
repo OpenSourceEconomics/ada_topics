@@ -9,7 +9,9 @@ After working through this topic, you should be able to:
 
 - identify missing values in a pandas Series
 
-- explicitly exclude missing data from Series
+- explicitly exclude missing data from a pandas Series
+
+- fill one or all missing values in a pandas Series
 
 ## Materials
 

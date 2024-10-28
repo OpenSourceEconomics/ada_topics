@@ -17,7 +17,7 @@ marp: true
 
 <br>
 
-# Pandas
+# Pandas basics
 
 ### Missing data
 
@@ -62,7 +62,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
         data=[3000.0, pd.NA, 5000.0, pd.NA],
         index=["Alice", "Bob", "Charlie", "Derek"],
         name="Income",
-    )income.isna()
+    )
     income
 
 [1] Alice      3000.0
@@ -80,16 +80,14 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ```python
 [2] income.value_counts()
-[2] Income
-    3000.0    1
+[2] 3000.0    1
     5000.0    1
     Name: count, dtype: int64
 
 [3] income.value_counts(
       dropna=False
     )
-[3] Income
-    <NA>      2
+[3] <NA>      2
     3000.0    1
     5000.0    1
     Name: count, dtype: int64
@@ -100,7 +98,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Checking for (non-)missing values
+# Check for (non-)missing values
 
 <div class="grid grid-cols-2 gap-20">
 <div>
@@ -122,6 +120,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 ```python
+
 [5] income.notna()
 
 [5] Alice       True
@@ -139,14 +138,58 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Explicitly excluding missing data
+# Explicitly exclude missing data
 
 ```python
-[6] income.loc[income.isna()]
+[6] income.loc[income.notna()]
 
-[6] Alice       True
-    Bob        False
-    Charlie     True
-    Derek      False
-    Name: Income, dtype: bool
+[6] Alice      3000.0
+    Charlie    5000.0
+    Name: Income, dtype: object
 ```
+<br/>
+<br/>
+<br/>
+
+---
+
+# Fill one value with missing data
+
+```python
+[7] income.loc["Bob"] = 1000.0
+    income
+
+[7] Alice      3000.0
+    Bob        1000.0
+    Charlie    5000.0
+    Derek        <NA>
+    Name: Income, dtype: object
+```
+
+This changes the existing Series.
+
+---
+
+# Fill all values with missing data
+
+```python
+[8] income_imputed = income.fillna(2000.0)
+    income_imputed
+
+[8] Alice      3000.0
+    Bob        1000.0
+    Charlie    5000.0
+    Derek      2000.0
+    Name: Income, dtype: object
+
+[9] income
+
+[9] Alice      3000.0
+    Bob        1000.0
+    Charlie    5000.0
+    Derek        <NA>
+    Name: Income, dtype: object
+
+```
+
+The existing Series is unchanged.

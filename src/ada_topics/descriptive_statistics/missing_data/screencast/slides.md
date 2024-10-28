@@ -30,23 +30,39 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Bob refuses to report his income
 
+<div class="grid grid-cols-3 gap-4">
+<div>
+</div>
+<div>
+
 | Name    | Income |
 | ------- | ------ |
 | Alice   | 3000   |
 | Bob     |        |
 | Charlie | 5000   |
 
+<br/>
+
+</div>
+<div>
+</div>
+</div>
+
+
 Q: What is mean / median income in this dataset?
+
+<br/>
+<br/>
 
 ---
 
 # Three strategies for answers
 
-1. We don't know *(propagate missing values)*
+1. We don't know *<span style="color:#CD7F32;">(propagate missing values)</span>*
 
-1. 4000 *(just ignore)*
+1. 4000 *<span style="color:#CD7F32;">(just ignore)</span>*
 
-1. Come up with a number for Bob based on external information *(impute)*
+1. Come up with a number for Bob based on external information *<span style="color:#CD7F32;">(impute)</span>*
 
 
 ---

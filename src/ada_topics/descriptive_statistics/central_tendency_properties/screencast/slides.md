@@ -29,13 +29,13 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Reduction operations
 
-Technically, mean/median/mode are reduction operations
+- Technically, mean/median/mode are reduction operations
 
-Take a sequence of numbers and reduce it to a single number
+- Take a sequence of numbers and reduce it to a single number
 
-You will encounter that term a lot in programming-related contexts
+- You will encounter that term a lot in programming-related contexts
 
-In a sense, all of statistics is about reduction operations
+- In a sense, all of statistics is about reduction operations
 
 ---
 
@@ -132,6 +132,10 @@ if and only if $f(x) = a + b \cdot x$ with $b > 0$ (positive affine transformati
 | ------------------- | ------------------ | ----------------------------------------------- |
 | $g = \text{median}$ | 18300              | 18300                                           |
 | $g = \text{mean}$   | 20600              | 17900                                           |
+
+<br/>
+<br/>
+
 
 ---
 

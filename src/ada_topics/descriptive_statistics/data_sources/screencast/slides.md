@@ -33,11 +33,11 @@ Example: CPS asks some people about income, etc.
 
 Has to be a **random sample** from the population of interest
 
-Ask people at the unemployment office: would not see much at the upper end.
+- Ask people at the unemployment office: would not see much at the upper end.
 
-Ask people at the country club: would not see much at the lower end.
+- Ask people at the country club: would not see much at the lower end.
 
-More subtle than that in reality
+- More subtle than that in reality
 
 ---
 
@@ -56,6 +56,9 @@ More subtle than that in reality
   - Random digit dialing
 
   - Lots of techniques, very expensive
+
+<br/>
+<br/>
 
 ---
 
