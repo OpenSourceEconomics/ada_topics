@@ -2,10 +2,10 @@
 
 import itertools
 
-from ada_topics.chapter_template.subchapter_1 import SITE_CONTENTS as SUBCHAPTER_1
+from ada_topics.chapter_template.subchapter_slug import SITE_CONTENTS as subchapter_slug
 
 TOPICS = [
-    SUBCHAPTER_1,
+    subchapter_slug,
 ]
 
 

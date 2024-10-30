@@ -11,8 +11,6 @@ transition: fade
 title: Applied Data Analytics
 defaults:
   layout: center
-# themeConfig:
-#   paginationPagesDisabled: true
 ---
 
 ### Applied Data Analytics

@@ -3,28 +3,26 @@
 import itertools
 
 from ada_topics.python_basics.assignment_calculations import (
-    SITE_CONTENTS as ASSIGNMENT_CALCULATIONS,
+    SITE_CONTENTS as assignment_calculations,
 )
 from ada_topics.python_basics.boolean_logic import (
-    SITE_CONTENTS as BOOLEAN_LOGIC,
+    SITE_CONTENTS as boolean_logic,
 )
 from ada_topics.python_basics.imports import (
-    SITE_CONTENTS as IMPORTS,
+    SITE_CONTENTS as imports,
 )
-from ada_topics.python_basics.print import SITE_CONTENTS as PRINT
+from ada_topics.python_basics.print import SITE_CONTENTS as print  # noqa: A001
 from ada_topics.python_basics.scalar_types import (
-    SITE_CONTENTS as SCALAR_TYPES,
+    SITE_CONTENTS as scalar_types,
 )
 
 TOPICS = [
-    ASSIGNMENT_CALCULATIONS,
-    SCALAR_TYPES,
-    BOOLEAN_LOGIC,
-    IMPORTS,
-    PRINT,
-    # STRINGS_INTRO,
-    # FUNCTIONS_BASICS,
-    # FUNCTIONS_PRINCIPLES,
+    assignment_calculations,
+    scalar_types,
+    boolean_logic,
+    imports,
+    print,
+    # strings_intro,
 ]
 
 SITE_CONTENTS = {

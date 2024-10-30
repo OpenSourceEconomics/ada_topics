@@ -2,16 +2,16 @@
 
 import itertools
 
-from ada_topics.jupyter_notebooks.early_pitfalls import SITE_CONTENTS as EARLY_PITFALLS
-from ada_topics.jupyter_notebooks.markdown import SITE_CONTENTS as MARKDOWN
+from ada_topics.jupyter_notebooks.early_pitfalls import SITE_CONTENTS as early_pitfalls
+from ada_topics.jupyter_notebooks.markdown import SITE_CONTENTS as markdown
 from ada_topics.jupyter_notebooks.working_with_cells import (
-    SITE_CONTENTS as WORKING_WITH_CELLS,
+    SITE_CONTENTS as working_with_cells,
 )
 
 TOPICS = [
-    WORKING_WITH_CELLS,
-    MARKDOWN,
-    EARLY_PITFALLS,
+    working_with_cells,
+    markdown,
+    early_pitfalls,
 ]
 SITE_CONTENTS = {
     "chapter_title": "Working with Jupyter Notebooks",

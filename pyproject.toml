@@ -124,6 +124,7 @@ extend-ignore = [
     "FIX002",  # allow TODOs in the code.
     "INP001", # implicit namespace packages; clashes with our pytask examples.
     "ISC001",  # May cause conflict with ruff's formatter.
+    "N811", # constant imported as non constant.
     "N999", # Capitalized module name.
     "PD010",
     "PD015",

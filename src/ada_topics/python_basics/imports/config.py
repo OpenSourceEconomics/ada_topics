@@ -2,8 +2,6 @@
 
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
-    "other": (
-        # "existing figures etc.",
-    ),
+    "other": (),
     "built": ("python_basics-imports.pdf",),
 }

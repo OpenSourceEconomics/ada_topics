@@ -9,8 +9,6 @@ drawings:
 transition: fade
 defaults:
   layout: center
-# themeConfig:
-#   paginationPagesDisabled: true
 ---
 
 ### Applied Data Analytics

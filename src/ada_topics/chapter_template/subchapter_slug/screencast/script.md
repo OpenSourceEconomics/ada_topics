@@ -1,4 +1,4 @@
-# Script: Subchapter Name
+# Script: Subchapter Title
 
 ## First slide
 

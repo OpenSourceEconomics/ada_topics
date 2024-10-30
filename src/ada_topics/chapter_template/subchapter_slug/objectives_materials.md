@@ -19,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_1.pdf).
+Download the [slides](chapter_template-subchapter_slug.pdf).
 
 Video with German subtitles:
 

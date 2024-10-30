@@ -2,8 +2,6 @@
 
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
-    "other": (
-        # "existing figures etc.",
-    ),
-    "built": ("chapter_template-subchapter_1.pdf",),
+    "other": (),
+    "built": ("chapter_template-subchapter_slug.pdf",),
 }

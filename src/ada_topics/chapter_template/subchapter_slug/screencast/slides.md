@@ -10,17 +10,15 @@ drawings:
 transition: fade
 defaults:
   layout: center
-# themeConfig:
-#   paginationPagesDisabled: true
 ---
 
 ### Applied Data Analytics
 
 <br/>
 
-# Some Chapter
+# Chapter Title
 
-### Some Subchapter
+### Subchapter Title
 
 <br/>
 

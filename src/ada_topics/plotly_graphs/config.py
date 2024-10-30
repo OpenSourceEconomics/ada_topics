@@ -3,15 +3,15 @@
 import itertools
 
 from ada_topics.plotly_graphs.modifying_plotly_graphs import (
-    SITE_CONTENTS as MODIFYING_PLOTLY_GRAPHS,
+    SITE_CONTENTS as modifying_plotly_graphs,
 )
 from ada_topics.plotly_graphs.plotly_intro import (
-    SITE_CONTENTS as PLOTLY_INTRO,
+    SITE_CONTENTS as plotly_intro,
 )
 
 TOPICS = [
-    PLOTLY_INTRO,
-    MODIFYING_PLOTLY_GRAPHS,
+    plotly_intro,
+    modifying_plotly_graphs,
 ]
 
 
