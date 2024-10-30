@@ -23,12 +23,25 @@ Download the [slides](descriptive_statistics-stocks_flows_levels_changes.pdf).
 
 Video with German subtitles:
 
-*(turn subtitles on in the bottom right corner of the video)*
+_(turn subtitles on in the bottom right corner of the video)_
 
 <iframe
   src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
   width="640"
   height="360"
   frameborder="0"
+  allowfullscreen
+></iframe>
+
+You may find the following from
+[Climate Interactive](https://www.climateinteractive.org/) more intuitive and useful.
+
+<iframe
+  width="640"
+  height="360"
+  src="https://www.youtube.com/watch?v=nRlYGDBGcRA"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
