@@ -4,14 +4,14 @@
 
 After working through this topic, you should be able to:
 
-- discuss the four main strategies for getting help
+- explain the four main strategies for getting help
 
   1. understanding an error by reading tracebacks
   1. reading the local documentation of an object
   1. searching the web
   1. asking for help
 
-- decide which strategies to employ in a given situation, and in which order
+- decide on the mix and order of strategies to employ in a given situation
 
 ## Materials
 

@@ -4,8 +4,7 @@ coverDate: ""
 class: text-center
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Applied Data Analytics
+info: Applied Data Analytics
 drawings:
   persist: false
 transition: fade

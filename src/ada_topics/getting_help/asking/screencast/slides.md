@@ -4,19 +4,18 @@ coverDate: ""
 class: text-center
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Effective Programming Practices for Economists
+info: Applied Data Analytics
 drawings:
   persist: false
 transition: fade
-title: Effective Programming Practices for Economists
+title: Applied Data Analytics
 defaults:
   layout: center
 # themeConfig:
 #   paginationPagesDisabled: true
 ---
 
-### Effective Programming Practices for Economists
+### Applied Data Analytics
 
 <br/>
 

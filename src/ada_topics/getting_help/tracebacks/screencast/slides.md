@@ -4,19 +4,18 @@ coverDate: ""
 class: text-center
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Effective Programming Practices for Economists
+info: Applied Data Analytics
 drawings:
   persist: false
 transition: fade
-title: Effective Programming Practices for Economists
+title: Applied Data Analytics
 defaults:
   layout: center
 # themeConfig:
 #   paginationPagesDisabled: true
 ---
 
-### Effective Programming Practices for Economists
+### Applied Data Analytics
 
 <br/>
 
@@ -34,7 +33,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Contents
 
 - What are Exceptions and Tracebacks?
+
 - The Anatomy of a Python Traceback
+
 - Reading tracebacks
 
 
@@ -85,7 +86,12 @@ pd.Series(
   2. Where did it occur: In line 1 of our cell.
   3. What happened exactly *(tried to use a non-existent keyword argument)*
 - Tracebacks can get very long! Read from bottom to top.
-- Always look for these three things!
+- Always look for these <br/>
+  three things!
+
+<br/>
+<br/>
+<br/>
 
 </div>
 </div>
