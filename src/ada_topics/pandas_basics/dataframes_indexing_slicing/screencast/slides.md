@@ -16,19 +16,18 @@ defaults:
 
 <br/>
 
-# Visualisations with plotly
+# Pandas basics
 
-### Line graphs vs. bar charts
+### DataFrames: Indexing and slicing
 
 <br/>
+
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some simple recipes
+# Some Content
 
-- ~~pie charts~~
-- Fractions of categorical / discrete variables: Bar charts, potentially stacked
-- Levels: Bar charts (including zeros!), unless interval scale
-- Changes over time: Line charts
+- First bullet
+- Second bullet

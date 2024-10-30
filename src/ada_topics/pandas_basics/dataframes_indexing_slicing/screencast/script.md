@@ -1,4 +1,4 @@
-# Script: Line graphs vs. bar charts
+# Script: DataFrames: Indexing and slicing
 
 ## First slide
 

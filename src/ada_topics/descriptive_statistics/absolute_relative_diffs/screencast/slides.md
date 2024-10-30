@@ -16,19 +16,18 @@ defaults:
 
 <br/>
 
-# Visualisations with plotly
+# Descriptive Statistics
 
-### Line graphs vs. bar charts
+### Absolute and relative differences
 
 <br/>
+
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some simple recipes
+# Some Content
 
-- ~~pie charts~~
-- Fractions of categorical / discrete variables: Bar charts, potentially stacked
-- Levels: Bar charts (including zeros!), unless interval scale
-- Changes over time: Line charts
+- First bullet
+- Second bullet

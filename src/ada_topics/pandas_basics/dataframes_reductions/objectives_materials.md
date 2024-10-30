@@ -1,4 +1,4 @@
-# Line graphs vs. bar charts
+# Reductions with DataFrames
 
 ## Learning objectives
 
@@ -6,8 +6,6 @@ After working through this topic, you should be able to:
 
 - ...
 - ...
-
-**Borrow from EPP-Topics: What to plot?**
 
 ## Materials
 
@@ -21,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](plotly_graphs-lines_vs_bars.pdf).
+Download the [slides](pandas_basics-dataframes_reductions.pdf).
 
 Video with German subtitles:
 

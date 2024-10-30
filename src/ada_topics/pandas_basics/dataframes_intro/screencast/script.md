@@ -1,4 +1,4 @@
-# Script: Line graphs vs. bar charts
+# Script: Introduction to DataFrames
 
 ## First slide
 

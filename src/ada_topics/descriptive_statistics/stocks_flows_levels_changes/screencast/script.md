@@ -1,4 +1,4 @@
-# Script: Line graphs vs. bar charts
+# Script: Stocks vs. flows, levels vs. changes
 
 ## First slide
 

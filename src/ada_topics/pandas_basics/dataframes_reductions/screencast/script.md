@@ -1,4 +1,4 @@
-# Script: Line graphs vs. bar charts
+# Script: Reductions with DataFrames
 
 ## First slide
 

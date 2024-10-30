@@ -1,4 +1,4 @@
-# Script: Line graphs vs. bar charts
+# Script: Absolute and relative differences
 
 ## First slide
 

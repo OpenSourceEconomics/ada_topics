@@ -1,13 +1,12 @@
-# Line graphs vs. bar charts
+# Absolute and relative differences
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
-
-**Borrow from EPP-Topics: What to plot?**
+- explain the difference between interval scales and ratio scales
+- explain the concept of absolute and relative differences
+- explain when and why we take the logarithm of a variable
 
 ## Materials
 
@@ -21,7 +20,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](plotly_graphs-lines_vs_bars.pdf).
+Download the [slides](descriptive_statistics-absolute_relative_diffs.pdf).
 
 Video with German subtitles:
 
