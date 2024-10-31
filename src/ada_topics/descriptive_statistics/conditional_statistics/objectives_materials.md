@@ -4,8 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain what we mean by conditional statistics
+- explain that data can come in different forms for doing that
 
 ## Materials
 

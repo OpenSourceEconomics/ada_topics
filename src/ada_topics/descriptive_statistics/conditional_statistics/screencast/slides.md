@@ -27,7 +27,4 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
-
-- First bullet
-- Second bullet
+# Life expectancy over the years
