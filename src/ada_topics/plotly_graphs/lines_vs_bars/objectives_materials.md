@@ -4,10 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
-
-**Borrow from EPP-Topics: What to plot?**
+- use line graphs and bar charts for their correct purposes
+- employ basic rules for both types of graphs
 
 ## Materials
 

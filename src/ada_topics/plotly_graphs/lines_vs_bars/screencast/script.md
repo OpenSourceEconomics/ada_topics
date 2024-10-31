@@ -1,6 +1,6 @@
 # Script: Line graphs vs. bar charts
 
-## First slide
+## Picking the right chart
 
-- Some bullet point
-- Another bullet point
+- Histograms take any kind of data and by counting data in bins, we end up plotting a
+  cardinal variable on a fractional scale
