@@ -65,10 +65,10 @@ life_exp.round(1)
 
 - No need to understand the data wrangling at this point
 
+  - Reduce to African countries with population over 10 million
 </div>
 <div>
 
-- Reduce to African countries with population over 10 million
 
 - Select columns for country, year, and life expectancy
 
