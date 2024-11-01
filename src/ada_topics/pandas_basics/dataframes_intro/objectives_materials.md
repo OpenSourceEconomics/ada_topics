@@ -4,8 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain why DataFrames are the workhorse data structure
+- construct DataFrames from Series
 
 ## Materials
 
