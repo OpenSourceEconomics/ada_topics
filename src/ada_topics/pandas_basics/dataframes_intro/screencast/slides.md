@@ -107,6 +107,8 @@ gdp_pc = pd.Series(
 
 <div class="grid grid-cols-3 gap-4">
 <div>
+</div>
+<div>
 
 ```python
 egypt = pd.DataFrame(

@@ -225,13 +225,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 [8] np.float64(38.8)
 ```
 
-<br/>
-<br/>
-<br/>
 </div>
 <div>
 
-- `.loc[]` allows you to specify both row and column
+- `.loc[]` allows you to specify both row and column (separate by comma)
 
 - Then returns a single element
 

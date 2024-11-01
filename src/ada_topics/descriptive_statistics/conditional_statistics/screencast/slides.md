@@ -27,16 +27,16 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# GDP per capita over the years
+# GDP p.c. and population over the years
 
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-|   year |   gdpPercap |
-|-------:|------------:|
-|   1952 |     1933.93 |
-|   1977 |     3505.57 |
-|   2002 |     3723.47 |
+|   year |   gdpPercap |    pop |
+|-------:|------------:|-------:|
+|   1952 |     2662.96 |  37.24 |
+|   1977 |     4865.34 |  67.17 |
+|   2002 |     5791.72 | 119.79 |
 
 </div>
 <div>
@@ -44,7 +44,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - gapminder data via plotly express, `px.data.gapminder()`
 
-- Egypt, South Africa, Nigeria
+- Egypt, Lesotho, South Africa
 
 <br/>
 <br/>
@@ -60,16 +60,21 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
   $$\frac{\text{GDP}}{\text{pop}} \Big| \text{country} \in \{\text{Egypt}, \text{Lesotho}, \text{South Africa}\}$$
 
+<br/>
+
 - Want:
 
   $$\frac{\text{GDP}}{\text{pop}} \Big| \text{country} = \text{Egypt}$$
 
   etc.
 
+<br/>
+<br/>
+<br/>
 
 ---
 
-# Data in wide format
+# Wide format
 
 |   year |   Egypt |   Lesotho |   South Africa |
 |-------:|--------:|----------:|---------------:|
@@ -77,9 +82,13 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 |   1977 |    2785 |       745 |           8029 |
 |   2002 |    4755 |      1275 |           7711 |
 
+<br/>
+<br/>
+<br/>
+
 ---
 
-# Data in stacked / long format
+# Long format
 
 | country      |   year |   gdpPercap |
 |:-------------|-------:|------------:|

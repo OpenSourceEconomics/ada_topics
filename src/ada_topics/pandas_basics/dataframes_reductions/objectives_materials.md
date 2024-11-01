@@ -4,8 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain that reductions on DataFrames work column-wise by default
+- perform reductions on DataFrames
+- perform reductions on subsets of DataFrames
 
 ## Materials
 
