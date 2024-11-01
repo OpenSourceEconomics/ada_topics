@@ -4,8 +4,11 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- index into rows of a DataFrame
+- index into columns of a DataFrame
+- slice into columns of a DataFrame
+- explain why indexing and one-column slicing are different
+- index into elements of a DataFrame
 
 ## Materials
 
