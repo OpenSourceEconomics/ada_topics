@@ -26,7 +26,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](getting_help-tracebacks.pdf).
+Download the [slides](python_basics-tracebacks.pdf).
 
 Video with German subtitles:
 

@@ -15,6 +15,7 @@ from ada_topics.python_basics.print import SITE_CONTENTS as print  # noqa: A001
 from ada_topics.python_basics.scalar_types import (
     SITE_CONTENTS as scalar_types,
 )
+from ada_topics.python_basics.tracebacks import SITE_CONTENTS as tracebacks
 
 TOPICS = [
     assignment_calculations,
@@ -22,6 +23,7 @@ TOPICS = [
     boolean_logic,
     imports,
     print,
+    tracebacks,
     # strings_intro,
 ]
 

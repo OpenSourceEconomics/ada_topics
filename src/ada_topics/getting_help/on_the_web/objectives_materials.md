@@ -1,4 +1,4 @@
-# Searching the Web
+# Searching the web
 
 ## Learning objectives
 
@@ -12,7 +12,7 @@ After working through this topic, you should be able to:
 Video with English subtitles:
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=e920b47f-b364-4746-8b32-904225fb820e"
   width="640"
   height="360"
   frameborder="0"
@@ -24,7 +24,7 @@ Video with German subtitles:
 *(turn subtitles on in the bottom right corner of the video)*
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=e137bcf1-b2bf-4e84-a985-aa554045c5b6"
   width="640"
   height="360"
   frameborder="0"
