@@ -2,6 +2,9 @@
 
 import itertools
 
+from ada_topics.descriptive_statistics.absolute_relative_diffs import (
+    SITE_CONTENTS as absolute_relative_diffs,
+)
 from ada_topics.descriptive_statistics.central_tendency_cardinal_data import (
     SITE_CONTENTS as central_tendency_cardinal_data,
 )
@@ -23,6 +26,9 @@ from ada_topics.descriptive_statistics.missing_data import (
 from ada_topics.descriptive_statistics.quantiles import (
     SITE_CONTENTS as quantiles,
 )
+from ada_topics.descriptive_statistics.stocks_flows_levels_changes import (
+    SITE_CONTENTS as stocks_flows_levels_changes,
+)
 from ada_topics.descriptive_statistics.types_of_data_dtypes import (
     SITE_CONTENTS as types_of_data_dtypes,
 )
@@ -33,6 +39,8 @@ from ada_topics.descriptive_statistics.what_are_data import (
 TOPICS = [
     what_are_data,
     types_of_data_dtypes,
+    stocks_flows_levels_changes,
+    absolute_relative_diffs,
     data_sources,
     missing_data,
     histograms,

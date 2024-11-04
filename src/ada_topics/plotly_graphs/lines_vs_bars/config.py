@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("chapter_template-lines_vs_bars.pdf",),
+    "built": ("plotly_graphs-lines_vs_bars.pdf",),
 }

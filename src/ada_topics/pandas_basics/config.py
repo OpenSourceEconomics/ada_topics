@@ -3,6 +3,13 @@
 import itertools
 
 from ada_topics.pandas_basics.boolean_indexing import SITE_CONTENTS as boolean_indexing
+from ada_topics.pandas_basics.dataframes_indexing_slicing import (
+    SITE_CONTENTS as dataframes_indexing_slicing,
+)
+from ada_topics.pandas_basics.dataframes_intro import SITE_CONTENTS as dataframes_intro
+from ada_topics.pandas_basics.dataframes_reductions import (
+    SITE_CONTENTS as dataframes_reductions,
+)
 from ada_topics.pandas_basics.missing_data import SITE_CONTENTS as missing_data
 from ada_topics.pandas_basics.quantiles import SITE_CONTENTS as quantiles
 from ada_topics.pandas_basics.series_intro import SITE_CONTENTS as series_intro
@@ -16,6 +23,9 @@ TOPICS = [
     quantiles,
     boolean_indexing,
     missing_data,
+    dataframes_intro,
+    dataframes_indexing_slicing,
+    dataframes_reductions,
 ]
 
 
