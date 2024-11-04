@@ -2,8 +2,6 @@
 
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
-    "other": (
-        # "existing figures etc.",
-    ),
+    "other": (),
     "built": ("descriptive_statistics-what_are_data.pdf",),
 }

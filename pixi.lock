@@ -894,9 +894,9 @@ packages:
   timestamp: 1718718120070
 - kind: pypi
   name: ada-topics
-  version: 0.1.dev14+gf3fe7ef
+  version: 0.1.dev21+ge45eb41.d20241030
   path: .
-  sha256: 873038ccf9499aa1040f3bfdab99c9e0a7f0e74ae756d967c49984661c64e248
+  sha256: 9fb57abe2ea66dde3ead0783644f2525005f66bf4076d4f1e85922537ba8cb4f
   requires_dist:
   - pytask
   requires_python: '>=3.12'
