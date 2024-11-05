@@ -40,9 +40,10 @@ You may find the following from
 <iframe
   width="640"
   height="360"
-  src="https://www.youtube.com/watch?v=nRlYGDBGcRA"
+  src="https://www.youtube.com/embed/nRlYGDBGcRA?si=3cr2IjZwmsglC-c8"
   title="Climate Interactive on Stocks vs. Flows."
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen
 ></iframe>
