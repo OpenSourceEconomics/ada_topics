@@ -1,4 +1,4 @@
-# Subchapter Title
+# Variance and standard deviation
 
 ## Learning objectives
 

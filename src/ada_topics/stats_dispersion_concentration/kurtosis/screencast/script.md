@@ -1,4 +1,4 @@
-# Script: Subchapter Title
+# Script: Kurtosis
 
 ## First slide
 

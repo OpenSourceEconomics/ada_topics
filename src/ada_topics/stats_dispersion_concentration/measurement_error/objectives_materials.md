@@ -1,4 +1,4 @@
-# Dispersion based on absolute deviations
+# Subchapter Title
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](stats_dispersion_concentration-absolute.pdf).
+Download the [slides](stats_dispersion_concentration-squared.pdf).
 
 Video with German subtitles:
 

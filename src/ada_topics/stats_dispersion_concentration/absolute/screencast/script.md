@@ -1,4 +1,4 @@
-# Script: Subchapter Title
+# Script: Dispersion based on absolute deviations
 
 ## First slide
 

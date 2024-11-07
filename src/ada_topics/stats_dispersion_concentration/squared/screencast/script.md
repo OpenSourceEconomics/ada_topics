@@ -1,4 +1,4 @@
-# Script: Subchapter Title
+# Script: Variance and standard deviation
 
 ## First slide
 

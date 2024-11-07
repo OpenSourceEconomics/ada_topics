@@ -18,7 +18,7 @@ defaults:
 
 # Statistics — Dispersion & concentration
 
-### Subchapter Title
+### Skewness
 
 <br/>
 

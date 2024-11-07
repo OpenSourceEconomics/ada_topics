@@ -4,19 +4,17 @@ import itertools
 
 from ada_topics.stats_dispersion_concentration.absolute import SITE_CONTENTS as absolute
 from ada_topics.stats_dispersion_concentration.kurtosis import SITE_CONTENTS as kurtosis
+from ada_topics.stats_dispersion_concentration.measurement_error import (
+    SITE_CONTENTS as measurement_error,
+)
 from ada_topics.stats_dispersion_concentration.skewness import SITE_CONTENTS as skewness
 from ada_topics.stats_dispersion_concentration.squared import SITE_CONTENTS as squared
 
-TOPICS = [
-    absolute,
-    squared,
-    kurtosis,
-    skewness,
-]
+TOPICS = [absolute, squared, kurtosis, skewness, measurement_error]
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Statistics — Dispersion & concentration",
+    "chapter_title": "Descriptive Statistics — Measures of dispersion & concentration",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],

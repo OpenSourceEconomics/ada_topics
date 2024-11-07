@@ -1,4 +1,4 @@
-# Subchapter Title
+# Skewness
 
 ## Learning objectives
 

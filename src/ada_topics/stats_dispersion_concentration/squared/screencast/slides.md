@@ -18,7 +18,7 @@ defaults:
 
 # Statistics — Dispersion & concentration
 
-### Subchapter Title
+### Variance and standard deviation
 
 <br/>
 

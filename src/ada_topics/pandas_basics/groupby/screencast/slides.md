@@ -34,48 +34,14 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Example
+# Example: PIAAC data
 
-<table class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>use_computer_at_work</th>
-      <th>programs_monthly</th>
-    </tr>
-    <tr>
-      <th>country</th>
-      <th>age_group</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="2" valign="top">Germany</th>
-      <th>Aged 30-34</th>
-      <td>0.776498</td>
-      <td>0.07943</td>
-    </tr>
-    <tr>
-      <th>Aged 55-59</th>
-      <td>0.678756</td>
-      <td>0.034765</td>
-    </tr>
-    <tr>
-      <th rowspan="2" valign="top">Netherlands</th>
-      <th>Aged 30-34</th>
-      <td>0.871728</td>
-      <td>0.096154</td>
-    </tr>
-    <tr>
-      <th>Aged 55-59</th>
-      <td>0.801822</td>
-      <td>0.028219</td>
-    </tr>
-  </tbody>
-</table>
+| country     | age_group  | use_computer_at_work | programs_monthly |
+| :---------- | :--------- | -------------------: | ---------------: |
+| Germany     | Aged 30-34 |                0.776 |            0.079 |
+|             | Aged 55-59 |                0.679 |            0.035 |
+| Netherlands | Aged 30-34 |                0.872 |            0.096 |
+|             | Aged 55-59 |                0.802 |            0.028 |
 
 <br/>
 
@@ -88,7 +54,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Calculating grouped values: Two steps
 
 1. Generate a grouped object
+
 2. Perform an operation on that
+
+<br/>
 
 Resulting object will be a DataFrame (_almost always of smaller size_).
 
@@ -98,38 +67,17 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 
 ```python
 [1] df.groupby("country")
-
 [1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da889ba50>
 
 [2] df.groupby("country").mean()
 ```
 
-<table class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>use_computer_at_work</th>
-      <th>programs_monthly</th>
-    </tr>
-    <tr>
-      <th>country</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Germany</th>
-      <td>0.727627</td>
-      <td>0.057097</td>
-    </tr>
-    <tr>
-      <th>Netherlands</th>
-      <td>0.836775</td>
-      <td>0.062186</td>
-    </tr>
-  </tbody>
-</table>
+<br/>
+
+| age_group  | use_computer_at_work | programs_monthly |
+| :--------- | -------------------: | ---------------: |
+| Aged 30-34 |                0.824 |            0.088 |
+| Aged 55-59 |                 0.74 |            0.031 |
 
 ---
 
@@ -143,32 +91,10 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 [2] df.groupby("age_group").std()
 ```
 
-<table class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>use_computer_at_work</th>
-      <th>programs_monthly</th>
-    </tr>
-    <tr>
-      <th>age_group</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Aged 30-34</th>
-      <td>0.067338</td>
-      <td>0.011826</td>
-    </tr>
-    <tr>
-      <th>Aged 55-59</th>
-      <td>0.087021</td>
-      <td>0.004629</td>
-    </tr>
-  </tbody>
-</table>
+| age_group  | use_computer_at_work | programs_monthly |
+| :--------- | -------------------: | ---------------: |
+| Aged 30-34 |                0.067 |            0.012 |
+| Aged 55-59 |                0.087 |            0.005 |
 
 ---
 
@@ -178,7 +104,7 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 | ----------------- | ---------------------------------- | ------------------------ |
 | mean              | Averages                           | floats, (ints)           |
 | std               | Standard deviation                 | floats, (ints)           |
-| median / quantile | Quantiles                          | floats, (ints)           |
+| median / quantile | Quantiles                          | floats, ints             |
 | min / max         | Minimum / Maximum                  | anything that is ordered |
 | count             | Number of non-missing observations | any                      |
 | value_counts      | Number of observations per value   | categorical, (ints)      |

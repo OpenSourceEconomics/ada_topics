@@ -178,11 +178,12 @@ def task_compile_book(
         raise RuntimeError("Jupyter book compilation failed.")
 
 
+@mark.skip
 @mark.skipif(
     condition=not SITE_DIR.parent.exists(),
     reason="Website directory does not exist.",
 )
-def task_copy_book(
+def task_copy_to_website(
     site_index_local: Path = SITE_SOURCE_DIR / "_build" / "html" / "index.html",
     all_site_sources: list[Path] = all_site_sources,  # noqa: ARG001
     site_index_public: Annotated[Path, Product] = SITE_DIR / "index.html",

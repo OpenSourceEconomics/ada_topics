@@ -1,4 +1,4 @@
-# Subchapter Title
+# Kurtosis
 
 ## Learning objectives
 

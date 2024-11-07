@@ -86,6 +86,7 @@ sphinx-copybutton = "*"
 sphinxcontrib-mermaid = "*"
 statsmodels = "*"
 xlrd = ">=1.0"
+pyarrow = ">=18.0.0,<19"
 
 # Development Dependencies (pypi)
 # --------------------------------------------------------------------------------------

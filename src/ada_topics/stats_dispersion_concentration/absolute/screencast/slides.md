@@ -18,7 +18,7 @@ defaults:
 
 # Statistics — Dispersion & concentration
 
-### Subchapter Title
+### Dispersion based on absolute deviations
 
 <br/>
 

@@ -52,7 +52,7 @@ TOPICS = [
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Statistics — Basics & location",
+    "chapter_title": "Descriptive Statistics — Basics & location parameters",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],
