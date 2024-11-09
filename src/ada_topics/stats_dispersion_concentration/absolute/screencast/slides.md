@@ -22,12 +22,72 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+<center>
+<img src="/only_small.svg" width=600>
+</center>
 
-- First bullet
-- Second bullet
+---
+
+<center>
+<img src="/bare.svg" width=600>
+</center>
+
+---
+
+<center>
+<img src="/min_max_small_only.svg" width=600>
+</center>
+
+---
+
+<center>
+<img src="/min_max.svg" width=600>
+</center>
+
+---
+
+<center>
+<img src="/deciles.svg" width=600>
+</center>
+
+---
+
+<center>
+<img src="/quartiles.svg" width=600>
+</center>
+
+---
+
+# Ranges
+
+- **Range**: difference between the maximum and minimum values
+
+- **Interdecile range**: difference between the 90th and 10th percentiles
+
+- **Interquartile range**: difference between the 75th and 25th percentiles
+
+- For ratio scales with strictly positive values, ratios between quantiles can be useful
+  statistics, too
+
+---
+
+# Mean absolute deviation
+
+$$
+s_\text{MAD} = \frac{1}{n} \sum_{i=1}^{n} |x_i - x_\text{MED}|
+$$
+
+---
+
+# Mean absolute deviation
+
+|   A | \|A - 4\| |   B | \|B - 3\| |
+| --: | --------: | --: | --------: |
+|   2 |         2 |   1 |         2 |
+|   4 |         0 |   3 |         0 |
+|   6 |         2 |   8 |         5 |
+| MAD |      1.33 | MAD |      2.33 |
