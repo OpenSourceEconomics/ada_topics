@@ -1,11 +1,11 @@
-# Subchapter Title
+# Measurement error and summary statistics
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain why unsystematic measurement error biases only higher-order moments
+- explain why systematic measurement error potentially impacts all statistics
 
 ## Materials
 
@@ -19,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](stats_dispersion_concentration-squared.pdf).
+Download the [slides](stats_dispersion_concentration-measurement_error.pdf).
 
 Video with German subtitles:
 

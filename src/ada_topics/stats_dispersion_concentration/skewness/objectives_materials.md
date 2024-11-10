@@ -4,8 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain what is meant by skewness
+- calculate the skewness of Pandas Series / DataFrames
 
 ## Materials
 

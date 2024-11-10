@@ -4,8 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain the concept of various ranges
+- explain the concept of mean absolute deviation
+- calculate ranges and absolute deviations
 
 ## Materials
 

@@ -1,4 +1,4 @@
-# Script: Subchapter Title
+# Script: Measurement error and summary statistics
 
 ## First slide
 

@@ -22,7 +22,6 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
@@ -51,6 +50,44 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
+# Describe a DataFrame
+
+```python
+df.describe().round(2)
+```
+
+<br/>
+
+|      Example |  count | mean | std |   min |   25% |   50% |  75% |  max |
+| -----------: | -----: | ---: | --: | ----: | ----: | ----: | ---: | ---: |
+|    Symmetric | 100000 |   -0 |   1 | -4.54 | -0.67 |     0 | 0.68 | 4.35 |
+| Right-skewed | 100000 |   -0 |   1 | -2.46 | -0.75 | -0.18 | 0.59 | 5.77 |
+|  Left-skewed | 100000 |   -0 |   1 | -5.72 | -0.59 |  0.18 | 0.76 | 2.38 |
+
+---
+
+# Describe a DataFrame
+
+<div class="flex">
+<div>
+
+```python
+df.skew().round(1)
+```
+
+<br/>
+
+|      Example | Value |
+| -----------: | ----: |
+|    Symmetric |   0.0 |
+| Right-skewed |   0.9 |
+|  Left-skewed |  -0.9 |
+
+</div>
+</div>
+
+---
+
 # Skewness
 
 $$
@@ -63,10 +100,12 @@ $$
 
 ---
 
-| A        |   (A - 4)³ | B        |   (B - 4)³ |
-| --------: | -------: | --------: | -------: |
-| 2        |         -8 | 1        |     -27    |
-| 4        |          0 | 3        |      -1    |
-| 6        |          8 | 8        |      64    |
-| SCD      |          0 | SCD      |      36    |
-| Skewness |          0 | Skewness |       0.84 |
+# Skewness
+
+|        A | (A - 4)³ |        B | (B - 4)³ |
+| -------: | -------: | -------: | -------: |
+|        2 |       -8 |        1 |      -27 |
+|        4 |        0 |        3 |       -1 |
+|        6 |        8 |        8 |       64 |
+|      SCD |        0 |      SCD |       36 |
+| Skewness |        0 | Skewness |     0.84 |

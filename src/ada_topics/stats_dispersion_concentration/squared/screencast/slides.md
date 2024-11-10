@@ -38,19 +38,35 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
+# Describe a DataFrame
+
+```python
+df.describe().round(2)
+```
+
+<br/>
+
+| Dispersion   |   count |   mean |   std |   min |   25% |   50% |   75% |   max |
+|-------------:|--------:|-------:|------:|------:|------:|------:|------:|------:|
+| Small        |  100000 |   0    |   1   | -4.27 | -0.67 |    -0 |  0.67 |  4.43 |
+| Large        |  100000 |  -0.01 |   1.5 | -7.07 | -1.01 |    -0 |  1    |  6.39 |
+
+---
+
 # Variance and standard deviation
 
 - The variance of a sample is the average squared deviation from the sample mean
 
   $$
-  s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+  s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x})^2
   $$
 
-  where $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$ is the sample mean
+  where $\overline{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$ is the sample mean
 
 <br/>
 
-- The standard deviation isame
+- The standard deviation is the square root of the variance
+
   $$
   s = \sqrt{s^2}
   $$
@@ -115,6 +131,20 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 ---
 
 
+# Pandas reductions
+
+```python
+df.var()
+
+df.std()
+```
+
+
+
+---
+
+
+
 # Some properties of the variance
 
 - Linear transformations: if $y_i = a + b \cdot x_i$, then
@@ -126,8 +156,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - Can be calculated as the difference between the average sum of squares and the squared mean:
 
   $$
-  s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
-  = \frac{n}{n - 1} \left( \frac{1}{n} \sum_{i=1}^{n} x_i^2 - \bar{x}^2 \right)
+  s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x})^2
+  = \frac{n}{n - 1} \left( \overline{x^2} - \overline{x}^2 \right)
   $$
-
----

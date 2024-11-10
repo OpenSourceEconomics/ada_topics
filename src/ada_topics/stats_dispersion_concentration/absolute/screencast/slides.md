@@ -73,6 +73,22 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 - For ratio scales with strictly positive values, ratios between quantiles can be useful
   statistics, too
 
+
+---
+
+# Describe a DataFrame
+
+```python
+df.describe().round(2)
+```
+
+<br/>
+
+| Dispersion   |   count |   mean |   std |   min |   25% |   50% |   75% |   max |
+|-------------:|--------:|-------:|------:|------:|------:|------:|------:|------:|
+| Small        |  100000 |   0    |   1   | -4.27 | -0.67 |    -0 |  0.67 |  4.43 |
+| Large        |  100000 |  -0.01 |   1.5 | -7.07 | -1.01 |    -0 |  1    |  6.39 |
+
 ---
 
 # Mean absolute deviation

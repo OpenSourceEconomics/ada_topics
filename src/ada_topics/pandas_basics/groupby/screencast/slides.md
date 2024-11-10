@@ -29,8 +29,8 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Grouped data is required all the time
 
 - size of groups
-- aggregate group differences in other variables
-- stratified sampling of individuals
+- calculate shares by some other variable
+- calculate group differences in some variables
 
 ---
 
@@ -74,10 +74,16 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 
 <br/>
 
-| age_group  | use_computer_at_work | programs_monthly |
-| :--------- | -------------------: | ---------------: |
-| Aged 30-34 |                0.824 |            0.088 |
-| Aged 55-59 |                 0.74 |            0.031 |
+<div class="flex">
+<div>
+
+|     country | use_computer_at_work | programs_monthly |
+| ----------: | -------------------: | ---------------: |
+|     Germany |                0.728 |            0.057 |
+| Netherlands |                0.837 |            0.062 |
+
+</div>
+</div>
 
 ---
 
@@ -85,16 +91,23 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 
 ```python
 [1] df.groupby("age_group")
-
 [1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da88b5d90>
 
 [2] df.groupby("age_group").std()
 ```
 
-| age_group  | use_computer_at_work | programs_monthly |
-| :--------- | -------------------: | ---------------: |
+<div class="flex">
+<div>
+
+<br/>
+
+|  age_group | use_computer_at_work | programs_monthly |
+| ---------: | -------------------: | ---------------: |
 | Aged 30-34 |                0.067 |            0.012 |
 | Aged 55-59 |                0.087 |            0.005 |
+
+</div>
+</div>
 
 ---
 
@@ -110,4 +123,7 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 | value_counts      | Number of observations per value   | categorical, (ints)      |
 | apply             | Pass your own function             | depends                  |
 
-**Semantics may change depending on whether you pass one or more columns!**
+**Semantics may change depending on whether you pass a single column or more!**
+
+<br/>
+<br/>
