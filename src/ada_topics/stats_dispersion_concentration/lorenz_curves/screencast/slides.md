@@ -27,7 +27,21 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+# Concentration measures
 
-- First bullet
-- Second bullet
+- Dispersion
+
+  - Q: How far apart are values, typically?
+
+  - A only depends on the values themselves
+
+- Concentration
+
+  - Q: How is the total amount distributed?
+
+  - A depends on total and dispersion of values
+
+
+---
+
+# Data
