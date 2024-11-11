@@ -131,6 +131,7 @@ extend-ignore = [
     "PD015",
     "PD901", # `df` used a lot as example variable name.
     "PERF401", # use a list comprehension.
+    "PLC2401", # Non-ASCII is good.
     "PLR0913",
     "PLR2004",  # Magic value used in comparison.
     "S101",  # Use of `assert` detected.

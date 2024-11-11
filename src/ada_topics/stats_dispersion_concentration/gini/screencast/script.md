@@ -1,4 +1,4 @@
-# Script: Skewness
+# Script: The Gini coefficient
 
 ## First slide
 

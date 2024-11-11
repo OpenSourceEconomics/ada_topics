@@ -1,4 +1,4 @@
-# Script: Dispersion based on absolute deviations
+# Script: Lorenz curves
 
 ## First slide
 
