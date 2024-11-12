@@ -1,4 +1,4 @@
-# Introduction to Plotly Graphs
+# Modifying plotly graphs
 
 ## Learning objectives
 
