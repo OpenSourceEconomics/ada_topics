@@ -70,9 +70,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - **Interquartile range**: difference between the 75th and 25th percentiles
 
-- For ratio scales with strictly positive values, ratios between quantiles can be useful
-  statistics, too
-
 
 ---
 
