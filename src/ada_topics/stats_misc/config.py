@@ -2,15 +2,15 @@
 
 import itertools
 
-from ada_topics.stats_misc.equivalence_scales import SITE_CONTENTS as subchapter_slug
+from ada_topics.stats_misc.equivalence_scales import SITE_CONTENTS as equivalence_scales
 
 TOPICS = [
-    subchapter_slug,
+    equivalence_scales,
 ]
 
 
 SITE_CONTENTS = {
-    "chapter_title": "Chapter Title",
+    "chapter_title": "Descriptive Statistics — Miscellaneous topics",
     "pages": tuple(
         itertools.chain(
             *[topic["pages"] for topic in TOPICS],

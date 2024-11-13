@@ -4,8 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain concept of equivalence scales
+- list the properties of equivalence scales
+- calculate equivalized resources for different household compositions
 
 ## Materials
 
