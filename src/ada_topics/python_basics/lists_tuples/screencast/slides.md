@@ -36,9 +36,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Selecting elements
 
-- When to use unlabeled containers
-
-- Which one to use
 
 ---
 

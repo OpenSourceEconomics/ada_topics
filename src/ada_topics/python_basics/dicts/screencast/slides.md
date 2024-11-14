@@ -30,9 +30,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Contents
 
 - Creating dictionaries
+
 - What can go in a dict
+
 - Accessing elements in dictionaries
-- Dangers of mutability
+
 - Advantages of labelled data structures
 
 
@@ -75,15 +77,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Fun facts about dicts in Python
-
-- Dicts are the absolute workhorse datastructure
-- Everything is an object and every object is just a dictionary under the hood!
-- Highly optimized for fast lookup!
-
-
----
-
 # What can go in a dict?
 
 
@@ -101,11 +94,17 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 - Keys need to be hashable, for example
+
   - strings
   - ints
   - tuples thereof
+
 - Values can be absolutely anything
+
 - If values are dicts we get nested dictionaries
+
+<br/>
+<br/>
 
 </div>
 </div>
@@ -139,6 +138,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div>
 
 - Elements are accessed with square brackets
+
 - Chained access for nested dictionaries
 
 
@@ -147,45 +147,14 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 </div>
 
 
----
-
-# Careful with mutability
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-```python
->>> flat = {"bla": "blubb"}
->>> nested = {
->>>   1: flat,
-      "two": {"foo": "bar"}
->>> }
-
-
->>> nested[1]["bla"] = 42
->>> flat
-{'bla': 42}
-```
-
-</div>
-<div>
-
-- Putting a dictionary inside another dictionary does not make a copy
-- Useful to save memory, dangerous if you don't know about it
-- We will cover ways to deal with this later
-
-
-</div>
-</div>
 
 ---
 
 # When to use dictionaries
 
+
 - Dictionaries provide label based access
+
 - Lists provide position based access
+
 - Label based access is more readable and less error prone!
-- Example use-cases:
-  - Storing model specifications
-  - Storing results of your anlysis
-  - ...
