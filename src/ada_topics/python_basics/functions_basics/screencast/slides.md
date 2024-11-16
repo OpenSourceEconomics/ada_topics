@@ -25,41 +25,24 @@ defaults:
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
----
-
-# Contents
-
-- Anatomy of functions
-- Examples of functions
-- Why functions are important!
-
 
 ---
 
-# Example: CRRA Utility function
+# Example: OECD equivalence scale
 
 $$
-u(c, γ) = \frac{c ^{(1 - γ)}}{1 - γ}
+\text{weight}_\text{hh} = 1 + 0.5 \cdot (N_\text{adults} + N_\text{youth} - 1) + 0.3 \cdot N_\text{kids}
 $$
+
 
 
 ---
 
 # Anatomy of Python functions
 
-<br/>
 
-<div class="grid grid-cols-2 gap-4">
-<div>
+<img src="/function_anatomy.png" class="rounded" width="700"/>
 
-<br/>
-<br/>
-
-<img src="/function_anatomy.png" class="rounded" width="400"/>
-
-
-</div>
-<div>
 
 - Start with the `def` keyword
 
@@ -67,37 +50,33 @@ $$
 
 - There can be one or several parameters (a.k.a. arguments)
 
-- You can assign default values for arguments
-
-- Function body is indented by 4 spaces and can have one or several lines
+- Function body is indented by 4 spaces, can have one+ lines
 
 - Inside the body you can do everything you have seen so far!
 
-
-</div>
-</div>
-
+<br/>
 
 ---
 
-# Example: CRRA Utility function
-
+# Example: OECD equivalence scale
 
 <div class="grid grid-cols-5 gap-4">
 <div class="col-span-3">
 
 ```python
->>> def utility_crra(c, γ=1.5):
-...     return c ** (1 - γ) / (1 - γ)
+[1] def oecd_scale(n_adults, n_youth, n_kids):
+        tmp = n_adults + n_youth - 1
+        return 1 + 0.5 * tmp + 0.3 * n_kids
 
->>> utility_crra(1.0)
--2.0
+[2] oecd_scale(1, 0, 0)
+[2] 1.0
 
->>> utility_crra(c=1.0, γ=1.5)
--2.0
+[3] oecd_scale(2, 1, 1)
+[3] 2.3
 
->>> utility_crra(c=1.0, γ=0.0)
-1.0
+[4] oecd_scale(n_adults=2, n_youth=1, n_kids=1)
+[4] 2.3
+
 ```
 
 </div>

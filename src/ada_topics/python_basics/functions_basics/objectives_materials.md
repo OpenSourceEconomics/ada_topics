@@ -4,9 +4,9 @@
 
 After working through this topic, you should be able to:
 
+- Explain the structure of a Python function
 - Define your own Python functions
 - Call Python functions with positional and keyword arguments
-- Set default values for arguments
 
 ## Materials
 
