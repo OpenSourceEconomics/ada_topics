@@ -128,6 +128,7 @@ extend-ignore = [
     "N811", # constant imported as non constant.
     "N999", # Capitalized module name.
     "PD010",
+    "PD013",
     "PD015",
     "PD901", # `df` used a lot as example variable name.
     "PERF401", # use a list comprehension.
@@ -137,6 +138,7 @@ extend-ignore = [
     "S101",  # Use of `assert` detected.
     "S110",
     "S301",
+    "S307",
     "S602", # `subprocess` call with `shell=True`.
     "T201",
     "TRY003",

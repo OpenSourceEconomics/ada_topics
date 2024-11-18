@@ -4,8 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- interpret Gini coefficients
+- calculate the Gini coefficient
 
 ## Materials
 
