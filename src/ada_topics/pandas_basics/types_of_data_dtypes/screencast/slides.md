@@ -16,7 +16,7 @@ defaults:
 
 <br/>
 
-# Descriptive Statistics / Pandas
+# Statistics — Basics, location measuresocation measures / Pandas
 
 ### Types of data and data types
 
