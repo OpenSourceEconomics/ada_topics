@@ -8,9 +8,13 @@ from ada_topics.python_basics.assignment_calculations import (
 from ada_topics.python_basics.boolean_logic import (
     SITE_CONTENTS as boolean_logic,
 )
+from ada_topics.python_basics.dicts import SITE_CONTENTS as dicts
+from ada_topics.python_basics.functions_basics import SITE_CONTENTS as functions_basics
+from ada_topics.python_basics.if_conditions import SITE_CONTENTS as if_conditions
 from ada_topics.python_basics.imports import (
     SITE_CONTENTS as imports,
 )
+from ada_topics.python_basics.lists_tuples import SITE_CONTENTS as lists_tuples
 from ada_topics.python_basics.print import SITE_CONTENTS as print  # noqa: A001
 from ada_topics.python_basics.scalar_types import (
     SITE_CONTENTS as scalar_types,
@@ -24,6 +28,10 @@ TOPICS = [
     imports,
     print,
     tracebacks,
+    lists_tuples,
+    dicts,
+    if_conditions,
+    functions_basics,
     # strings_intro,
 ]
 

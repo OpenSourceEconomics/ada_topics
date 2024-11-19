@@ -14,7 +14,7 @@ After working through this topic, you should be able to:
 Video with English subtitles:
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=b770cf7e-ef8d-415d-962a-acfc6f5f2df1"
   width="640"
   height="360"
   frameborder="0"
@@ -28,7 +28,7 @@ Video with German subtitles:
 *(turn subtitles on in the bottom right corner of the video)*
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=95b025ec-a301-43c9-b81e-e24acdfb96ff"
   width="640"
   height="360"
   frameborder="0"
