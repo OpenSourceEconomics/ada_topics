@@ -22,7 +22,6 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
@@ -30,8 +29,11 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 # Why talk about indices?
 
 - Only way to label data in a Series, used it implictly for DataFrames
+
 - Many operations are aligned by index
+
 - Using a meaningful index makes this safer
+
 - Index should be unique and not contain floats
 
 ---
@@ -41,12 +43,12 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 <div class="flex">
 <div>
 
-|    | country   | continent   |   year |   lifeExp |
-|---:|----------:|-------:|------------:|----------:|
-|  0 | Cuba      | Americas    |   2002 |    77.158 |
-|  1 | Cuba      | Americas    |   2007 |    78.273 |
-|  2 | Spain     | Europe      |   2002 |    79.78  |
-|  3 | Spain     | Europe      |   2007 |    80.941 |
+|     | country | continent | year | lifeExp |
+| --: | ------: | --------: | ---: | ------: |
+|   0 |    Cuba |  Americas | 2002 |  77.158 |
+|   1 |    Cuba |  Americas | 2007 |  78.273 |
+|   2 |   Spain |    Europe | 2002 |   79.78 |
+|   3 |   Spain |    Europe | 2007 |  80.941 |
 
 </div>
 </div>
@@ -133,7 +135,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 </div>
 <div class="col-span-4">
-
 
 - `.loc[.]` with a single argument selects all rows with that index at the first level
 

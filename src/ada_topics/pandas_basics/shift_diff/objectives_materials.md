@@ -4,8 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- shift and difference rows in a DataFrame
+- assign the result of a shift operation to a new column in a DataFrame
+- combine groupby and shift/difference operations
 
 ## Materials
 

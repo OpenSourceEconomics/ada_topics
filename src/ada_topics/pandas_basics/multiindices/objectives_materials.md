@@ -4,8 +4,9 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain why we should use meaningful indices for DataFrames
+- explain when we need multi-level indices
+- work with MultiIndex objects in pandas
 
 ## Materials
 
