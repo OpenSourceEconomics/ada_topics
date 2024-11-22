@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("stats_dispersion_concentration-subchapter_slug.pdf",),
+    "built": ("stats_dispersion_concentration-concentration_quantile.pdf",),
 }
