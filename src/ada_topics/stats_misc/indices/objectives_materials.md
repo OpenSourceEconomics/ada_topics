@@ -4,11 +4,11 @@
 
 After working through this topic, you should be able to:
 
-- explain concept of proportional numbers and its subcategories
+- explain the concept of proportional numbers and its subcategories
   - structural numbers
   - relationship numbers
   - measurement numbers
-- explain concept of index numbers
+- explain the concept of index numbers
 - explain why there are different inflation rates
 - calculate and interpret Paasche and Laspeyres price indices
 
