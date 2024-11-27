@@ -13,6 +13,7 @@ OrigSourceOrSiteSource = Literal["orig_source", "site_source"]
 CHAPTER_NAMES = [
     "stats_basics_location",
     "stats_dispersion_concentration",
+    "stats_misc",
     "jupyter_notebooks",
     "getting_help",
     "python_basics",

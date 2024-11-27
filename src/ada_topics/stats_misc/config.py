@@ -3,9 +3,11 @@
 import itertools
 
 from ada_topics.stats_misc.equivalence_scales import SITE_CONTENTS as equivalence_scales
+from ada_topics.stats_misc.indices import SITE_CONTENTS as indices
 
 TOPICS = [
     equivalence_scales,
+    indices,
 ]
 
 

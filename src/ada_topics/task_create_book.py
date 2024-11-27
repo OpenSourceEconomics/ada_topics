@@ -178,7 +178,6 @@ def task_compile_book(
         raise RuntimeError("Jupyter book compilation failed.")
 
 
-@mark.skip
 @mark.skipif(
     condition=not SITE_DIR.parent.exists(),
     reason="Website directory does not exist.",
