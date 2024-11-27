@@ -16,9 +16,9 @@ defaults:
 
 <br/>
 
-# Chapter Title
+# Pandas basics
 
-### Subchapter Title
+### Concatenating Series and DataFrames
 
 <br/>
 
