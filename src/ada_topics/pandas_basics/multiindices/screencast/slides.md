@@ -28,7 +28,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Why talk about indices?
 
-- Only way to label data in a Series, used it implictly for DataFrames
+- Only way to label data in a Series, used it implicitly for DataFrames
 
 - Many operations are aligned by index
 
