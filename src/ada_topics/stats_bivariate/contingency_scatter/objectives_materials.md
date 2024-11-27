@@ -1,11 +1,14 @@
-# Subchapter Title
+# Contingency tables and scatter plots
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain what contingency tables are
+- explain what scatter plots are
+- decide which strategies to use for summarizing data depending on
+  - the number of outcomes on each axis
+  - the number of observations
 
 ## Materials
 
@@ -19,7 +22,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_slug.pdf).
+Download the [slides](chapter_template-contingency_scatter.pdf).
 
 Video with German subtitles:
 

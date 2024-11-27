@@ -18,7 +18,7 @@ defaults:
 
 # Statistics — Measures for bivariate data
 
-### Subchapter Title
+### Contingency tables and scatter plots
 
 <br/>
 
@@ -45,3 +45,14 @@ $$
 s^2_{x, y} & = \frac{1}{n - 2} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
 \end{aligned}
 $$
+
+
+---
+
+# Usefulness of strategies
+
+- Small number of outcomes on each axis: Contingency tables
+
+- Large number of outcomes, small number of observations: Scatter plots
+
+- Large number of outcomes, large number of observations: `.describe` + correlations

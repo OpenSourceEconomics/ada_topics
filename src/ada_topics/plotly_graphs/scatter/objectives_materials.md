@@ -5,6 +5,7 @@
 After working through this topic, you should be able to:
 
 - create scatter plots from DataFrames
+- explain why adding some visual randomness may help for categorical data
 
 ## Materials
 

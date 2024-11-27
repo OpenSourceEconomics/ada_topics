@@ -1,4 +1,4 @@
-# Subchapter Title
+# Correlations
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_slug.pdf).
+Download the [slides](chapter_template-correlation.pdf).
 
 Video with German subtitles:
 

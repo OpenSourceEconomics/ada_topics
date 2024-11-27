@@ -18,7 +18,7 @@ defaults:
 
 # Statistics — Measures for bivariate data
 
-### Subchapter Title
+### Correlations
 
 <br/>
 

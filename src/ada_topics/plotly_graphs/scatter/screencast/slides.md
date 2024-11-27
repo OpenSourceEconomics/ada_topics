@@ -31,3 +31,9 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - First bullet
 - Second bullet
+
+---
+
+# Categorical data on one axis
+
+https://stackoverflow.com/questions/65044430/plotly-create-a-scatter-with-categorical-x-axis-jitter-and-multi-level-axis
