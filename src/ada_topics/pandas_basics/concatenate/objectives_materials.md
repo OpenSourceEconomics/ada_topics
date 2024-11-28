@@ -4,8 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain when you would want to stack data
+- use `pd.concat` to combine DataFrames vertically
 
 ## Materials
 

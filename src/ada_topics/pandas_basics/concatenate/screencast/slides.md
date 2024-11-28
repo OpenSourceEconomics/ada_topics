@@ -86,6 +86,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - `spain` holds a Series or DataFrame with data from Cuba
 
+<br/>
 <div class="flex">
 <div>
 

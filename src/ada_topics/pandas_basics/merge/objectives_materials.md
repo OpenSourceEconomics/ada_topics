@@ -4,8 +4,16 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- use `pd.merge` to combine DataFrames
+
+- use the how argument to determine which rows are kept
+
+- list different types of merging data depending on their structure:
+
+  - one-to-one
+  - many-to-one
+  - one-to-many
+  - many-to-many
 
 ## Materials
 
