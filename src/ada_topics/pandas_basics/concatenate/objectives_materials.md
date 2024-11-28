@@ -1,4 +1,4 @@
-# Concatenating Series and DataFrames
+# Concatenating Series / DataFrames
 
 ## Learning objectives
 
