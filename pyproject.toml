@@ -63,17 +63,20 @@ platforms = ["linux-64", "osx-64", "win-64"]
 # --------------------------------------------------------------------------------------
 
 [tool.pixi.dependencies]
+data-morph-ai = ">=0.2.0,<0.3"
 deepdiff = "*"
 ipykernel = "*"
 ipywidgets = "*"
 jupyter-book = ">=1.0.2,<2"
 jupyterlab = "*"
+mscorefonts = ">=0.0.1,<0.0.2"
 nodejs = "*"
 openpyxl = "*"
 pandas = ">=2.2"
 pixi-kernel = ">=0.3.0,<0.4"
 plotly = ">=5.2,<6"
 pre-commit = "*"
+pyarrow = ">=18.0.0,<19"
 pybaum = "*"
 pydata-sphinx-theme = ">=0.13.3"
 pygraphviz = "*"
@@ -86,7 +89,7 @@ sphinx-copybutton = "*"
 sphinxcontrib-mermaid = "*"
 statsmodels = "*"
 xlrd = ">=1.0"
-pyarrow = ">=18.0.0,<19"
+seaborn = ">=0.13.2,<0.14"
 
 # Development Dependencies (pypi)
 # --------------------------------------------------------------------------------------

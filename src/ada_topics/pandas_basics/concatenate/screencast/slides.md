@@ -84,7 +84,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - `cuba` holds a Series or DataFrame with data from Cuba
 
-- `spain` holds a Series or DataFrame with data from Cuba
+- `spain` holds a Series or DataFrame with data from Spain
 
 <br/>
 <div class="flex">

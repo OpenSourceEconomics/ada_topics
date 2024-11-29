@@ -162,7 +162,7 @@ df = pd.merge(left=life_exp, right=gdp_pc, left_index=True, right_index=True)
 
 - `life_exp` holds a DataFrame with `country`, `year`, `lifeExp`
 
-- `gdp_pc` holds a Series or DataFrame with `country`, `year`, `gdpPercap`
+- `gdp_pc` holds a DataFrame with `country`, `year`, `gdpPercap`
 
 - Both indices do not matter and will be discarded
 
@@ -335,10 +335,10 @@ df = pd.merge(
 
 "Index" refers to what the index should be
 
-- 1:1 — indices of both DataFrames are the same
+- 1:1 — index levels of both DataFrames are the same
 
-- m:1 — The left DataFrame's index is a strict subset of the right DataFrame's index
+- m:1 — The left DataFrame's index levels are a strict superset of the right DataFrame's index levels
 
-- 1:m — The right DataFrame's index is a strict subset of the left DataFrame's index
+- 1:m — The right DataFrame's index levels are a strict superset of the left DataFrame's index levels
 
-- m:m — Both DataFrames overlap in a strict subset of both indices
+- m:m — Both DataFrames overlap in a strict subset of both index levels

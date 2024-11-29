@@ -18,34 +18,52 @@ defaults:
 
 # Statistics — Measures for bivariate data
 
-### Contingency tables and scatter plots
+### Contingency tables
 
 <br/>
-
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# (Co)variance
+# Histograms
 
-Variance:
+<div class="flex gap-12">
+<div>
 
-$$
-\begin{aligned}
-s^2_x & = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x})^2 \\
-& = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (x_i - \overline{x})
-\end{aligned}
-$$
+Raw data
 
-Covariance:
+|    | x   |   y |
+|---:|:----|----:|
+|  0 | c   |   7 |
+|  1 | a   |   3 |
+|  2 | b   |   3 |
+|  3 | a   |   4 |
+|  4 | b   |   7 |
+|  5 | b   |   3 |
 
-$$
-\begin{aligned}
-s^2_{x, y} & = \frac{1}{n - 2} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
-\end{aligned}
-$$
+</div>
+<div>
 
+Frequency distributions
+
+| x   |   count |
+|:----|--------:|
+| a   |       2 |
+| b   |       3 |
+| c   |       1 |
+
+<br>
+<br>
+
+|   y |   count |
+|----:|--------:|
+|   3 |       3 |
+|   4 |       1 |
+|   7 |       2 |
+
+</div>
+</div>
 
 ---
 

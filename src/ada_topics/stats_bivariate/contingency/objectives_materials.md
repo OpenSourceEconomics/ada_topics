@@ -22,7 +22,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-contingency_scatter.pdf).
+Download the [slides](chapter_template-contingency.pdf).
 
 Video with German subtitles:
 
