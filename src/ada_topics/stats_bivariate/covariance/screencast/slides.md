@@ -22,7 +22,6 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
@@ -42,6 +41,66 @@ Covariance:
 
 $$
 \begin{aligned}
-s^2_{x, y} & = \frac{1}{n - 2} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
+s_{x, y} & = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
 \end{aligned}
 $$
+
+---
+
+# Example
+
+|   A |   B |
+| --: | --: |
+|   2 |   1 |
+|   4 |   3 |
+|   6 |   8 |
+
+---
+
+<center>
+<img src="/fig_orig.svg" width=600>
+</center>
+
+---
+
+# Positive covariance
+
+|   A |   B | A - 4 | B - 4 | (A - 4)(B - 4) |
+| --: | --: | ----: | ----: | -------------: |
+|   2 |   1 |    -2 |    -3 |              6 |
+|   4 |   3 |     0 |    -1 |              0 |
+|   6 |   8 |     2 |     4 |              8 |
+
+---
+
+<center>
+<img src="/fig_orig.svg" width=600>
+</center>
+
+---
+
+<center>
+<img src="/fig_exchanged.svg" width=600>
+</center>
+
+---
+
+# Negative covariance
+
+|   A |   B | A - 4 | B - 4 | (A - 4)(B - 4) |
+| --: | --: | ----: | ----: | -------------: |
+|   2 |   8 |    -2 |     4 |             -8 |
+|   4 |   3 |     0 |    -1 |              0 |
+|   6 |   1 |     2 |    -3 |             -6 |
+
+---
+
+# Magnitude is difficult to interpret
+
+- Covariance is not standardized
+
+- Multiply `A` by 10, covariance goes up by a factor of 10
+
+- Check whether positive, negative, or zero
+
+- Conceptually important, also as a building block!

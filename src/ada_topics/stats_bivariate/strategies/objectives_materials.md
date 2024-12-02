@@ -1,13 +1,13 @@
-# Contingency tables and scatter plots
+# Strategies for summarising bivariate data
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
 - explain what contingency tables are
-- explain what scatter plots are
-- decide which strategies to use for summarizing data depending on
-  - the number of outcomes on each axis
+- explain what scatter plots, box plots, and violin plots are
+- decide which strategies to use for summarizing bivariate data based on
+  - the combination of data types
   - the number of observations
 
 ## Materials
@@ -22,7 +22,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-contingency.pdf).
+Download the [slides](chapter_template-strategies.pdf).
 
 Video with German subtitles:
 
