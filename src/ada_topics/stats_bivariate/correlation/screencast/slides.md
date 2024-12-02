@@ -26,7 +26,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# (Co)variance
+# (Co)variance & Correlation
 
 Variance:
 
@@ -40,11 +40,11 @@ Covariance:
 
 $$
 \begin{aligned}
-s_{x, y} & = \frac{1}{n - 2} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
+s_{x, y} & = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \overline{x}) \cdot (y_i - \overline{y})
 \end{aligned}
 $$
 
-Correlation:
+Correlation (Pearson's $\rho$):
 
 $$
 \begin{aligned}
@@ -115,4 +115,5 @@ $$
 1. Both $x$ and $y$ need to vary
 
 1. $-1$ or $1$ means perfect linear relationship, i.e., all points on a straight line
-   (2. guarantees that slope is nonzero and finite)
+   <br/>
+   *(2. guarantees that slope is nonzero and finite)*
