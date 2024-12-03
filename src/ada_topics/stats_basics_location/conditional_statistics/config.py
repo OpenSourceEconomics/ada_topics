@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("chapter_template-conditional_statistics.pdf",),
+    "built": ("stats_basics_location-conditional_statistics.pdf",),
 }

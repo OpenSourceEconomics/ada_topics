@@ -108,7 +108,7 @@ df = pd.merge(left=life_exp, right=gdp_pc, left_index=True, right_index=True)
 
 ---
 
-# Merging DataFrames on columns
+# Merging Series / DataFrames on columns
 
 <div class="grid grid-cols-2 gap-60">
 <div>

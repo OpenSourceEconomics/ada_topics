@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("chapter_template-strategies.pdf",),
+    "built": ("stats_bivariate-strategies.pdf",),
 }
