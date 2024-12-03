@@ -20,7 +20,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-conditional_statistics.pdf).
+Download the [slides](stats_basics_location-conditional_statistics.pdf).
 
 Video with German subtitles:
 

@@ -63,17 +63,20 @@ platforms = ["linux-64", "osx-64", "win-64"]
 # --------------------------------------------------------------------------------------
 
 [tool.pixi.dependencies]
+data-morph-ai = ">=0.2.0,<0.3"
 deepdiff = "*"
 ipykernel = "*"
 ipywidgets = "*"
 jupyter-book = ">=1.0.2,<2"
 jupyterlab = "*"
+mscorefonts = ">=0.0.1,<0.0.2"
 nodejs = "*"
 openpyxl = "*"
 pandas = ">=2.2"
 pixi-kernel = ">=0.3.0,<0.4"
 plotly = ">=5.2,<6"
 pre-commit = "*"
+pyarrow = ">=18.0.0,<19"
 pybaum = "*"
 pydata-sphinx-theme = ">=0.13.3"
 pygraphviz = "*"
@@ -86,7 +89,7 @@ sphinx-copybutton = "*"
 sphinxcontrib-mermaid = "*"
 statsmodels = "*"
 xlrd = ">=1.0"
-pyarrow = ">=18.0.0,<19"
+seaborn = ">=0.13.2,<0.14"
 
 # Development Dependencies (pypi)
 # --------------------------------------------------------------------------------------
@@ -147,7 +150,7 @@ extend-ignore = [
 [tool.ruff.lint.per-file-ignores]
 "src/ada_topics/config.py" = ["ERA001"]
 "src/ada_topics/python_basics/executing_pytest/screencast/example/test_cobb_douglas.py" = ["PLR2004"]
-"**/*.ipynb" = ["B018", "T201", "E402", "PLR2004"]
+"**/*.ipynb" = ["B018", "T201", "E402", "ERA001", "PLR2004"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"

@@ -3,6 +3,7 @@
 import itertools
 
 from ada_topics.pandas_basics.boolean_indexing import SITE_CONTENTS as boolean_indexing
+from ada_topics.pandas_basics.concatenate import SITE_CONTENTS as concatenate
 from ada_topics.pandas_basics.dataframes_indexing_slicing import (
     SITE_CONTENTS as dataframes_indexing_slicing,
 )
@@ -10,6 +11,7 @@ from ada_topics.pandas_basics.dataframes_intro import SITE_CONTENTS as dataframe
 from ada_topics.pandas_basics.dataframes_reductions import (
     SITE_CONTENTS as dataframes_reductions,
 )
+from ada_topics.pandas_basics.merge import SITE_CONTENTS as merge
 from ada_topics.pandas_basics.missing_data import SITE_CONTENTS as missing_data
 from ada_topics.pandas_basics.multiindices import SITE_CONTENTS as multiindices
 from ada_topics.pandas_basics.quantiles import SITE_CONTENTS as quantiles
@@ -30,6 +32,8 @@ TOPICS = [
     dataframes_reductions,
     multiindices,
     shift_diff,
+    concatenate,
+    merge,
 ]
 
 

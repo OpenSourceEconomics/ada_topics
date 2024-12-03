@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("stats_basics_location-conditional_statistics.pdf",),
+    "built": ("pandas_basics-concatenate.pdf",),
 }
