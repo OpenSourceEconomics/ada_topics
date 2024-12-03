@@ -5,7 +5,7 @@
 After working through this topic, you should be able to:
 
 - explain what contingency tables are
-- explain what scatter plots, box plots, and violin plots are
+- explain what scatter plots, heatmaps, box plots, and violin plots are
 - decide which strategies to use for summarizing bivariate data based on
   - the combination of data types
   - the number of observations
