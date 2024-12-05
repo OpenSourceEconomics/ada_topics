@@ -1,4 +1,4 @@
-# Grouping DataFrames by rows
+# Selecting rows with queries
 
 ## Learning objectives
 

@@ -18,7 +18,7 @@ marp: true
 
 # Pandas basics
 
-### Grouping DataFrames by rows
+### Selecting rows with queries
 
 <br>
 
@@ -26,50 +26,30 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Grouped data is required all the time
+# Methods to select rows
 
-- size of groups
-- calculate shares by some other variable
-- calculate group differences in some variables
+- `.loc[]` / `.iloc[]` (yields individual items or slices)
 
----
+  - Need to know the label(s) or location(s)
 
-# Example: PIAAC data
+- `.loc[bool series]` / `[bool series]` (yields slices)
 
-| country     | age_group  | use_computer_at_work | programs_monthly |
-| :---------- | :--------- | -------------------: | ---------------: |
-| Germany     | Aged 30-34 |                0.776 |            0.079 |
-|             | Aged 55-59 |                0.679 |            0.035 |
-| Netherlands | Aged 30-34 |                0.872 |            0.096 |
-|             | Aged 55-59 |                0.802 |            0.028 |
+  - Quickly becomes cumbersome for complex conditions
 
-<br/>
+  - Or need to construct the Boolean series upfront
 
-- Index: `country`, `age_group`
-- Float columns: `use_computer_at_work`, `programs_monthly`
-- _(Already grouped)_ — Goal: Broaden groups, calculate statistics
+- `query("condition")` (yields slices)
+
+  - More flexible and often easier to read
 
 ---
 
-# Calculating grouped values: Two steps
-
-1. Generate a grouped object
-
-2. Perform an operation on that
-
-<br/>
-
-Resulting object will be a DataFrame (_almost always of smaller size_).
-
----
-
-# Calculating means by country
+# Example: Gapminder data
 
 ```python
-[1] df.groupby("country")
-[1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da889ba50>
+import plotly.express as px
 
-[2] df.groupby("country").mean()
+life_exp = px.data.gapminder()[["country", "year", "lifeExp"]]
 ```
 
 <br/>
@@ -77,53 +57,89 @@ Resulting object will be a DataFrame (_almost always of smaller size_).
 <div class="flex">
 <div>
 
-|     country | use_computer_at_work | programs_monthly |
-| ----------: | -------------------: | ---------------: |
-|     Germany |                0.728 |            0.057 |
-| Netherlands |                0.837 |            0.062 |
+|      |     country | year | lifeExp |
+| ---: | ----------: | ---: | ------: |
+|    0 | Afghanistan | 1952 |  28.801 |
+|    1 | Afghanistan | 1957 |  30.332 |
+|    2 | Afghanistan | 1962 |  31.997 |
+|  ... |         ... |  ... |     ... |
+| 1701 |    Zimbabwe | 1997 |  46.809 |
+| 1702 |    Zimbabwe | 2002 |  39.989 |
+| 1703 |    Zimbabwe | 2007 |  43.487 |
 
 </div>
 </div>
 
 ---
 
-# Calculating standard dev's by age group
+# Simple query: Syntax
 
 ```python
-[1] df.groupby("age_group")
-[1] <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f6da88b5d90>
-
-[2] df.groupby("age_group").std()
+life_exp.query("country == 'Cuba'")
 ```
 
 <div class="flex">
 <div>
 
-<br/>
-
-|  age_group | use_computer_at_work | programs_monthly |
-| ---------: | -------------------: | ---------------: |
-| Aged 30-34 |                0.067 |            0.012 |
-| Aged 55-59 |                0.087 |            0.005 |
+|     | country | year | lifeExp |
+| --: | :------ | ---: | ------: |
+| 384 | Cuba    | 1952 |  59.421 |
+| 385 | Cuba    | 1957 |  62.325 |
+| 386 | Cuba    | 1962 |  65.246 |
+| ... | ...     |  ... |     ... |
+| 393 | Cuba    | 1997 |  76.151 |
+| 394 | Cuba    | 2002 |  77.158 |
+| 395 | Cuba    | 2007 |  78.273 |
 
 </div>
 </div>
 
 ---
 
-# Important methods on _groupby_-objects
+# Works for index or columns
 
-| Method            | Description                        | Applies to               |
-| ----------------- | ---------------------------------- | ------------------------ |
-| mean              | Averages                           | floats, (ints)           |
-| std               | Standard deviation                 | floats, (ints)           |
-| median / quantile | Quantiles                          | floats, ints             |
-| min / max         | Minimum / Maximum                  | anything that is ordered |
-| count             | Number of non-missing observations | any                      |
-| value_counts      | Number of observations per value   | categorical, (ints)      |
-| apply             | Pass your own function             | depends                  |
+<div class="flex">
+<div>
 
-**Semantics may change depending on whether you pass a single column or more!**
+```python
+life_exp = life_exp.set_index(["country", "year"])
+life_exp.query("country == 'Cuba'")
+```
 
 <br/>
+
+| country   |   year |   lifeExp |
+|----------:|-------:|----------:|
+| Cuba      |   1952 |    59.421 |
+| Cuba      |   1957 |    62.325 |
+| Cuba      |   1962 |    65.246 |
+| ... | ...     |  ... |
+| Cuba      |   1997 |    76.151 |
+| Cuba      |   2002 |    77.158 |
+| Cuba      |   2007 |    78.273 |
+
+</div>
+</div>
+
+---
+
+# Complex conditions are easy
+
+```python
+life_exp.query("year > 2000 and country in ['Cuba', 'Spain']")
+```
+
 <br/>
+
+<div class="flex">
+<div>
+
+| country   |   year |   lifeExp |
+|----------:|-------:|----------:|
+| Cuba      |   2002 |    77.158 |
+| Cuba      |   2007 |    78.273 |
+| Spain     |   2002 |    79.78  |
+| Spain     |   2007 |    80.941 |
+
+</div>
+</div>
