@@ -14,6 +14,9 @@ from ada_topics.stats_basics_location.central_tendency_ordinal_data import (
 from ada_topics.stats_basics_location.central_tendency_properties import (
     SITE_CONTENTS as central_tendency_properties,
 )
+from ada_topics.stats_basics_location.conditional_statistics import (
+    SITE_CONTENTS as conditional_statistics,
+)
 from ada_topics.stats_basics_location.data_sources import (
     SITE_CONTENTS as data_sources,
 )
@@ -48,6 +51,7 @@ TOPICS = [
     central_tendency_cardinal_data,
     central_tendency_properties,
     quantiles,
+    conditional_statistics,
 ]
 
 
