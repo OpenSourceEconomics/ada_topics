@@ -108,15 +108,15 @@ life_exp.query("country == 'Cuba'")
 
 <br/>
 
-| country   |   year |   lifeExp |
-|----------:|-------:|----------:|
-| Cuba      |   1952 |    59.421 |
-| Cuba      |   1957 |    62.325 |
-| Cuba      |   1962 |    65.246 |
-| ... | ...     |  ... |
-| Cuba      |   1997 |    76.151 |
-| Cuba      |   2002 |    77.158 |
-| Cuba      |   2007 |    78.273 |
+| country | year | lifeExp |
+| ------: | ---: | ------: |
+|    Cuba | 1952 |  59.421 |
+|    Cuba | 1957 |  62.325 |
+|    Cuba | 1962 |  65.246 |
+|     ... |  ... |     ... |
+|    Cuba | 1997 |  76.151 |
+|    Cuba | 2002 |  77.158 |
+|    Cuba | 2007 |  78.273 |
 
 </div>
 </div>
@@ -134,12 +134,38 @@ life_exp.query("year > 2000 and country in ['Cuba', 'Spain']")
 <div class="flex">
 <div>
 
-| country   |   year |   lifeExp |
-|----------:|-------:|----------:|
-| Cuba      |   2002 |    77.158 |
-| Cuba      |   2007 |    78.273 |
-| Spain     |   2002 |    79.78  |
-| Spain     |   2007 |    80.941 |
+| country | year | lifeExp |
+| ------: | ---: | ------: |
+|    Cuba | 2002 |  77.158 |
+|    Cuba | 2007 |  78.273 |
+|   Spain | 2002 |   79.78 |
+|   Spain | 2007 |  80.941 |
+
+</div>
+</div>
+
+---
+
+# Using query results for setting values
+
+Say we learn that life expectancy data for Spain after 2000 is unreliable and should be set to missing.
+
+```python
+idx = life_exp.query("year > 2000 and country == 'Spain'").index
+life_exp.loc[idx, "lifeExp"] = pd.NA
+display(life_exp.query("country == 'Spain'").tail())
+```
+
+<div class="flex">
+<div>
+
+| country | year | lifeExp |
+| :------ | ---: | ------: |
+| Spain   | 1987 |    76.9 |
+| Spain   | 1992 |   77.57 |
+| Spain   | 1997 |   78.77 |
+| Spain   | 2002 |     nan |
+| Spain   | 2007 |     nan |
 
 </div>
 </div>
