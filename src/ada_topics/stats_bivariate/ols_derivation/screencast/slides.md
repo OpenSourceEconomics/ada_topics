@@ -66,7 +66,7 @@ $$
 \frac{\partial \sum_{i=1}^{n}\left(Y_{i}-b_0-b_1 X_{i}\right)^{2}}{\partial b_0} = \sum_{i=1}^{n} 2 \cdot \left(Y_{i}-b_0-b_1 X_{i}\right) \cdot (-1)
 $$
 
-$\beta_0$ and $\beta_1$ are the values solving this:
+$\hat{\beta}_0$ and $\hat{\beta}_1$ are the values solving this:
 
 $$
 \sum_{i=1}^{n} -2 \cdot \left(Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i}\right) \overset{!}{=} 0
@@ -113,7 +113,7 @@ $$
 \frac{\partial \sum_{i=1}^{n}\left(Y_{i}-b_0-b_1 X_{i}\right)^{2}}{\partial b_1} = \sum_{i=1}^{n} 2 \cdot \left(Y_{i}-b_0-b_1 X_{i}\right) \cdot (-X_i)
 $$
 
-$\beta_0$ and $\beta_1$ are the values solving this:
+$\hat{\beta}_0$ and $\hat{\beta}_1$ are the values solving this:
 
 $$
 \sum_{i=1}^{n} -2 \cdot \left(Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i}\right) X_i \overset{!}{=} 0
@@ -184,7 +184,7 @@ Remember the FOC's:
 
 $$
 \begin{aligned}
-\frac{1}{n}\sum_{i=1}^{n} Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i} & = \frac{1}{n}\sum_{i=1}^{n} U_i = \frac{1}{n}\bar{U}  = 0 \\[4ex]
+\frac{1}{n}\sum_{i=1}^{n} Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i} & = \frac{1}{n}\sum_{i=1}^{n} U_i = \bar{U}  = 0 \\[4ex]
 \frac{1}{n-1}\sum_{i=1}^{n} \left(Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i}\right) X_{i} & = \frac{1}{n-1}\sum_{i=1}^{n} U_i X_i = s_{X, U} = 0
 \end{aligned}
 $$
