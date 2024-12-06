@@ -32,7 +32,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Linear relationship:
 
-  $$Y = \beta_0 + \beta_1 \cdot X + U$$
+  $$Y_i = \beta_0 + \beta_1 \cdot X_i + U_i$$
 
 - Divides each $Y_i$ into two parts:
 
