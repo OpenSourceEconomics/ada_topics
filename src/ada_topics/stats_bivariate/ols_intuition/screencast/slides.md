@@ -61,6 +61,12 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 ---
 
 <center>
+<img src="/fig_line_xb.svg" width=650>
+</center>
+
+---
+
+<center>
 <img src="/fig_line_xb_u.svg" width=650>
 </center>
 
@@ -74,6 +80,12 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 <center>
 <img src="/fig_line_xb_u_line_y_2.svg" width=650>
+</center>
+
+---
+
+<center>
+<img src="/fig_line_xb_u_line_xb_2.svg" width=650>
 </center>
 
 ---
