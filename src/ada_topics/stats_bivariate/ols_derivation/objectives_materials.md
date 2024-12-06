@@ -4,9 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- explain that the OLS estimator minimizes the sum of squared deviations from the
-  regression line and the data points
 - derive the bivariate OLS estimator
+- explain why the OLS estimator implies $\bar{U} = 0$ and $s_{X, U} = 0$
 
 ## Materials
 

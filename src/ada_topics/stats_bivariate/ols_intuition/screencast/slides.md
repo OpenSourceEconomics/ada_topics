@@ -26,168 +26,117 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Conditional mean function
+# Linear conditional mean function
 
 - Given that I know $X$, what is the mean value of $Y$?
 
-- We saw this for $X$ discrete and measured $Y$ (GDP per capita for different countries)
+- Linear relationship:
 
-- Now look $\bar{Y} | X = x$
+  $$Y = \beta_0 + \beta_1 \cdot X + U$$
 
-  - Discrete $X$: `df.groupby("x").mean()["y"]`
+- Divides each $Y_i$ into two parts:
 
----
+  - Systematic part (conditional mean): $\beta_0 + \beta_1 \cdot X_i$
 
-<center>
-<img src="/fig_violin.svg" width=650>
-</center>
-
----
-
-# Conditional mean function
-
-- Given that I know $X$, what is the mean value of $Y$?
-
-- We saw this for $X$ discrete and measured $Y$ (GDP per capita for different countries)
-
-- Now look $\bar{Y} | X = x$
-
-  - Discrete $X$: `df.groupby("x").mean()["y"]`
-
-  - Continuous $X$: Bin the data and calculate the mean for each bin
+  - Residual / unobserved part: $U_i$
 
 ---
 
 <center>
-<img src="/fig_cont_overall_mean.svg" width=650>
+<img src="/fig_bare.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_means_2.svg" width=650>
+<img src="/fig_point.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_means_3.svg" width=650>
+<img src="/fig_line_y.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_means_4.svg" width=650>
+<img src="/fig_line_xb_u.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_means_5.svg" width=650>
+<img src="/fig_line_xb_u_point_2.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_means_6.svg" width=650>
-</center>
-
----
-
-# Continuous $X$, alternative
-
-- Assume a functional form for the relationship between $X$ and $Y$
-
-- Linear relationship: $Y = \beta_0 + \beta_1 \cdot X + U$
-
-- $\bar{Y} | X = x$ becomes $\beta_0 + \beta_1 \cdot x$
-
----
-
-<center>
-<img src="/fig_cont_overall_mean.svg" width=650>
+<img src="/fig_line_xb_u_line_y_2.svg" width=650>
 </center>
 
 ---
 
 <center>
-<img src="/fig_cont_line_-35.svg" width=650>
+<img src="/fig_line_xb_u_line_xb_u_2.svg" width=650>
 </center>
 
 ---
 
-<center>
-<img src="/fig_cont_line_-30.svg" width=650>
-</center>
+# OLS: Setup
+
+Rewrite
+
+$$Y_i = \beta_0 + \beta_1 \cdot X_i + U_i$$
+
+as
+
+$$U_i = Y_i - \beta_0 - \beta_1 \cdot X_i$$
+
+and pick $\beta_0$, $\beta_1$ as to minimize a total distance of the $U_i$
 
 ---
 
-<center>
-<img src="/fig_cont_line_-25.svg" width=650>
-</center>
+# OLS: Setup
+
+"pick $\beta_0$, $\beta_1$ as to minimize a total distance of the $U_i$":
+
+- Total: Sum
+
+- Criterion: Squared distances
+
+$$
+\begin{aligned}
+(\hat{\beta}_0, \hat{\beta}_1) & = \argmin_{b_0,b_1} \: \sum_{i=1}^{n} U_i^2 \\
+&= \argmin_{b_0,b_1} \: \sum_{i=1}^{n}\left(Y_{i}-b_0-b_1 X_{i}\right)^{2}
+\end{aligned}
+$$
 
 ---
 
-<center>
-<img src="/fig_cont_line_-20.svg" width=650>
-</center>
+# OLS: Why that setup?
+
+Optimal in the sense of providing the "Best Linear Unbiased Predictor"
+
+- Best: Cannot do better in the class of linear unbiased predictors
+
+- Linear: Functional form is $a + b \cdot X$
+
+- Unbiased: Wait for the Statistics course
+
+- Predictor: Estimate for $\bar{Y} | X$
+
+Proof is beyond the scope of this course
 
 ---
 
-<center>
-<img src="/fig_cont_line_-15.svg" width=650>
-</center>
+# OLS: Hugely important
 
----
+- Easily extends to multiple $X$, non-linear relationships, etc.
 
-<center>
-<img src="/fig_cont_line_-10.svg" width=650>
-</center>
+- Basis for huge amount of other statistical methods
 
----
+- Will only scratch the surface here
 
-<center>
-<img src="/fig_cont_line_0.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_5.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_10.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_15.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_20.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_25.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_30.svg" width=650>
-</center>
-
----
-
-<center>
-<img src="/fig_cont_line_35.svg" width=650>
-</center>
+- Large part(s) of econometrics course(s) will be spent on this model

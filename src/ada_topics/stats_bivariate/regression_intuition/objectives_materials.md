@@ -1,13 +1,11 @@
-# Ordinary Least Squares (OLS): Intuition
+# Regression methods: Intuition
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- explain that we can decompose $Y$ into a systematic part and a residual part
-- explain that the OLS estimator minimizes the sum of squared deviations from the
-  regression line and the data points
-- list some properties of the OLS estimator
+- explain the intuition behind a regression line
+- explain the concept of a conditional mean function
 
 ## Materials
 
@@ -21,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](stats_bivariate-ols_intuition.pdf).
+Download the [slides](stats_bivariate-regression_intuition.pdf).
 
 Video with German subtitles:
 
