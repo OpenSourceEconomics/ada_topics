@@ -4,12 +4,20 @@ import itertools
 
 from ada_topics.stats_bivariate.correlation import SITE_CONTENTS as correlation
 from ada_topics.stats_bivariate.covariance import SITE_CONTENTS as covariance
+from ada_topics.stats_bivariate.ols_derivation import SITE_CONTENTS as ols_derivation
+from ada_topics.stats_bivariate.ols_intuition import SITE_CONTENTS as ols_intuition
+from ada_topics.stats_bivariate.regression_intuition import (
+    SITE_CONTENTS as regression_intuition,
+)
 from ada_topics.stats_bivariate.strategies import SITE_CONTENTS as strategies
 
 TOPICS = [
     strategies,
     covariance,
     correlation,
+    regression_intuition,
+    ols_intuition,
+    ols_derivation,
 ]
 
 
