@@ -11,10 +11,12 @@ from ada_topics.pandas_basics.dataframes_intro import SITE_CONTENTS as dataframe
 from ada_topics.pandas_basics.dataframes_reductions import (
     SITE_CONTENTS as dataframes_reductions,
 )
+from ada_topics.pandas_basics.groupby import SITE_CONTENTS as groupby
 from ada_topics.pandas_basics.merge import SITE_CONTENTS as merge
 from ada_topics.pandas_basics.missing_data import SITE_CONTENTS as missing_data
 from ada_topics.pandas_basics.multiindices import SITE_CONTENTS as multiindices
 from ada_topics.pandas_basics.quantiles import SITE_CONTENTS as quantiles
+from ada_topics.pandas_basics.query import SITE_CONTENTS as query
 from ada_topics.pandas_basics.series_intro import SITE_CONTENTS as series_intro
 from ada_topics.pandas_basics.shift_diff import SITE_CONTENTS as shift_diff
 from ada_topics.pandas_basics.types_of_data_dtypes import (
@@ -30,6 +32,8 @@ TOPICS = [
     dataframes_intro,
     dataframes_indexing_slicing,
     dataframes_reductions,
+    groupby,
+    query,
     multiindices,
     shift_diff,
     concatenate,

@@ -19,7 +19,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](pandas_basics-groupby.pdf).
+Download the [slides](pandas_basics-query.pdf).
 
 Video with German subtitles:
 

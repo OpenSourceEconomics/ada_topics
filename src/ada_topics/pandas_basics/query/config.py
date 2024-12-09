@@ -3,5 +3,5 @@
 SITE_CONTENTS = {
     "pages": ("objectives_materials.md",),
     "other": (),
-    "built": ("pandas_basics-groupby.pdf",),
+    "built": ("pandas_basics-query.pdf",),
 }
