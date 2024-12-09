@@ -6,6 +6,7 @@ After working through this topic, you should be able to:
 
 - derive the bivariate OLS estimator
 - explain why the OLS estimator implies $\bar{U} = 0$ and $s_{X, U} = 0$
+- interpret what the parameter values of the OLS estimator mean
 
 The derivation is [reproduced below the videos](derivation-of-the-ols-estimator) for
 your convenience.
