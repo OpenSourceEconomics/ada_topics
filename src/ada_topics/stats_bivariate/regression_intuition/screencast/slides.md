@@ -98,7 +98,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Assume a functional form for the relationship between $X$ and $Y$
 
-- Linear relationship: $Y_i = \beta_0 + \beta_1 \cdot X_i + U$
+- Linear relationship: $Y_i = \beta_0 + \beta_1 \cdot X_i + U_i$
 
 - $\bar{Y} | X = x$ becomes $\beta_0 + \beta_1 \cdot x$
 

@@ -137,7 +137,7 @@ Optimal in the sense of providing the "Best Linear Unbiased Predictor"
 
 - Unbiased: Wait for the Statistics course
 
-- Predictor: Estimate for $\bar{Y} | X$
+- Predictor: Estimate for $Y | X=x$
 
 Proof is beyond the scope of this course
 
