@@ -103,10 +103,8 @@ $$
 
 use $\sum_i (a_i + b_i) = \sum_i a_i + \sum_i b_i$
 
-$$\sum_{i=1}^{n} -2 \cdot \left(Y_{i}-\hat{\beta}_0-\hat{\beta}_1 X_{i}\right) X_i &\overset{!}{=} 0
-
-\sum_{i=1}^{n} Y_{i} - \sum_{i=1}^{n}\hat{\beta}_0 - \sum_{i=1}^{n} \hat{\beta}_1 X_{i} = 0
-$$
+\\sum\_{i=1}^\{n} Y\_\{i} - \\sum\_{i=1}^\{n}\\hat{\\beta}_0 - \\sum_{i=1}^\{n}
+\\hat{\\beta}_1 X_\{i} = 0 \$\$
 
 use $a (b + c) = ab + ac$
 
