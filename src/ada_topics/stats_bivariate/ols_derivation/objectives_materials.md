@@ -16,7 +16,7 @@ your convenience.
 Video with English subtitles:
 
 <iframe
-  src=""
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=f4644bef-2315-4ea7-bc8b-e76fcb0b0a18"
   width="640"
   height="360"
   frameborder="0"
@@ -30,7 +30,7 @@ Video with German subtitles:
 *(turn subtitles on in the bottom right corner of the video)*
 
 <iframe
-  src=""
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=d4762f13-fd80-416c-b4b3-d399eb09bb7c"
   width="640"
   height="360"
   frameborder="0"
