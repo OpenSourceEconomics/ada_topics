@@ -27,7 +27,34 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+# Nodes
 
-- First bullet
-- Second bullet
+<br/>
+
+```mermaid {theme: 'neutral', scale: 0.75, htmlLabels: false}
+flowchart LR
+    A[Start] -- B{Decision}
+    B -- C[Result 1]
+    B -- D[Result 2]
+    C -- E[End]
+    D -- E
+```
+
+<br/>
+<br/>
+
+---
+
+# Nodes, undirected edges
+
+```mermaid {theme: 'neutral', scale: 0.75, htmlLabels: false}
+flowchart LR
+    A --> C
+    B --> C
+
+    linkStyle default stroke-width:8px
+```
+
+<br/>
+<br/>
+<br/>

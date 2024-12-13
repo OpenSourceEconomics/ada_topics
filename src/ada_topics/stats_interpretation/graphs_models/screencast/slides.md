@@ -27,7 +27,16 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+```mermaid {theme: 'neutral', scale: 0.75, htmlLabels: false}
+flowchart LR
+    A --> C
+    B --> C
 
-- First bullet
-- Second bullet
+    style A fill:#FFE5B4
+    style C fill:#FFE5B4
+    style E fill:#FFE5B4
+```
+
+<br/>
+<br/>
+<br/>
