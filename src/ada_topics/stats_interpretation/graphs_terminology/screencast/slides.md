@@ -9,7 +9,7 @@ drawings:
   persist: false
 transition: fade
 defaults:
-  layout: center
+  layout: default
 ---
 
 ### Applied Data Analytics
@@ -22,7 +22,6 @@ defaults:
 
 <br/>
 
-
 Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
@@ -31,30 +30,124 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 <br/>
 
-```mermaid {theme: 'neutral', scale: 0.75, htmlLabels: false}
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
 flowchart LR
-    A[Start] -- B{Decision}
-    B -- C[Result 1]
-    B -- D[Result 2]
-    C -- E[End]
-    D -- E
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
 ```
+
+</div>
+</div>
 
 <br/>
 <br/>
 
 ---
 
-# Nodes, undirected edges
-
-```mermaid {theme: 'neutral', scale: 0.75, htmlLabels: false}
-flowchart LR
-    A --> C
-    B --> C
-
-    linkStyle default stroke-width:8px
-```
+# Graph = (Nodes, edges)
 
 <br/>
+
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
+```
+
+</div>
+</div>
+
+<br/>
+<br/>
+
+---
+
+# Undirected Graph = (Nodes, edges)
+
+<br/>
+
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
+```
+
+</div>
+</div>
+
+<br/>
+<br/>
+
+---
+
+# Directed Graph = (Nodes, edges)
+
+<br/>
+
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
+```
+
+</div>
+</div>
+
+<br/>
+<br/>
+
+---
+
+# Directed Acyclic Graph (DAG)
+
+<br/>
+
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
+```
+
+</div>
+</div>
+
+<br/>
+<br/>
+
+---
+
+# Directed Acyclic Graph (DAG)
+
+<br/>
+
+<div class="flex">
+<div>
+
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    A(A) ~~~ C(C)
+    B(B) ~~~ C
+    A ~~~ D(D)
+    B ~~~ D
+```
+
+</div>
+</div>
+
 <br/>
 <br/>

@@ -4,7 +4,7 @@
 
 After working through this topic, you should be able to:
 
-- list the basic terminology used in graph theory
+- list the basic terminology used in graph theory, in particular
 
   - nodes and edges
   - directed and undirected graphs
