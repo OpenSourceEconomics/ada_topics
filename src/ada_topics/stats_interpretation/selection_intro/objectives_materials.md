@@ -1,11 +1,12 @@
-# Subchapter title
+# Selection problems: Introduction
 
 ## Learning objectives
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain why selection problems are ubiquitous when analysing socio-economic data
+- explain why selection may lead to wrong conclusions in subtle and not-so-subtle ways
+- explain the relation between causal models and selection problems
 
 ## Materials
 
@@ -19,7 +20,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_slug.pdf).
+Download the [slides](stats_interpretation-selection_intro.pdf).
 
 Video with German subtitles:
 

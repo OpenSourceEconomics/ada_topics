@@ -16,9 +16,9 @@ defaults:
 
 <br/>
 
-# Chapter title
+# Pandas basics
 
-### Subchapter title
+### Simulating data
 
 <br/>
 
