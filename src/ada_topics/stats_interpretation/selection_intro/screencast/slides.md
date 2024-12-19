@@ -16,9 +16,9 @@ defaults:
 
 <br/>
 
-# Chapter title
+# Data analysis — Interpretation challenges
 
-### Subchapter title
+### Selection problems: Introduction
 
 <br/>
 
@@ -26,7 +26,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
+# Missing data and selection
 
-- First bullet
-- Second bullet
+---
+
+# Causal models and selection
+
+---

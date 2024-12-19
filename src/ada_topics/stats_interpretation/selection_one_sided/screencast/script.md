@@ -1,4 +1,4 @@
-# Script: Subchapter title
+# Script: One-sided selection
 
 ## First slide
 

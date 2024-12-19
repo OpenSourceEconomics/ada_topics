@@ -16,9 +16,9 @@ defaults:
 
 <br/>
 
-# Chapter title
+# Data analysis — Interpretation challenges
 
-### Subchapter title
+### Two-sided selection
 
 <br/>
 
@@ -26,7 +26,4 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-# Some Content
-
-- First bullet
-- Second bullet
+# Causality as a two-sided selection problem

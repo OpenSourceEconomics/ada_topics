@@ -16,11 +16,12 @@ defaults:
 
 <br/>
 
-# Chapter title
+# Data analysis — Interpretation challenges
 
-### Subchapter title
+### One-sided selection
 
 <br/>
+
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 

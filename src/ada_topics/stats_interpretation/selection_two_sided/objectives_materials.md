@@ -1,4 +1,4 @@
-# Subchapter title
+# Two-sided selection
 
 ## Learning objectives
 
@@ -19,11 +19,11 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](chapter_template-subchapter_slug.pdf).
+Download the [slides](stats_interpretation-selection_two_sided.pdf).
 
 Video with German subtitles:
 
-_(turn subtitles on in the bottom right corner of the video)_
+*(turn subtitles on in the bottom right corner of the video)*
 
 <iframe
   src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
