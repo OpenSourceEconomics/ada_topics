@@ -32,16 +32,6 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Simulating data
 
-- Monte Carlo studies because of randomness
-
-- Will see mathematical basis only in statistics course
-
-- Just work with intuition & recipe here
-
----
-
-# Simulating data
-
 - Called <span style="color:#CD7F32;">Monte Carlo</span> studies because of randomness
 
 - Will see mathematical basis only in statistics course

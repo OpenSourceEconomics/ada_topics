@@ -79,17 +79,17 @@ Goal:
 
 # Selection: Why is data missing?
 
-1. A: randomly
+1. Answer: randomly
 
    - No problem
 
-   - All three answer strategies lead to the same result
+   - Dropping / imputing observations tend to lead to the same result
 
-1. A: other reasons
+1. Answer: for other reasons
 
    - Need to think hard about the selection process
 
-   - Causal models and selection
+   - Causal models for the selection process
 
 ---
 

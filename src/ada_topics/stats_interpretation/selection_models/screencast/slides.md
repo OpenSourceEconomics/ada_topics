@@ -43,7 +43,7 @@ Typical article about founders:
 
 1. Interview successful founders ($Y$)
 
-2. Narrow down the narrative on 1-2 factors ($X$)
+2. Narrow down the narrative to 1-2 factors ($X$)
 
 Example based on
 [Mollick blog](https://www.oneusefulthing.org/p/when-survivorship-bias-meets-superstitious),
@@ -69,7 +69,12 @@ flowchart LR
 
 Selection model
 
-Causal graph
+```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
+flowchart LR
+    X(X) --> Z(In story)
+    Y(Success) --> Z
+```
+
 
 </div>
 </div>
