@@ -5,10 +5,22 @@
 After working through this topic, you should be able to:
 
 - explain why selection problems are ubiquitous when analysing socio-economic data
-- explain why selection may lead to wrong conclusions in subtle and not-so-subtle ways
-- explain the relation between causal models and selection problems
+- remember that selection may lead to wrong conclusions in subtle and not-so-subtle ways
 
 ## Materials
+
+As a motivation, watch this ARD reporting from Florida on Hurricane Milton on 10 October
+2024:
+
+<iframe
+  src="https://www.ardmediathek.de/embed/Y3JpZDovL3RhZ2Vzc2NoYXUuZGUvMDU0OWUwZjctOTdhNi00MGIyLWEzNjYtYjRhZTcwNWY1MTJiLVNFTkRVTkdTVklERU8?startTime=365.00&endTime=388.00"
+  width="640"
+  height="360"
+  allowfullscreen
+  allow="clipboard-read; clipboard-write"
+  frameBorder="0"
+  scrolling="no"
+></iframe>
 
 Video with English subtitles:
 
