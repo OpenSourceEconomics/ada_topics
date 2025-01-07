@@ -25,7 +25,7 @@ As a motivation, watch this ARD reporting from Florida on Hurricane Milton on 10
 Video with English subtitles:
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=9e510cde-0429-4daf-aaaa-81c6597430af"
   width="640"
   height="360"
   frameborder="0"
@@ -39,7 +39,7 @@ Video with German subtitles:
 _(turn subtitles on in the bottom right corner of the video)_
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=b58e0c01-0bb7-4d63-b0ad-9a53f3d348e7"
   width="640"
   height="360"
   frameborder="0"

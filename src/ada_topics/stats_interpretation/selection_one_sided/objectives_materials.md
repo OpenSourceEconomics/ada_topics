@@ -4,8 +4,10 @@
 
 After working through this topic, you should be able to:
 
-- ...
-- ...
+- explain what we mean by one-sided selection
+- explain how one-sided selection can lead to biased results regarding
+  - univariate statistics
+  - bivariate relationships
 
 ## Materials
 
