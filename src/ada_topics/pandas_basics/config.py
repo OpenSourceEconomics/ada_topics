@@ -19,6 +19,7 @@ from ada_topics.pandas_basics.quantiles import SITE_CONTENTS as quantiles
 from ada_topics.pandas_basics.query import SITE_CONTENTS as query
 from ada_topics.pandas_basics.series_intro import SITE_CONTENTS as series_intro
 from ada_topics.pandas_basics.shift_diff import SITE_CONTENTS as shift_diff
+from ada_topics.pandas_basics.simulating_data import SITE_CONTENTS as simulating_data
 from ada_topics.pandas_basics.types_of_data_dtypes import (
     SITE_CONTENTS as types_of_data_dtypes,
 )
@@ -38,6 +39,7 @@ TOPICS = [
     shift_diff,
     concatenate,
     merge,
+    simulating_data,
 ]
 
 
