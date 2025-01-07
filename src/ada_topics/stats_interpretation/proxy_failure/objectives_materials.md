@@ -21,7 +21,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](stats_interpretation-selection_intro.pdf).
+Download the [slides](stats_interpretation-proxy_failure.pdf).
 
 Video with German subtitles:
 
