@@ -1,7 +1,5 @@
 # Proxy failure
 
-# Gescheiterte Indikatoren
-
 ## Learning objectives
 
 After working through this topic, you should be able to:
@@ -30,7 +28,7 @@ Video with German subtitles:
 _(turn subtitles on in the bottom right corner of the video)_
 
 <iframe
-  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=XXXXX"
+  src="https://electure.uni-bonn.de/paella7/ui/watch.html?id=0e36bb47-aa51-42cf-ba6f-e398701f52f2"
   width="640"
   height="360"
   frameborder="0"
