@@ -22,7 +22,7 @@ Video with English subtitles:
   allowfullscreen
 ></iframe>
 
-Download the [slides](stats_interpretation-subchapter_slug.pdf).
+Download the [slides](stats_interpretation-observing_intervening_counterfactuals.pdf).
 
 Video with German subtitles:
 

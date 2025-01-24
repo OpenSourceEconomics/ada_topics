@@ -16,12 +16,11 @@ defaults:
 
 <br/>
 
-# Chapter Title
+# Chapter title
 
-### Subchapter Title
+### Subchapter title
 
 <br/>
-
 
 Hans-Martin von Gaudecker and Aapo Stenhammar
 

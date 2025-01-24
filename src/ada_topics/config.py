@@ -15,6 +15,7 @@ CHAPTER_NAMES = [
     "stats_dispersion_concentration",
     "stats_bivariate",
     "stats_misc",
+    "stats_interpretation",
     "jupyter_notebooks",
     "getting_help",
     "python_basics",
