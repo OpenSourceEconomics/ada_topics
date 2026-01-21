@@ -73,23 +73,22 @@ mscorefonts = ">=0.0.1,<0.0.2"
 nodejs = "*"
 openpyxl = "*"
 pandas = ">=2.2"
-pixi-kernel = ">=0.3.0,<0.4"
 plotly = ">=5.2,<6"
 pre-commit = "*"
-pyarrow = ">=18.0.0,<19"
+pyarrow = ">=19.0"
 pybaum = "*"
 pydata-sphinx-theme = ">=0.13.3"
 pygraphviz = "*"
 python = ">=3.12.5"
 pyyaml = "*"
 scipy = "<=1.13"
+seaborn = ">=0.13.2,<0.14"
 sphinx = "*"
 sphinx-automodapi = "*"
 sphinx-copybutton = "*"
 sphinxcontrib-mermaid = "*"
 statsmodels = "*"
 xlrd = ">=1.0"
-seaborn = ">=0.13.2,<0.14"
 
 # Development Dependencies (pypi)
 # --------------------------------------------------------------------------------------
@@ -144,6 +143,8 @@ extend-ignore = [
     "S307",
     "S602", # `subprocess` call with `shell=True`.
     "T201",
+    "TC002",  # Move third-party import into a type-checking block
+    "TC003",  # Move standard library import into a type-checking block
     "TRY003",
 ]
 
