@@ -15,7 +15,7 @@ from ada_topics.python_basics.imports import (
     SITE_CONTENTS as imports,
 )
 from ada_topics.python_basics.lists_tuples import SITE_CONTENTS as lists_tuples
-from ada_topics.python_basics.print import SITE_CONTENTS as print  # noqa: A001
+from ada_topics.python_basics.print import SITE_CONTENTS as print  # noqa: A004
 from ada_topics.python_basics.scalar_types import (
     SITE_CONTENTS as scalar_types,
 )
