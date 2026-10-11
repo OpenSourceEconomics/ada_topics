@@ -166,7 +166,7 @@ flowchart LR
 
 $$
 \begin{aligned}
-X^\text{corr}_i & = X_i + U_i / 3 \\[4ex]
+X^\text{corr}_i & = X_i - U_i / 3 \\[4ex]
 Y^\text{corr}_i &= 5 + 2 \cdot X^\text{corr}_i + U_i
 \end{aligned}
 $$

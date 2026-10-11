@@ -151,7 +151,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 [3, 4, 5]
 
 >>> a[-1]
-[5]
+5
 ```
 
 </div>
