@@ -240,7 +240,7 @@ fig = monthly_income.plot.hist(
 )
 fig.update_layout(
     showlegend=False,
-    xaxis_title="Monthly income in 1,000s of Euros"
+    xaxis_title="Monthly income in 1,000s of Euros",
     yaxis_title="Number of observations",
     yaxis_tickvals=[0, 1, 2],
 )

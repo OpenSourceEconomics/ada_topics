@@ -96,7 +96,8 @@ $$
 
 - The only important bit is the second fraction
 
-- Pandas actually uses a slightly different df normalisation
+- This is the adjusted sample skewness used by pandas, with the sample standard
+  deviation $s$, $n\geq3$ and $s>0$.
 
 ---
 
@@ -108,4 +109,4 @@ $$
 |        4 |        0 |        3 |       -1 |
 |        6 |        8 |        8 |       64 |
 |      SCD |        0 |      SCD |       36 |
-| Skewness |        0 | Skewness |     0.84 |
+| Skewness |        0 | Skewness |     1.15 |

@@ -129,17 +129,16 @@ $$
 
 # OLS: Why that setup?
 
-Optimal in the sense of providing the "Best Linear Unbiased Predictor"
+- Among straight lines $a+b\cdot X$, OLS has the smallest in-sample sum of
+  squared vertical residuals, by construction.
 
-- Best: Cannot do better in the class of linear unbiased predictors
+- Squaring gives larger residuals more weight in this criterion.
 
-- Linear: Functional form is $a + b \cdot X$
+- Statistical optimality for a population requires additional assumptions about
+  how the data were generated.
 
-- Unbiased: Wait for the Statistics course
-
-- Predictor: Estimate for $Y | X=x$
-
-Proof is beyond the scope of this course
+- Those assumptions and results are covered in later statistics and econometrics
+  courses.
 
 ---
 

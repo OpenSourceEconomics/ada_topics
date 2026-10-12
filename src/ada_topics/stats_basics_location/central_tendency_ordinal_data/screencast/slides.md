@@ -101,7 +101,10 @@ A value such that:
 ### Median: in practice
 
 - Sort the data and find the _middle value_
-- Even $N$ and distinct values at $N/2$ and $N/2 + 1$: Any value between the two, typically the average.
+- Even $N$ and distinct middle categories: report both, or state a convention for
+  choosing the lower or upper middle category.
+- Averaging category codes is not meaningful for purely ordinal data; an arithmetic
+  midpoint requires a cardinal scale.
 - Can be computed for any type of _ordered_ data (ordinal and cardinal).
 
 <br/>

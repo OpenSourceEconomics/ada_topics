@@ -121,8 +121,7 @@ MultiIndex: `country`, `year`
 <div>
 
 ```python
-[3] df.groupby("country").shift(1)
-    df[["continent", "lifeExp"]]
+[3] df.groupby("country")[["continent", "lifeExp"]].shift(1)
 ```
 
 - Essentially always necessary<br/>when your data has a MultiIndex

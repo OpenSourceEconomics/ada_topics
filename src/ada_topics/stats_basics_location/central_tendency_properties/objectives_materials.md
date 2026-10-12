@@ -7,8 +7,10 @@ After working through this topic, you should be able to:
 - explain what a reduction operation is
 - explain why you can go back and forth between totals and averages, but not between
   totals and medians / modes.
-- explain why the median is invariant under monotonic transformations, while the mean is
-  only invariant to positive affine transformations.
+- explain when a chosen median convention commutes with increasing transformations,
+  including the even-sample interpolation exception in pandas.
+- explain why means commute with affine transformations, while nonlinear transformations
+  generally change them in a different way.
 
 ## Materials
 

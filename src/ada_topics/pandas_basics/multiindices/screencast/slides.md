@@ -85,8 +85,10 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - `set_index` can take any column or list of columns
 
-- Optional argument `drop=True` or `drop=False` determines what happens with the old
-  index in `set_index` / `reset_index`
+- In `set_index`, `drop=True` removes the columns used for the new index;
+  `drop=False` also keeps those columns. It does not preserve the old index.
+
+- In `reset_index`, `drop=False` keeps the old index as columns; `drop=True` discards it.
 
 <br/>
 <br/>

@@ -36,13 +36,13 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 # Inferring causality
 
-- Necessary condition: We have a DAG
+- The introductory graphical criterion used here assumes a DAG.
 
-  _Implies that framework is not immediately constructive for supply and demand_
+  _Feedback requires a separately specified dynamic or simultaneous model._
 
   <br/>
 
-- No forks on any path from cause to effect ("no confounders")
+- For the simple unadjusted comparisons here, rule out confounding paths:
 
 ```mermaid {theme: 'neutral', scale: 1.5, htmlLabels: false}
 flowchart LR
@@ -60,15 +60,17 @@ flowchart LR
 
 # Inferring causality
 
-- Necessary condition: We have a DAG
+- The introductory graphical criterion used here assumes a DAG.
 
-  _Implies that framework is not immediately constructive for supply and demand_
+  _A cycle prevents applying this criterion as drawn; it does not by itself prove
+  that a causal effect cannot be identified._
 
   <br/>
 
-- No forks on any path from cause to effect ("no confounders")
+- Adjustment may remove confounding if an appropriate set of confounders is observed
+  and the statistical model is correctly specified.
 
-  _Could in principle solve via including all confounders in a multiple regression_
+  _For example, in a suitable multiple regression:_
 
   $$Y_i = \beta_0 + \beta_1 X_{1, i} + \beta_2 X_{2_i} + \ldots + \beta_k X_{k_i} + U_i$$
 

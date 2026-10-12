@@ -70,13 +70,15 @@ flowchart LR
 
 # Using observed age at death
 
-- Calculated mean age at death < true mean age at death
+- The observed-deaths mean describes completed lifetimes only.
 
-  *Many artists are still alive, so it can only go up.*
+  *With mixed birth cohorts, adding later deaths can raise or lower this mean.*
 
-- Wrong result for relation between genre and age at death
+- Genre comparisons mix age-at-death differences with different birth-year
+  distributions and follow-up times.
 
-  *Distribution of birth years not the same for all genres.*
+  *A downward error is plausible under suitable survival/cohort assumptions, but
+  the presence of living artists alone does not prove its direction.*
 
 ---
 

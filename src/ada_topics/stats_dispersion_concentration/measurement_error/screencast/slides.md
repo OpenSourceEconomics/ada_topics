@@ -30,7 +30,8 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Remember measurement issues are pervasive
 
-- Show that unsystematic measurement errors impact only variance and higher
+- Show when mean-zero measurement errors preserve the mean, while other
+  summaries, including medians and variances, can change
 
 - Show that systematic measurement errors impact all statistics
 
@@ -44,7 +45,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 - Actual measurement: $x_i \equiv x_i^* + \varepsilon_i$
 
-- $\sum^n_{i=1}\varepsilon_i \equiv \bar{\varepsilon} = 0$
+- Assume the realised errors sum to zero: $\bar{\varepsilon} \equiv \frac{1}{n}\sum^n_{i=1}\varepsilon_i = 0$
 
 - $\frac{1}{n-1}\sum^n_{i=1}(\varepsilon_i - \bar{\varepsilon})^2 > 0$
 
@@ -68,13 +69,15 @@ $$
 
 $$
 \begin{aligned}
-  s^2_x &= \frac{1}{n-1}\sum^n_{i=1}(x_i - \bar{x}) \\
+  s^2_x &= \frac{1}{n-1}\sum^n_{i=1}(x_i - \bar{x})^2 \\
         &= \frac{1}{n-1}\sum^n_{i=1}(x_i^* + \varepsilon_i  - \bar{x^*})^2\\
-        &= \frac{1}{n-1}\sum^n_{i=1}(x_i^* - \bar{x^*})^2 + \frac{1}{n-1}\sum^n_{i=1}\varepsilon_i^2\\
+        &= s_{x^*}^2 + s_{\varepsilon}^2 + \frac{2}{n-1}\sum^n_{i=1}(x_i^*-\bar{x^*})\varepsilon_i\\
 \end{aligned}
 $$
 
-Note: Third line needs more assumptions on "unsystematic".
+With a zero cross-product term, the variance rises by $s_{\varepsilon}^2$.
+Independence makes that term zero in expectation, not in every realised sample.
+The cross-product term can be negative and make the realised variance fall.
 
 
 
@@ -103,8 +106,11 @@ $$
 
 If I was to use this data directly:
 
-- $\bar{x} < \bar{x^*}$
+- $\bar{x} \leq \bar{x^*}$, strictly if at least one value is clipped
 
-- $s_x < s_{x^*}$
+- $s_x \leq s_{x^*}$
 
-- $x_{q_z} = x^*_{q_z}$ if $x^*_{q_z} \leq 90,600\,€$
+- Order-statistic quantiles at or below the cutoff are unchanged. For pandas'
+  interpolated sample quantiles, a sufficient condition for no change is that all
+  contributing order statistics are at or below the cutoff; the interpolated
+  quantile alone being below it is not enough.

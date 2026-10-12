@@ -4,7 +4,8 @@
 
 After working through this topic, you should be able to:
 
-- explain why unsystematic measurement error biases only higher-order moments
+- explain when mean-zero measurement error preserves the mean and why other summaries,
+  including medians and variances, can change
 - explain why systematic measurement error potentially impacts all statistics
 
 ## Materials

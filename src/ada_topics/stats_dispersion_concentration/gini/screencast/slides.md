@@ -112,7 +112,7 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 $$
 \begin{aligned}
-p_i & = \frac{x_i}{\sum_{i=1}^{k} x_i}\\[2em]
+p_i & = \frac{x_i}{\sum_{j=1}^{n} x_j}\\[2em]
 G & = \frac{2 \cdot \sum_{i=1}^{n} i \cdot p_i - (n + 1)}{n}
 \end{aligned}
 $$

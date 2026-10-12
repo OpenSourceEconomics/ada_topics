@@ -118,9 +118,11 @@ Always refer to a difference between two points in time (stock) or two periods o
 
 # Changes in stocks are flows
 
-- Price level on 1 January 2025
+- Inventory of goods on 1 January 2025
 
-  = Price level on 1 January 2024 + Inflation during the year 2024
+  = Inventory on 1 January 2024 + Goods received during 2024 − Goods dispatched during 2024
+
+  _(assuming no spoilage or other inventory adjustments)_
 
 <br/>
 

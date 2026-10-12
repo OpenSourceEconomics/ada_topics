@@ -65,34 +65,34 @@ Hans-Martin von Gaudecker and Aapo Stenhammar
 
 ---
 
-### Median is invariant to order-preserving transform's
+### Medians and increasing transformations
+
+For an odd sample, an increasing transformation preserves the middle observation:
 
 $$
 \begin{aligned}
 \text{med}(1, 10, 100) & = 10\\
-\text{med}(\log(1), \log(10), \log(100)) & = \log(10)
+\text{med}(\log_{10}(1), \log_{10}(10), \log_{10}(100)) & = \log_{10}(10)
 \end{aligned}
 $$
 
-In general:
+- The same property holds for a specified lower or upper middle order statistic.
 
-$$
-f(\text{med}(\text{data})) = \text{med}(f(\text{data}))
-$$
-
-so long as $f$ does not change the order of the data
+- Pandas averages the two middle values for even samples. This interpolation can break
+  the property: for $[1,9]$, the median is $5$, but the median of the logs is
+  $\log_{10}(3)$, not $\log_{10}(5)$.
 
 <br/>
 <br/>
 
 ---
 
-### Mean is invariant to positive affine transformations
+### Means and affine transformations
 
 $$
 \begin{aligned}
 \text{mean}(1, 10, 100) & = \frac{1 + 10 + 100}{3} = 37\\[3ex]
-\text{mean}(\log(1), \log(10), \log(100)) & = \frac{0 + 1 + 2}{3} = 1
+\text{mean}(\log_{10}(1), \log_{10}(10), \log_{10}(100)) & = \frac{0 + 1 + 2}{3} = 1
 \end{aligned}
 $$
 
@@ -102,7 +102,7 @@ $$
 f(\text{mean}(\text{data})) = \text{mean}(f(\text{data}))
 $$
 
-if and only if $f(x) = a + b \cdot x$ with $b > 0$ (positive affine transformation)
+for every affine transformation $f(x) = a + b \cdot x$, including $b=0$ and $b<0$. If we restrict attention to increasing affine transformations, then $b>0$.
 
 <br/>
 <br/>
@@ -131,6 +131,9 @@ if and only if $f(x) = a + b \cdot x$ with $b > 0$ (positive affine transformati
 | ------------------- | ------------------ | ----------------------------------------------- |
 | $g = \text{median}$ | 18300              | 18300                                           |
 | $g = \text{mean}$   | 20600              | 17900                                           |
+
+Rounded values for this dataset; the displayed median equality is not a general
+guarantee for interpolated sample medians.
 
 <br/>
 <br/>
