@@ -34,7 +34,7 @@ Hans-Martin von Gaudecker
 
 - Individuals' occupational classifications and labels thereof
 
-→ Combine data from different sources into various colums of a single DataFrame
+→ Combine data from different sources into various columns of a single DataFrame
 
 ---
 

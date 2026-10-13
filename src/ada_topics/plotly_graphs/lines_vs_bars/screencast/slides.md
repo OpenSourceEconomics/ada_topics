@@ -102,7 +102,7 @@ life_exp.round(1)
 
 # Features of the data
 
-- Homogenous data
+- Homogeneous data
 
   - All entries are life expectancies
 

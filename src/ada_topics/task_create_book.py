@@ -148,7 +148,7 @@ all_site_sources.append(toc_file)
 
 
 def task_create_toc(
-    toc: Annotated[dict[str, Any], PythonNode(value=toc, hash=DeepHash)],
+    toc: Annotated[dict[str, Any], PythonNode(value=toc, hash=DeepHash)],  # ty: ignore[invalid-argument-type]
     toc_file: Annotated[Path, Product] = toc_file,
 ):
     """Main table of contents."""
@@ -157,7 +157,7 @@ def task_create_toc(
 
 
 def task_compile_book(
-    deps: list[Path] = all_site_sources,  # noqa: ARG001
+    deps: list[Path | dict] = all_site_sources,  # noqa: ARG001
     site_index: Annotated[Path, Product] = SITE_SOURCE_DIR  # noqa: ARG001
     / "_build"
     / "html"
@@ -184,7 +184,7 @@ def task_compile_book(
 )
 def task_copy_to_website(
     site_index_local: Path = SITE_SOURCE_DIR / "_build" / "html" / "index.html",
-    all_site_sources: list[Path] = all_site_sources,  # noqa: ARG001
+    all_site_sources: list[Path | dict] = all_site_sources,  # noqa: ARG001
     site_index_public: Annotated[Path, Product] = SITE_DIR / "index.html",
 ):
     """Copy the Jupyter book to location from where it is published.

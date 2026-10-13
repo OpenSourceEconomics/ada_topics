@@ -1,6 +1,6 @@
 """All the general configuration of the project."""
 
-import importlib
+import importlib.util
 from pathlib import Path
 from typing import Literal
 
@@ -28,13 +28,15 @@ SRC = Path(__file__).parent.resolve()
 SLIDES_PDF_DIR = SRC.parent.parent / ".slides_pdf"
 SITE_SOURCE_DIR = SRC.parent.parent / "site_source"
 DATA_DIR = SRC.parent.parent / "piaac"
-SITE_DIR = Path("/home/hmg/admin/website/") / "_static" / "applied-data-analytics"
+SITE_DIR = Path.home() / "admin" / "website" / "_static" / "applied-data-analytics"
 
 
 def load_sources(chapter_name):
     """Load environment specification using a path to a file as input."""
     path = Path(__file__).parent / chapter_name / "config.py"
     spec = importlib.util.spec_from_file_location(path.name, path)
+    assert spec is not None
+    assert spec.loader is not None
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return {

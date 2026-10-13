@@ -29,11 +29,11 @@ Hans-Martin von Gaudecker
 
 # Series / Vectors: 1-dimensional data
 
-- GDP for one unit over many time periods ("homogenous data")
+- GDP for one unit over many time periods ("homogeneous data")
 
-- GDP for many units at one point in time ("homogenous data")
+- GDP for many units at one point in time ("homogeneous data")
 
-- Many variables for one unit at one point in time  ("heterogenous data")
+- Many variables for one unit at one point in time  ("heterogeneous data")
 
 <br/>
 <br/>
@@ -44,11 +44,11 @@ Hans-Martin von Gaudecker
 
 # DataFrames: 2-dimensional data
 
-- GDP for many units over many time periods ("homogenous data")
+- GDP for many units over many time periods ("homogeneous data")
 
-- Many variables for many units at one point in time ("heterogenous data")
+- Many variables for many units at one point in time ("heterogeneous data")
 
-- Many variables for one unit over many time periods ("heterogenous data")
+- Many variables for one unit over many time periods ("heterogeneous data")
 
 <br/>
 <br/>

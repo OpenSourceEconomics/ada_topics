@@ -137,7 +137,7 @@ $$
 \hat{\beta}_0 = \bar{Y} - \hat{\beta}_1 \bar{X}
 $$
 
-This gives us the formula for $\hat{\beta}_0$. This is only useful in conjuction with
+This gives us the formula for $\hat{\beta}_0$. This is only useful in conjunction with
 the formula for $\hat{\beta}_1$, though.
 
 ### Steps for $\hat{\beta}_1$

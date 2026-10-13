@@ -4,7 +4,7 @@
 
 After working through this topic, you should be able to:
 
-- explain why wee need to make degrees-of-freedom adjustments when calculating centered
+- explain why we need to make degrees-of-freedom adjustments when calculating centered
   moments
 - explain the concept of variance and standard deviation
 - calculate variance and standard deviation

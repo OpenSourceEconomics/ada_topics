@@ -50,7 +50,7 @@ Hans-Martin von Gaudecker
 
 - Reason:
 
-  - Columns should always be homogenous
+  - Columns should always be homogeneous
 
   - Rows not necessarily
 

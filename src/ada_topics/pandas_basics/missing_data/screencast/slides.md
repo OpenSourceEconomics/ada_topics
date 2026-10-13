@@ -51,7 +51,7 @@ Hans-Martin von Gaudecker
 
 ---
 
-# Use pd.NA, take missings into account
+# Use pd.NA, take missing values into account
 
 <div class="grid grid-cols-5 gap-4">
 <div class="col-span-3">

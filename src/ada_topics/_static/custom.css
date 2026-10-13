@@ -85,7 +85,7 @@
     --bs-table-bg: hsl(111, 6%, 20%) !important;
 }
 
-/* Set color of quiz for dark thme */
+/* Set color of quiz for dark theme */
 
 html[data-theme=dark] .bd-content div.cell_output .text_html:not(:has(table.dataframe)) {
     background-color: #152b41;
