@@ -19,7 +19,7 @@ defaults:
 
 ### The print function
 
-Hans-Martin von Gaudecker and Aapo Stenhammar
+Hans-Martin von Gaudecker
 
 ---
 

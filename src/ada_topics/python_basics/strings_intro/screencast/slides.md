@@ -19,7 +19,7 @@ defaults:
 
 ### Strings: A very basic introduction
 
-Hans-Martin von Gaudecker and Aapo Stenhammar
+Hans-Martin von Gaudecker
 
 ---
 

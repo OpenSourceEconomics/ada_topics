@@ -19,7 +19,7 @@ defaults:
 
 ### Assigning values to variables
 
-Hans-Martin von Gaudecker and Aapo Stenhammar
+Hans-Martin von Gaudecker
 
 ---
 
